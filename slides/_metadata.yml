@@ -1,0 +1,20 @@
+institute: "University of Alberta <br> REN R 213 - Winter 2025"
+author: "Dr. Glen W. Armstrong"
+footer: "[🔗 renr213-w25.github.io](https://renr213-w25.github.io/)"
+logo: "images/ualogo.jpg"
+format:
+  revealjs:
+    theme: slides.scss
+    transition: fade
+    slide-number: true
+    chalkboard: true
+    highlight-style: a11y-dark
+editor: visual
+execute:
+  freeze: auto
+  echo: true
+  warning: false
+knitr:
+  opts_chunk: 
+    R.options:
+      width: 90
