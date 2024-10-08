@@ -9,7 +9,7 @@ format: revealjs
 
 ::::: columns
 ::: {.column width="50%"}
-Dr. Glen W. Armstrong
+Dr. Glen W. Armstrong (cutie pie(
 
 Associate Professor
 :::
