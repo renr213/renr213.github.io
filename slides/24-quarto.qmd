@@ -1,10 +1,10 @@
 ---
 title: "Customizing Quarto reports and presentations"
 subtitle: "Lecture 24"
-date: "April 19, 2024"
+date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
 ---
 
 # Warm up
@@ -109,7 +109,7 @@ Beyond, if you like -- "you" is the whole team!
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## Expectations {.smaller}
@@ -121,7 +121,7 @@ Beyond, if you like -- "you" is the whole team!
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## Requirements
@@ -134,7 +134,7 @@ Beyond, if you like -- "you" is the whole team!
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## Tip {.smaller}
@@ -151,7 +151,7 @@ You can critique the current research without talking about a hypothetical futur
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## How many plots {.smaller}
@@ -168,7 +168,7 @@ There is no specific, secret number of visualizations I'm expecting, the right n
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## Submission {.smaller}
@@ -183,7 +183,7 @@ There is no specific, secret number of visualizations I'm expecting, the right n
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/description.html#introduction>
+<https://renr213.github.io/project/description.html#introduction>
 :::
 
 ## Writeup {.smaller}
@@ -198,7 +198,7 @@ There is no specific, secret number of visualizations I'm expecting, the right n
 ::: callout-important
 ## Read more
 
-<https://sta199-s24.github.io/project/4-writeup-presentation.html#report-components>
+<https://renr213.github.io/project/4-writeup-presentation.html#report-components>
 :::
 
 ## Grading / rubric
@@ -206,11 +206,11 @@ There is no specific, secret number of visualizations I'm expecting, the right n
 ::: callout-important
 ## Read more
 
--   Overall: <https://sta199-s24.github.io/project/description.html#grading-summary>
+-   Overall: <https://renr213.github.io/project/description.html#grading-summary>
 
--   Write-up: <https://sta199-s24.github.io/project/4-writeup-presentation.html#report-components>
+-   Write-up: <https://renr213.github.io/project/4-writeup-presentation.html#report-components>
 
--   Presentation: <https://sta199-s24.github.io/project/4-writeup-presentation.html#presentation-slides>
+-   Presentation: <https://renr213.github.io/project/4-writeup-presentation.html#presentation-slides>
 :::
 
 ## Something else 💛 {.smaller}
@@ -228,10 +228,10 @@ What classes do you recommend I take to continue my learning?
 
 # Code review
 
--   [Data Alchemy Hub](https://github.com/sta199-s24/project-data_alch)
--   [Tidyverse Tibbles](https://github.com/sta199-s24/project-tidyverse_tibbles)
--   [Data Dream Team](https://github.com/sta199-s24/project-data_dream_team)
--   [smaRt Water](https://github.com/sta199-s24/project-smaRt_water)
+-   [Data Alchemy Hub](https://github.com/renr213/project-data_alch)
+-   [Tidyverse Tibbles](https://github.com/renr213/project-tidyverse_tibbles)
+-   [Data Dream Team](https://github.com/renr213/project-data_dream_team)
+-   [smaRt Water](https://github.com/renr213/project-smaRt_water)
 
 # Quarto demo / Code review recap
 

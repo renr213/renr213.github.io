@@ -1,7 +1,7 @@
 ---
 title: "Visualizing various types of data"
 subtitle: "Lecture 3"
-date: "January 23, 2024"
+date: "January 6, 2025"
 format: revealjs
 ---
 
@@ -18,9 +18,8 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 **Questions from the prepare materials?**
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 # From last time
 
 ```{r}
@@ -31,7 +30,7 @@ library(ggthemes)
 
 ## Violin plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-1
@@ -57,11 +56,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-2
@@ -88,11 +87,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-3
@@ -119,11 +118,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-4
@@ -151,11 +150,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-5
@@ -186,13 +185,12 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics
 
-::: columns 
+::::: columns
 ::: {.column width="50%"}
-
 ```{r}
 #| label: penguins-violin-6
 #| fig-show: hide
@@ -213,7 +211,6 @@ ggplot(
   ) +
   scale_color_colorblind()
 ```
-
 :::
 
 ::: {.column width="50%"}
@@ -224,8 +221,7 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-
-:::
+:::::
 
 # Warm up
 
@@ -240,18 +236,15 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 **Questions from the prepare materials?**
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ## Questions from last time {.smaller}
 
--   **Is there any code in the videos that is not in the readings?** Yes and no.
-    There is no substantial functionality introduced in the videos that is not also in the readings, however the examples in the videos are different than the ones in the reading.
+-   **Is there any code in the videos that is not in the readings?** Yes and no. There is no substantial functionality introduced in the videos that is not also in the readings, however the examples in the videos are different than the ones in the reading.
 
 -   **What are all of the `geom`s we need to know?** You don't need to "memorize" or even "know" all o the geoms available in the ggplot2 package, but you can find a list of them on the [ggplot2 cheat sheet](https://ggplot2.tidyverse.org/#cheatsheet) or on the [reference page](https://ggplot2.tidyverse.org/reference/index.html#geoms).
 
--   **Could you please clarify what situations it would be appropriate to use each geom function?** Today's topic!
-    And think about it as "what plot should I make for which type of variable".
+-   **Could you please clarify what situations it would be appropriate to use each geom function?** Today's topic! And think about it as "what plot should I make for which type of variable".
 
 ## Announcements
 
@@ -262,14 +255,13 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 ## `ae-02-bechdel-dataviz` {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **If you were in class last Thursday:**
 
 *and followed along with the application exercise...*
 
-Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`.
-If there are any uncommitted files, commit them so you can start with a clean slate.
+Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`. If there are any uncommitted files, commit them so you can start with a clean slate.
 :::
 
 ::: {.column width="50%"}
@@ -277,10 +269,9 @@ If there are any uncommitted files, commit them so you can start with a clean sl
 
 *or didn't follow along with the application exercise...*
 
-Go to the course [GitHub org](https://github.com/sta199-f22-1) and find your `ae` repo.
-Clone the repo in your container, open the Quarto document called `ae-02-bechdel`.
+Go to the course [GitHub org](https://github.com/sta199-f22-1) and find your `ae` repo. Clone the repo in your container, open the Quarto document called `ae-02-bechdel`.
 :::
-:::
+:::::
 
 ## Recap of AE {.smaller}
 
@@ -302,7 +293,7 @@ ggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +
 
 ## Identifying variable types {.smaller}
 
-::: panel-tabset
+:::: panel-tabset
 ## Question
 
 ::: poll
@@ -316,10 +307,8 @@ Identify the type of each of the following variables.
 
 ## Vote
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 500px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-:::
+::::
 
 ## The way data is displayed matters
 
@@ -335,8 +324,8 @@ Source: [#barbarplots](https://cogtales.wordpress.com/2016/06/06/congratulations
 
 ## Visualizing `penguins` {.smaller}
 
-::: columns
-::: {.column width="70%"}
+:::::: columns
+:::: {.column width="70%"}
 ::: {style="font-size: 20px;"}
 ```{r}
 library(tidyverse)
@@ -346,12 +335,12 @@ library(ggthemes)
 penguins
 ```
 :::
-:::
+::::
 
 ::: {.column width="30%"}
 ![](images/penguins.png){fig-align="center"}
 :::
-:::
+::::::
 
 ::: aside
 Artwork by \@allison_horst.
@@ -369,7 +358,7 @@ Analyzing a single variable:
 
 ## Histogram - Step 1
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-hist-1
@@ -389,11 +378,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Histogram - Step 2
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-hist-2
@@ -415,11 +404,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Histogram - Step 3
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-hist-3
@@ -442,11 +431,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Histogram - Step 4
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-hist-4
@@ -471,11 +460,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Histogram - Step 5
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-hist-5
@@ -505,11 +494,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Boxplot - Step 1
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box-1
@@ -529,11 +518,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Boxplot - Step 2
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box-2
@@ -555,11 +544,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Boxplot - Step 3
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box-3
@@ -582,11 +571,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Boxplot - Step 4
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box-4
@@ -609,11 +598,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Boxplot - Step 5
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box-5
@@ -640,11 +629,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 1
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-1
@@ -664,11 +653,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 2
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-2
@@ -690,11 +679,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 3
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-3
@@ -717,11 +706,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 4
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-4
@@ -746,11 +735,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 5
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-5
@@ -776,11 +765,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 6
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-6
@@ -807,11 +796,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plot - Step 7
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-7
@@ -839,15 +828,15 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Weights of penguins {.smaller}
 
-::: panel-tabset
+::::::: panel-tabset
 ## Question
 
-::: task
-::: columns
+:::::: task
+::::: columns
 ::: {.column width="70%"}
 ```{r}
 #| ref.label: penguins-hist-5
@@ -877,15 +866,13 @@ TRUE / FALSE
 -   The distribution of penguin weights in this sample is left skewed.
 -   The distribution of penguin weights in this sample is unimodal.
 :::
-:::
-:::
+:::::
+::::::
 
 ## Vote
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 500px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-:::
+:::::::
 
 # Bivariate analysis
 
@@ -903,7 +890,7 @@ Analyzing the relationship between two variables:
 
 ## Side-by-side box plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-side-by-side-box-1
@@ -929,11 +916,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-color-1
@@ -959,11 +946,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-color-2
@@ -990,11 +977,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-color-3
@@ -1023,11 +1010,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Density plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-density-color-4
@@ -1059,4 +1046,4 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::

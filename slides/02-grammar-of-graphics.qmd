@@ -1,7 +1,7 @@
 ---
 title: "Grammar of graphics"
 subtitle: "Lecture 2"
-date: "January 18, 2024"
+date: "January 6, 2025"
 format: revealjs
 ---
 
@@ -16,9 +16,8 @@ library(countdown)
 
 **Questions from the prepare materials?**
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ## Announcements
 
 -   Lab 1 on Monday – go to your assigned lab
@@ -26,14 +25,11 @@ library(countdown)
 
 ## From the survey {.smaller}
 
--   Almost half of the class mentioned being nervous about coding – you're not alone!
-    💙
+-   Almost half of the class mentioned being nervous about coding – you're not alone! 💙
 
--   A good number of students mentioned being nervous about being new to stats + data science – you're also not alone!
-    💜
+-   A good number of students mentioned being nervous about being new to stats + data science – you're also not alone! 💜
 
--   Visibility of text on slides: Cranked up font size!
-    💛
+-   Visibility of text on slides: Cranked up font size! 💛
 
 -   About exams: No coding on the in class (time-limited) exam + there will be practice exams
 
@@ -47,7 +43,7 @@ library(countdown)
 
 ## Git and GitHub {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/git-logo.png){fig-alt="Git logo" fig-align="center" width="150"}
 
@@ -62,7 +58,7 @@ library(countdown)
 
 -   We will use GitHub as a platform for web hosting and collaboration (and as our course management system!)
 :::
-:::
+:::::
 
 ## Versioning - done badly
 
@@ -114,13 +110,12 @@ Sit back and enjoy the show!
 
 ## Examining data visualization {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="60%"}
 Discuss the following for the visualization.
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ```{r}
 #| echo: false
 
@@ -131,7 +126,7 @@ countdown(minutes = 4, left = 0, color_text = "#325b74")
 ::: {.column width="40%"}
 ![Source: [Twitter](https://twitter.com/reina_sabah/status/1291509085855260672)](images/female-heights.png){fig-align="center"}
 :::
-:::
+:::::
 
 ## `ae-02-bechdel-dataviz` {.smaller}
 

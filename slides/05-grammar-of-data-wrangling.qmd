@@ -1,10 +1,10 @@
 ---
 title: "Grammar of data wrangling"
 subtitle: "Lecture 5"
-date: "January 30, 2024"
+date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4223179)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4223179)"
 ---
 
 # Warm up
@@ -21,9 +21,9 @@ library(countdown)
 
 -   Questions from the prepare materials?
 
-    ```{=html}
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-    ```
+    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%">
+
+    </iframe>
 
 ## Asking good questions {.smaller}
 
@@ -177,13 +177,13 @@ cars$apple
 
 Primary package in the tidyverse for data wrangling
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 [dplyr.tidyverse.org](https://dplyr.tidyverse.org)
 
-```{=html}
-<iframe width=600 height=375 src="https://dplyr.tidyverse.org/" title="dplyr home page"></iframe>
-```
+<iframe width="600" height="375" src="https://dplyr.tidyverse.org/" title="dplyr home page">
+
+</iframe>
 :::
 
 ::: {.column width="50%"}
@@ -191,7 +191,7 @@ Primary package in the tidyverse for data wrangling
 
 [![](images/dplyr-cheat-sheet.png)](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
 :::
-:::
+:::::
 
 ## Row operations
 

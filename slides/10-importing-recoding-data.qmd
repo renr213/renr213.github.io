@@ -1,10 +1,10 @@
 ---
 title: "Importing and recoding data"
 subtitle: "Lecture 10"
-date: "February 20, 2024"
+date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
 ---
 
 # Warm up
@@ -49,7 +49,7 @@ and a brief demo!
 
 ## Project grading
 
--   Outlined at <https://sta199-s24.github.io/project/description.html#grading>.
+-   Outlined at <https://renr213.github.io/project/description.html#grading>.
 
 -   Each milestone has points associated with it.
 
@@ -96,7 +96,7 @@ What is the story in this visualization?
 
 ## Sales data
 
-![](https://sta199-s24.github.io/images/sales-excel.png)
+![](https://renr213.github.io/images/sales-excel.png)
 
 . . .
 
@@ -111,7 +111,7 @@ Why or why not?
 What "data moves" do we need to go from the original, non-tidy data to this, tidy one?
 :::
 
-![](https://sta199-s24.github.io/images/sales-2.png){width="150"}
+![](https://renr213.github.io/images/sales-2.png){width="150"}
 
 ## Application exercise: `ae-08-data-import` {.smaller}
 

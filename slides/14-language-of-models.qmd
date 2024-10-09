@@ -1,10 +1,10 @@
 ---
 title: "The language of models"
 subtitle: "Lecture 14"
-date: "March 5, 2024"
+date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730)"
 ---
 
 # Warm up

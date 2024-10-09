@@ -1,10 +1,10 @@
 ---
 title: "Tidying data"
 subtitle: "Lecture 6"
-date: "February 1, 2024"
+date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 sta199-s24.github.io](https://sta199-s24.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4241121)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4241121)"
 ---
 
 # Warm up
@@ -239,14 +239,14 @@ df
 
 Visualize StatSci majors over the years!
 
-![](https://sta199-s24.github.io/images/statsci-plot.png)
+![](https://renr213.github.io/images/statsci-plot.png)
 
 ## Data {.smaller}
 
 ```{r}
 #| message: false
 
-statsci <- read_csv("https://sta199-s24.github.io/data/statsci.csv")
+statsci <- read_csv("https://renr213.github.io/data/statsci.csv")
 statsci
 ```
 
