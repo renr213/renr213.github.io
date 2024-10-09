@@ -3,9 +3,9 @@ project:
 
 website:
   page-navigation: true
-  title: "STA 199"
-  description: "Homepage for STA 199 - Introduction to Data Science at Duke University, Spring 2024."
-  site-url: "https://sta199-s24.github.io/"
+  title: REN R 231
+  description: "Homepage for REN R 2113 - Introduction to Data Science at Duke University, Spring 2024."
+  site-url: "https://renr213.github.io/"
 
   repo-url: https://github.com/sta199-s24/sta199-s24.github.io/
   repo-actions: [edit, issue]
@@ -16,20 +16,14 @@ website:
     image: "img/twitter-card.png"
 
   sidebar:
-    background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
+    background: "#314F40" # Pantone Dark Green
     logo: "img/logo.png"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta199-s24
+        href: https://github.com/renr213
         text: "GitHub organization"
-      - icon: code-square
-        href: https://cmgr.oit.duke.edu/containers
-        text: "RStudio containers"
-      - icon: life-preserver
-        href: https://docs.google.com/spreadsheets/d/1Mw69d1Ro-_G1Y8x7FH1wqCI04bxLpVOJ7gp8QSFGJBU/edit#gid=0
-        text: "Office hours"
       - icon: chat-dots-fill
         href: https://edstem.org/us/courses/50730/discussion/
         text: "Ed"
