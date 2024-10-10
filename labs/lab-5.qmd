@@ -252,7 +252,7 @@ Render, commit, and push one last time. Make sure that you commit and push all c
 To complete this exercise you will first need to watch the documentary Coded Bias. To do so, you either need to be on the Duke network or connected to the Duke VPN. Then go to <https://find.library.duke.edu/catalog/DUKE009834953> and click on "View Online". Once you watch the video, write a reflection in 2-5 bullet points highlighting at least one thing that you already knew about (from the course prep materials) and at least one thing you learned from the movie as well as any other aspects of the documentary that you found interesting / enlightening.
 
 ::: callout-important
-This question requires no code, only narrative. Remember that, based on the [syllabus](https://renr213-s24.github.io/course-syllabus.html#academic-honesty), you may not use generative AI tools (e.g., Chat GPT) to write narrative on assignments.
+This question requires no code, only narrative. Remember that, based on the [syllabus](https://renr213.github.io/course-syllabus.html#academic-honesty), you may not use generative AI tools (e.g., Chat GPT) to write narrative on assignments.
 :::
 
 ::: render-commit-push
