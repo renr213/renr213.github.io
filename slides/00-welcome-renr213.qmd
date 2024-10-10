@@ -125,7 +125,7 @@ Or more like demo for today...
 
 ## Homepage
 
-[https://renr213-w25.github.io](https://renr213-w25.github.io/){.uri}
+[https://renr213.github.io](https://renr213-w25.github.io/){.uri}
 
 -   All course materials
 -   Links to Canvas, GitHub, RStudio containers, etc.
