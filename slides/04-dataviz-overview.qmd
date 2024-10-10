@@ -4,7 +4,7 @@ subtitle: "Lecture 4"
 date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/50730/discussion/4185738)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/68653/)"
 ---
 
 # Warm up
@@ -24,9 +24,8 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
 **Questions from the prepare materials?**
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ## Announcements {.smaller}
 
 -   Lab 1 due Monday morning at 8 am.
@@ -35,11 +34,9 @@ ggplot2::theme_set(ggplot2::theme_gray(base_size = 16))
 
     -   Lots of TA office hours, including over the weekend
 
-    -   Submitting late and want to use your one-time waiver?
-        Email our course coordinator [Dr. Mary Knox](https://renr213.github.io/course-team.html#course-coordinator).
+    -   Submitting late and want to use your one-time waiver? Email our course coordinator [Dr. Mary Knox](https://renr213.github.io/course-team.html#course-coordinator).
 
--   AEs this week should be submitted by midnight on Sunday.
-    To "submit", commit and push at least once to your `ae` repo for each application exercise this week.
+-   AEs this week should be submitted by midnight on Sunday. To "submit", commit and push at least once to your `ae` repo for each application exercise this week.
 
 -   Pilot: Ed Discussion threads for lecture, linked at the bottom of each slide.
 
@@ -124,12 +121,12 @@ Let's take a look at an example...
 
 ## 🥧 or 🧇?
 
-::: panel-tabset
+:::::: panel-tabset
 ## Question
 
 Which of the following is a better representation for the number of counties in each `midwest`ern state?
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: pie
@@ -170,23 +167,21 @@ ggplot(
   scale_fill_colorblind(guide = guide_legend(reverse = TRUE))
 ```
 :::
-:::
+:::::
 
 ## Vote
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-:::
+::::::
 
 ## 🥧 or 🧇 or {{< fa table >}}? {.smaller}
 
-::: panel-tabset
+::::::: panel-tabset
 ## Question
 
 Which of the following is a better representation for the number of counties in each `midwest`ern state?
 
-::: columns
+:::::: columns
 ::: {.column width="30%"}
 ```{r}
 #| ref.label: pie
@@ -213,14 +208,12 @@ midwest |>
   count(state, sort = TRUE)
 ```
 :::
-:::
+::::::
 
 ## Vote
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
-:::
+:::::::
 
 # From last time
 
@@ -234,10 +227,10 @@ library(ggthemes)
 
 ## Bivariate analysis {.smaller}
 
-::: panel-tabset
+:::::: panel-tabset
 ## Plot
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-box
@@ -274,7 +267,7 @@ ggplot(penguins, aes(x = body_mass_g, fill = species)) +
   )
 ```
 :::
-:::
+:::::
 
 ## Code
 
@@ -287,11 +280,11 @@ ggplot(penguins, aes(x = body_mass_g, fill = species)) +
 #| ref.label: penguins-density
 #| fig-show: hide
 ```
-:::
+::::::
 
 ## Violin plots
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-1
@@ -317,11 +310,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-2
@@ -348,11 +341,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-3
@@ -379,11 +372,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-4
@@ -411,11 +404,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-5
@@ -446,11 +439,11 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 ## Multiple geoms + aesthetics {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ```{r}
 #| label: penguins-violin-6
@@ -482,7 +475,7 @@ ggplot(
 #| fig-asp: 0.8
 ```
 :::
-:::
+:::::
 
 # Multivariate analysis
 
@@ -603,14 +596,13 @@ ggplot(bechdel, aes(x = roi, y = clean_test, color = binary)) +
 
 ## `ae-03-duke-forest` {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 **If you've been here for a while:**
 
 *and following along with the application exercises...*
 
-Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`.
-If there are any uncommitted files, commit them, and then click **Pull**.
+Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`. If there are any uncommitted files, commit them, and then click **Pull**.
 :::
 
 ::: {.column width="50%"}
@@ -618,7 +610,6 @@ If there are any uncommitted files, commit them, and then click **Pull**.
 
 *or haven't been following along with the application exercises...*
 
-Go to the course [GitHub org](https://github.com/sta199-f22-1) and find your `ae` repo.
-Clone the repo in your container, open the Quarto document called `ae-03-duke-forest`.
+Go to the course [GitHub org](https://github.com/sta199-f22-1) and find your `ae` repo. Clone the repo in your container, open the Quarto document called `ae-03-duke-forest`.
 :::
-:::
+:::::
