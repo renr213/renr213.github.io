@@ -1,18 +1,7 @@
 ---
-title: "Teaching team"
+title: "Instructor"
 ---
 
-## Instructor
+![](img/team/glen.png){width=50%, style="float:right;padding: 0 0 0 10px;"}
 
-![](img/team/mine.png){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Dr. Mine Çetinkaya-Rundel" width="200"}
-
-[**Dr. Mine Çetinkaya-Rundel**](http://mine-cr.com/) (she/her) is Professor of the Practice and Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine's work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM.
-
-+------------------------------------------------------------+---------------+
-| Office hours                                               | Location      |
-+============================================================+===============+
-| Tuesdays and Thursdays 1-1:30 pm (immediately after class) | Bio Sci 111   |
-+------------------------------------------------------------+---------------+
-| Thursdays 2-3 pm                                           | Old Chem 213  |
-+------------------------------------------------------------+---------------+
-
+**Dr. Glen W. Armstrong** is a very funny man.

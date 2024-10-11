@@ -2535,20 +2535,9 @@
   {
     "objectID": "course-team.html",
     "href": "course-team.html",
-    "title": "Teaching team",
+    "title": "Instructor",
     "section": "",
-    "text": "Dr. Mine Çetinkaya-Rundel (she/her) is Professor of the Practice and Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM.\n\n\n\n\n\n\n\nOffice hours\nLocation\n\n\n\n\nTuesdays and Thursdays 1-1:30 pm (immediately after class)\nBio Sci 111\n\n\nThursdays 2-3 pm\nOld Chem 213",
-    "crumbs": [
-      "Course information",
-      "Teaching team"
-    ]
-  },
-  {
-    "objectID": "course-team.html#instructor",
-    "href": "course-team.html#instructor",
-    "title": "Teaching team",
-    "section": "",
-    "text": "Dr. Mine Çetinkaya-Rundel (she/her) is Professor of the Practice and Director of Undergraduate Studies at the Department of Statistical Science at Duke University. Mine’s work focuses on innovation in statistics and data science pedagogy, with an emphasis on computing, reproducible research, student-centered learning, and open-source education as well as pedagogical approaches for enhancing retention of women and under-represented minorities in STEM.\n\n\n\n\n\n\n\nOffice hours\nLocation\n\n\n\n\nTuesdays and Thursdays 1-1:30 pm (immediately after class)\nBio Sci 111\n\n\nThursdays 2-3 pm\nOld Chem 213",
+    "text": "Dr. Glen W. Armstrong is a very funny man.",
     "crumbs": [
       "Course information",
       "Teaching team"
@@ -2570,7 +2559,7 @@
     "href": "course-overview.html#acknowlegement",
     "title": "Course overview",
     "section": "Acknowlegement",
-    "text": "Acknowlegement\nThe material for this course is based on the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at https://sta199-s24.github.io/.\n\nThe materials for the STA 199 course are licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. Modifications made for REN R 213 are licensed under the same license.",
+    "text": "Acknowlegement\nThe material for this course is based on the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at https://sta199-s24.github.io/.\n\nThe materials for the STA 199 course are licensed under a Creative Commons Attribution ShareAlike 4.0 International License. Modifications made for REN R 213 are licensed under the same license.",
     "crumbs": [
       "Course information",
       "Overview"

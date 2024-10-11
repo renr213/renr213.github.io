@@ -45,6 +45,8 @@ website:
     contents:
       - section: "Course information"
         contents:
+          - href: index.qmd
+            text: Schedule
           - href: course-overview.qmd
             text: Overview
           - href: course-syllabus.qmd
@@ -52,9 +54,7 @@ website:
           - href: course-support.qmd
             text: Support
           - href: course-team.qmd
-            text: Teaching team
-          - href: index.qmd
-            text: Schedule
+            text: Instructor
           - href: course-links.qmd
             text: Useful links
           - href: course-faq.qmd

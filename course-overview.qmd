@@ -2,12 +2,12 @@
 title: "Course overview"
 ---
 
-Introduction to data science for natural resource management. Learn to explore, visualize, and analyze data to understand natural phenomena, investigate patterns, model outcomes, and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling, exploratory data analysis, predictive modeling, data visualization, and effective communication of results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language. No statistical or computing background is necessary. 
+Introduction to data science for natural resource management. Learn to explore, visualize, and analyze data to understand natural phenomena, investigate patterns, model outcomes, and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling, exploratory data analysis, predictive modeling, data visualization, and effective communication of results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language. No statistical or computing background is necessary.
 
 ## Acknowlegement
 
-The material for this course is based on the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at [https://sta199-s24.github.io/](https://sta199-s24.github.io/).
+The material for this course is based on the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at <https://sta199-s24.github.io/>.
 
-![](images/clipboard-2183008605.png)
+![](images/clipboard-1299712221.png){width=25%}
 
-The materials for the STA 199 course are licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). Modifications made for REN R 213 are licensed under the same license.
+The materials for the STA 199 course are licensed under a [Creative Commons Attribution ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Modifications made for REN R 213 are licensed under the same license.

@@ -1,6 +1,5 @@
 ---
 title: "REN R 213:  Data Science for Resource Management"
-author: "Glen W. Armstrong"
 execute: 
   freeze: false
 ---
