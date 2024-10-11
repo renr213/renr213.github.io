@@ -8,6 +8,6 @@ Introduction to data science for natural resource management. Learn to explore, 
 
 The material for this course is based on the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at <https://sta199-s24.github.io/>.
 
-![](images/clipboard-1299712221.png){width=25%}
+![](img/cc-by-sa.png){width=25%}
 
 The materials for the STA 199 course are licensed under a [Creative Commons Attribution ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Modifications made for REN R 213 are licensed under the same license.

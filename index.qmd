@@ -9,7 +9,7 @@ This page contains an outline of the topics, content, and assignments for the se
 
 This course is heavily based on material developed by [Mine Çetinkaya-Rundel](https://mine-cr.com/). I thank her for making this material available to the public through a [Creative Commons Attribution ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.
 
-![](images/clipboard-1299712221.png){width=25%}
+![](img/cc-by-sa.png){width=25%}
 
 
 
