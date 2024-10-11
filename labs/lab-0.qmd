@@ -36,26 +36,13 @@ Git is a version control system (like "Track Changes" features from Microsoft Wo
 
 ## Access R and RStudio
 
--   Go to <https://cmgr.oit.duke.edu/containers> and login with your Duke NetID and Password.
--   Click `STA198-199` to log into the Docker container. You should now see the RStudio environment.
-
-Go to <https://cmgr.oit.duke.edu/containers> and under *Reservations available* click on *reserve STA 198-199* to reserve a container for yourself.
-
-::: callout-note
-A container is a self-contained instance of RStudio for you, and you alone. You will do all of your computing in your container.
-:::
-
-Once you've reserved the container you'll see that it will show up under *My reservations*.
-
-To launch your container click on it under My reservations, then click *Login*, and then *Start*.[^1]
-
-[^1]: Yes, it's too many steps. I don't know why! But it works, and you'll get used to it. Trust me, it beats downloading and installing everything you need on your computers!
+Create a student account on Posit Cloud at <https://posit.cloud/plans>.
 
 ## Create a GitHub account
 
-Go to <https://github.com/> and walk through the steps for creating an account. You do not have to use your Duke email address, but I recommend doing so.[^2]
+Go to <https://github.com/> and walk through the steps for creating an account. You do not have to use your UAlberta email address, but I recommend doing so.[^1]
 
-[^2]: GitHub has some perks for students you can take advantage of later in the course or in your future work, and it helps to have a .edu address to get verified as a student.
+[^1]: GitHub has some perks for students you can take advantage of later in the course or in your future work, and it helps to have a .edu address to get verified as a student.
 
 ::: callout-note
 You'll need to choose a user name. I recommend reviewing the user name advice at <https://happygitwithr.com/github-acct#username-advice> before choosing a username.
@@ -105,8 +92,8 @@ For example, mine would be
 
 ```{r}
 usethis::use_git_config(
-  user.name = "Mine Çetinkaya-Rundel", 
-  user.email = "cetinkaya.mine@gmail.com"
+  user.name = "Glen W. Armstrong", 
+  user.email = "gwa@ualberta.ca"
 )
 ```
 
@@ -122,6 +109,6 @@ The following video walks you through the steps outlined in the SSH key generati
 
 # Hello REN R 213!
 
-Fill out the course "Getting to know you" survey on Canvas: <https://canvas.duke.edu/courses/26106/quizzes/16228>.
+Fill out the course "Getting to know you" survey on Canvas: <https://canvas.ualberta.ca/courses/5900/quizzes/8669>.
 
 We will use the information collected in this survey for a variety of goals, from inviting you to the course GitHub organization (more on that later) to getting to know you as a person and your course goals and concerns.

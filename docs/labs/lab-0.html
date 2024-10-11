@@ -462,28 +462,9 @@ Note
 </div>
 </div>
 <section id="access-r-and-rstudio" class="level2"><h2 class="anchored" data-anchor-id="access-r-and-rstudio">Access R and RStudio</h2>
-<ul>
-<li>Go to <a href="https://cmgr.oit.duke.edu/containers" class="uri">https://cmgr.oit.duke.edu/containers</a> and login with your Duke NetID and Password.</li>
-<li>Click <code>STA198-199</code> to log into the Docker container. You should now see the RStudio environment.</li>
-</ul>
-<p>Go to <a href="https://cmgr.oit.duke.edu/containers" class="uri">https://cmgr.oit.duke.edu/containers</a> and under <em>Reservations available</em> click on <em>reserve STA 198-199</em> to reserve a container for yourself.</p>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Note
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A container is a self-contained instance of RStudio for you, and you alone. You will do all of your computing in your container.</p>
-</div>
-</div>
-<p>Once you’ve reserved the container you’ll see that it will show up under <em>My reservations</em>.</p>
-<p>To launch your container click on it under My reservations, then click <em>Login</em>, and then <em>Start</em>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>Create a student account on Posit Cloud at <a href="https://posit.cloud/plans" class="uri">https://posit.cloud/plans</a>.</p>
 </section><section id="create-a-github-account" class="level2"><h2 class="anchored" data-anchor-id="create-a-github-account">Create a GitHub account</h2>
-<p>Go to <a href="https://github.com/" class="uri">https://github.com/</a> and walk through the steps for creating an account. You do not have to use your Duke email address, but I recommend doing so.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+<p>Go to <a href="https://github.com/" class="uri">https://github.com/</a> and walk through the steps for creating an account. You do not have to use your UAlberta email address, but I recommend doing so.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -498,7 +479,7 @@ Note
 </div>
 </div>
 <div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -507,7 +488,7 @@ What if I already have a GitHub account?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>If you already have a GitHub account, you do not need to create a new one for this course. Just log in to that account to make sure you still remember your username and password.</p>
 </div>
@@ -561,13 +542,13 @@ Note
 <p>For example, mine would be</p>
 <div class="cell">
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu">usethis</span><span class="fu">::</span><span class="fu"><a href="https://usethis.r-lib.org/reference/use_git_config.html">use_git_config</a></span><span class="op">(</span></span>
-<span>  user.name <span class="op">=</span> <span class="st">"Mine Çetinkaya-Rundel"</span>, </span>
-<span>  user.email <span class="op">=</span> <span class="st">"cetinkaya.mine@gmail.com"</span></span>
+<span>  user.name <span class="op">=</span> <span class="st">"Glen W. Armstrong"</span>, </span>
+<span>  user.email <span class="op">=</span> <span class="st">"gwa@ualberta.ca"</span></span>
 <span><span class="op">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>You are now ready interact with GitHub via RStudio!</p>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -576,7 +557,7 @@ Need a recap? Watch this video!
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>The following video walks you through the steps outlined in the SSH key generation and Git configuration sections above.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3lONVzFw680" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
@@ -584,14 +565,13 @@ Need a recap? Watch this video!
 </div>
 </div>
 </section></section><section id="hello-ren-r-213" class="level1"><h1>Hello REN R 213!</h1>
-<p>Fill out the course “Getting to know you” survey on Canvas: <a href="https://canvas.duke.edu/courses/26106/quizzes/16228" class="uri">https://canvas.duke.edu/courses/26106/quizzes/16228</a>.</p>
+<p>Fill out the course “Getting to know you” survey on Canvas: <a href="https://canvas.ualberta.ca/courses/5900/quizzes/8669" class="uri">https://canvas.ualberta.ca/courses/5900/quizzes/8669</a>.</p>
 <p>We will use the information collected in this survey for a variety of goals, from inviting you to the course GitHub organization (more on that later) to getting to know you as a person and your course goals and concerns.</p>
 
 
 </section><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 <ol>
-<li id="fn1"><p>Yes, it’s too many steps. I don’t know why! But it works, and you’ll get used to it. Trust me, it beats downloading and installing everything you need on your computers!<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>GitHub has some perks for students you can take advantage of later in the course or in your future work, and it helps to have a .edu address to get verified as a student.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>GitHub has some perks for students you can take advantage of later in the course or in your future work, and it helps to have a .edu address to get verified as a student.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
