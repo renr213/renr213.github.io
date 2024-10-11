@@ -5,10 +5,10 @@ project:
 website:
   page-navigation: true
   title: REN R 231
-  description: "Homepage for REN R 2113 - Introduction to Data Science at Duke University, Spring 2024."
+  description: "Homepage for REN R 213 - Data Science for Resource Management."
   site-url: "https://renr213.github.io/"
 
-  repo-url: https://github.com/sta199-s24/sta199-s24.github.io/
+  repo-url: https://github.com/renr213/renr213.github.io/
   repo-actions: [edit, issue]
 
   open-graph: true
@@ -67,20 +67,6 @@ website:
             text: Troubleshooting
           - href: computing-cheatsheets.qmd
             text: Cheatsheets
-      - section: "Project"
-        contents:
-          - href: project/description.qmd
-            text: Description
-          - href: project/1-working-collaboratively.qmd
-            text: Milestone 1
-          - href: project/2-proposal.qmd
-            text: Milestone 2
-          - href: project/3-peer-review.qmd
-            text: Milestone 3
-          - href: project/4-writeup-presentation.qmd
-            text: Milestone 4            
-          - href: project/tips-resources.qmd
-            text: Tips + resources
       - section: "Labs"
         contents:
           - href: labs/lab-0.qmd
@@ -95,10 +81,6 @@ website:
             text: Lab 4
           - href: labs/lab-5.qmd
             text: Lab 5 
-          - href: labs/lab-6.qmd
-            text: Lab 6             
-          - href: labs/lab-7.qmd
-            text: Lab 7 
       - section: "Exam review"
         contents:
           - href: exam-review/exam-1-review.qmd
@@ -107,15 +89,14 @@ website:
             text: Exam 2
             
   page-footer:
-    right: 'This page is built with [{{< fa heart >}}]{style="color: #FFBE98;"} and [Quarto](https://quarto.org/).'
-    left: "&copy; Copyright 2024, Mine Çetinkaya-Rundel"
+    right: 'This page is built with [Quarto](https://quarto.org/).'
     background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
 
 format:
   html:
     theme:
-      light: [cosmo, style/sta199.scss]
-      dark: [cosmo, style/sta199.scss, style/dark.scss]
+      light: [cosmo, style/renr213.scss]
+      dark: [cosmo, style/renr213.scss, style/dark.scss]
     linkcolor: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks
     toc: true
     code-copy: true

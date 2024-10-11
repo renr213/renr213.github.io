@@ -5,15 +5,15 @@ execute:
 ---
 
 ## Introduction
+
 This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.
 
-This course is heavily based on material developed by [Mine Çetinkaya-Rundel](https://mine-cr.com/). I thank her for making this material available to the public through a [Creative Commons Attribution ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.
+This course is heavily based on material developed by [Mine Çetinkaya-Rundel](https://mine-cr.com/). I thank her for making this material available to the public through a [Creative Commons Attribution ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). Any material on this web site created by me ([Glen W. Armstrong](https://apps.ualberta.ca/directory/person/gwa)) is licensed under the same terms.
 
-![](img/cc-by-sa.png){width=25%}
-
-
+![](img/cc-by-sa.png){width="25%"}
 
 ## Class Schedule
+
 ```{r}
 #| echo: false
 #| message: false
