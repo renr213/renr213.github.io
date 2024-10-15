@@ -16,7 +16,9 @@ library(countdown)
 
 **Questions from the prepare materials?**
 
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%">
+
+</iframe>
 
 ## Announcements
 
@@ -114,7 +116,9 @@ Sit back and enjoy the show!
 ::: {.column width="60%"}
 Discuss the following for the visualization.
 
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
+<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%">
+
+</iframe>
 
 ```{r}
 #| echo: false

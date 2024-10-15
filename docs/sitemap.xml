@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/slides/03-visualizing-data.html</loc>
-    <lastmod>2024-10-10T15:28:32.111Z</lastmod>
+    <lastmod>2024-10-15T15:47:39.275Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/slides/14-language-of-models.html</loc>
@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/slides/01-meet-the-toolkit.html</loc>
-    <lastmod>2024-10-10T15:26:36.964Z</lastmod>
+    <lastmod>2024-10-15T16:46:46.799Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/slides/22-exam-2-review.html</loc>
@@ -90,7 +90,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/course-overview.html</loc>
-    <lastmod>2024-10-11T21:46:25.701Z</lastmod>
+    <lastmod>2024-10-15T16:01:44.175Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-07-population-types.html</loc>
@@ -101,24 +101,12 @@
     <lastmod>2024-10-09T17:22:18.073Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-19-last-ae.html</loc>
-    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
-  </url>
-  <url>
     <loc>https://renr213.github.io/ae/ae-05-majors-tidying.html</loc>
     <lastmod>2024-10-09T17:22:18.072Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-10-modeling-fish.html</loc>
     <lastmod>2024-10-09T17:22:18.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-12-modeling-penguins-multi.html</loc>
-    <lastmod>2024-10-09T17:22:18.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-16-equality-randomization-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.160Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-01-meet-the-penguins.html</loc>
@@ -133,32 +121,44 @@
     <lastmod>2024-10-09T17:22:18.074Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-13-modeling-loans.html</loc>
+    <loc>https://renr213.github.io/ae/ae-02-bechdel-dataviz.html</loc>
+    <lastmod>2024-10-09T17:22:18.072Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-19-last-ae.html</loc>
+    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-12-modeling-penguins-multi.html</loc>
     <lastmod>2024-10-09T17:22:18.074Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-08-data-import-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.155Z</lastmod>
+    <loc>https://renr213.github.io/ae/not-used/ae-16-equality-randomization-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.160Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-06-population-joining-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.154Z</lastmod>
+    <loc>https://renr213.github.io/ae/not-used/ae-18-second-to-last-ae.html</loc>
+    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-07-population-types-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.154Z</lastmod>
+    <loc>https://renr213.github.io/ae/not-used/ae-16-equality-randomization.html</loc>
+    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-14-spam-filter.html</loc>
+    <lastmod>2024-10-09T17:22:18.074Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-17-effective-dataviz.html</loc>
+    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/ae-09-chronicle-scrape-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.156Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-03-duke-forest-A.html</loc>
     <lastmod>2024-10-10T21:37:08.151Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-14-spam-filter.html</loc>
-    <lastmod>2024-10-09T17:22:18.074Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-17-effective-dataviz.html</loc>
-    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-10-modeling-fish-A.html</loc>
@@ -205,36 +205,48 @@
     <lastmod>2024-10-10T21:37:08.153Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-14-spam-filter-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.159Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-15-duke-forest-bootstrap-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.160Z</lastmod>
-  </url>
-  <url>
     <loc>https://renr213.github.io/ae/ae-11-modeling-penguins-A.html</loc>
     <lastmod>2024-10-10T21:37:08.157Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-13-modeling-loans-A.html</loc>
+    <loc>https://renr213.github.io/ae/ae-07-population-types-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-14-spam-filter-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.159Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-15-duke-forest-bootstrap-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.160Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-13-modeling-loans-A.html</loc>
     <lastmod>2024-10-10T21:37:08.158Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-09-chronicle-scrape-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.156Z</lastmod>
+    <loc>https://renr213.github.io/ae/not-used/ae-13-modeling-loans.html</loc>
+    <lastmod>2024-10-09T17:22:18.074Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-02-bechdel-dataviz.html</loc>
-    <lastmod>2024-10-09T17:22:18.072Z</lastmod>
+    <loc>https://renr213.github.io/ae/not-used/ae-17-effective-dataviz-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.161Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-16-equality-randomization.html</loc>
+    <loc>https://renr213.github.io/ae/not-used/ae-12-modeling-penguins-multi-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.158Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/not-used/ae-15-duke-forest-bootstrap.html</loc>
     <lastmod>2024-10-09T17:22:18.075Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-18-second-to-last-ae.html</loc>
-    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
+    <loc>https://renr213.github.io/ae/ae-06-population-joining-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.154Z</lastmod>
+  </url>
+  <url>
+    <loc>https://renr213.github.io/ae/ae-08-data-import-A.html</loc>
+    <lastmod>2024-10-10T21:37:08.155Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-04-flights-wrangling-A.html</loc>
@@ -245,24 +257,12 @@
     <lastmod>2024-10-10T17:23:17.364Z</lastmod>
   </url>
   <url>
-    <loc>https://renr213.github.io/ae/ae-17-effective-dataviz-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.161Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-12-modeling-penguins-multi-A.html</loc>
-    <lastmod>2024-10-10T21:37:08.158Z</lastmod>
-  </url>
-  <url>
     <loc>https://renr213.github.io/ae/ae-03-duke-forest.html</loc>
     <lastmod>2024-10-09T17:22:18.072Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-04-flights-wrangling.html</loc>
     <lastmod>2024-10-09T17:22:18.072Z</lastmod>
-  </url>
-  <url>
-    <loc>https://renr213.github.io/ae/ae-15-duke-forest-bootstrap.html</loc>
-    <lastmod>2024-10-09T17:22:18.075Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/ae/ae-02-bechdel-dataviz-A.html</loc>
@@ -278,7 +278,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/index.html</loc>
-    <lastmod>2024-10-11T21:50:03.241Z</lastmod>
+    <lastmod>2024-10-15T15:55:51.787Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/exam-review/exam-2-review.html</loc>
@@ -290,7 +290,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/slides/02-grammar-of-graphics.html</loc>
-    <lastmod>2024-10-10T15:26:37.009Z</lastmod>
+    <lastmod>2024-10-15T15:03:00.620Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/slides/08-data-types-classes.html</loc>
@@ -322,7 +322,7 @@
   </url>
   <url>
     <loc>https://renr213.github.io/slides/00-welcome-renr213.html</loc>
-    <lastmod>2024-10-10T16:49:17.144Z</lastmod>
+    <lastmod>2024-10-15T16:05:48.047Z</lastmod>
   </url>
   <url>
     <loc>https://renr213.github.io/slides/20-bootstrap.html</loc>

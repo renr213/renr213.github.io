@@ -19,6 +19,10 @@ Associate Professor
 :::
 :::::
 
+::: {.notes}
+Speaker notes go here.
+:::
+
 ## Meet data science
 
 -   Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.
