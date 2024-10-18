@@ -92,8 +92,8 @@ For example, mine would be
 
 ```{r}
 usethis::use_git_config(
-  user.name = "Glen W. Armstrong", 
-  user.email = "gwa@ualberta.ca"
+  user.name = "Glen Armstrong", 
+  user.email = "glen.armstrong@ualberta.ca"
 )
 ```
 

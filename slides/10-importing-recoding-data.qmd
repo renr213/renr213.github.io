@@ -23,19 +23,17 @@ ggplot2::theme_set(theme_gray(base_size = 16))
 
 Questions from prepare materials?
 
-```{=html}
 <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-```
+
 ## Announcements
 
--   If you missed lab yesterday, get in touch with your team ASAP!
-    Read over the team contract they developed and sign it.
+-   If you missed lab yesterday, get in touch with your team ASAP! Read over the team contract they developed and sign it.
 
 -   Start thinking about the datasets you'll include in your proposal.
 
 ## Project workflow preview
 
-::: columns
+::::: columns
 ::: {.column width="50%"}
 ![](images/project-repo.png)
 :::
@@ -43,7 +41,7 @@ Questions from prepare materials?
 ::: {.column width="50%"}
 ![](images/project-website.png)
 :::
-:::
+:::::
 
 and a brief demo!
 
@@ -71,17 +69,17 @@ and a brief demo!
 
 ## Age gap in Hollywood relationships {.smaller}
 
-::: columns
-::: {.column width="25%"}
+:::::: columns
+:::: {.column width="25%"}
 ::: question
 What is the story in this visualization?
 :::
-:::
+::::
 
 ::: {.column width="75%"}
 ![](images/hollywood-ages.jpeg){fig-align="center" width="600"}
 :::
-:::
+::::::
 
 ## Application exercise: `ae-08-data-import` {.smaller}
 
@@ -101,8 +99,7 @@ What is the story in this visualization?
 . . .
 
 ::: question
-Are these data tidy?
-Why or why not?
+Are these data tidy? Why or why not?
 :::
 
 ## Sales data
