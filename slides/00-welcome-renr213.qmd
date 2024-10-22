@@ -19,7 +19,7 @@ Associate Professor
 :::
 :::::
 
-::: {.notes}
+::: notes
 Speaker notes go here.
 :::
 
@@ -132,15 +132,14 @@ Or more like demo for today...
 [https://renr213.github.io](https://renr213-w25.github.io/){.uri}
 
 -   All course materials
--   Links to Canvas, GitHub, RStudio containers, etc.
+-   Links to Posit Cloud, Canvas, GitHub, etc.
 
 ## Course toolkit
 
 All linked from the course website:
 
 -   GitHub organization: [github.com/renr213](https://github.com/renr213)
--   RStudio containers: [cmgr.oit.duke.edu/containers](https://cmgr.oit.duke.edu/containers)
--   Communication: Ed Discussion
+-   Canvas discussions page
 -   Assignment submission and feedback: Gradescope
 
 ## Activities {.smaller}
@@ -167,34 +166,6 @@ All linked from the course website:
 Exam dates cannot be changed and no make-up exams will be given. If you can’t take the exams on these dates, you should drop this class.
 :::
 
-## Project {.smaller}
-
--   Dataset of your choice, method of your choice
-
--   Teamwork
-
--   Presentation and write-up
-
--   Presentations in the last lab
-
--   Interim deadlines, peer review on content, peer evaluation for team contribution
-
--   Some lab sessions allocated to working on projects, doing peer review, getting feedback from TAs
-
-::: callout-caution
-Final presentation date cannot be changed. If you can’t present on that date, you should drop this class. You must complete the project to pass this class.
-:::
-
-## Teams
-
--   Assigned by me
--   Project
--   Peer evaluation during teamwork and after completion
--   Expectations and roles
-    -   Everyone is expected to contribute equal *effort*
-    -   Everyone is expected to understand *all* code turned in
-    -   Individual contribution evaluated by peer evaluation, commits, etc.
-
 ## Grading {.smaller}
 
 | Category              | Percentage |
@@ -211,7 +182,6 @@ See [course syllabus](https://renr213-w25.github.io/course-syllabus.html) for ho
 
 ## Support
 
--   Attend office hours
 -   Ask and answer questions on the discussion forum
 -   Reserve email for questions on personal matters and/or grades
 -   Read the [course support](https://sta199-f22-1.github.io/course-support.html) page
@@ -222,16 +192,6 @@ See [course syllabus](https://renr213-w25.github.io/course-syllabus.html) for ho
 -   I'll assume that you've read an announcement by the next "business" day
 -   I'll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare, practice, and perform
 
-## Diversity + inclusion {.smaller}
-
-It is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.
-
-::: incremental
--   Please let me know your preferred name and pronouns on the Getting to know you survey.
--   If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your advisors, and deans are excellent resources.
--   I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
-:::
-
 # Course policies
 
 ## Late work, waivers, regrades policy
@@ -241,13 +201,19 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 
 ## Academic integrity
 
-> To uphold the Duke Community Standard:
+See the University of Alberta's [academic integrity pages](https://www.ualberta.ca/en/dean-of-students/projects-and-initiatives/academic-integrity-students/index.html).
+
+> Be aware of the interpretations of, and the serious academic penalties for:
 >
-> -   I will not lie, cheat, or steal in my academic endeavors;
+> -   cheating,
 >
-> -   I will conduct myself honorably in all my endeavors; and
+> -   inappropriate collaboration,
 >
-> -   I will act if the Standard is compromised.
+> -   plagiarism, and
+>
+> -   substantial assistance
+
+UAlberta's formal definitions of academic misconduct can be found [here](https://policiesonline.ualberta.ca/PoliciesProcedures/Procedures/Student%20Academic%20Integrity%20Policy%20Appendix%20A%20Academic%20Misconduct.pdf).
 
 # Wrap up
 

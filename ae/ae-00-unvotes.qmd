@@ -9,9 +9,23 @@ editor: visual
 
 How do various countries vote in the United Nations General Assembly, how have their voting patterns evolved throughout time, and how similarly or differently do they view certain issues? Answering these questions (at a high level) is the focus of this analysis.
 
+### Getting Started
+
+Open up your RStudio instance in Posit Cloud.
+
+Create a new workspace.
+
+Create a new project.
+
+Create a new R script (*e.g.* `ae-00.R`)
+
+Copy the code bits into the window.
+
 ### Packages
 
 We will use the **tidyverse**, **lubridate**, and **scales** packages for data wrangling and visualization, and the **DT** package for interactive display of tabular output, and the **unvotes** package for the data.
+
+Some of these packages will need to be installed the first time you run this. RStudio will prompt you to install them.  You should not need to install these packages again for the current Posit Cloud Workspace.
 
 ```{r}
 #| label: load-packages
@@ -81,7 +95,7 @@ Below is a list of countries in the dataset:
 
 ```{r}
 #| label: list-countries
-#| echo: false
+#| echo: true
 
 unvotes |> 
   select(country) |>
