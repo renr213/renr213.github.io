@@ -15,7 +15,7 @@
     "href": "course-support.html",
     "title": "Course support",
     "section": "",
-    "text": "Most of you will need help at some point and we want to make sure you can identify when that is without getting too frustrated and feel comfortable seeking help.",
+    "text": "Most of you will need help at some point and I want to make sure you can identify when that is without getting too frustrated and that you feel comfortable seeking help.",
     "crumbs": [
       "Course information",
       "Support"
@@ -37,7 +37,7 @@
     "href": "course-support.html#office-hours",
     "title": "Course support",
     "section": "Office hours",
-    "text": "Office hours\nThe teaching team is here to help you be successful in the course. You are encouraged to attend office hours during the times posted on the home page to ask questions about the course content and assignments. A lot of questions are most effectively answered in-person, so office hours are a valuable resource. I encourage each and every one of you to take advantage of this resource! Make a pledge to stop by office hours at least once during the first three weeks of class. If you truly have no questions to ask, just stop by and say hi and introduce yourself. You can find a list of everyone’s office hours here.",
+    "text": "Office hours\nThis course has no official office hours. If you have a question, send me a Google Chat message. I may be able to answer the question in Chat. If not, we can set up an appointment for a Google Meeting.",
     "crumbs": [
       "Course information",
       "Support"
@@ -70,7 +70,7 @@
     "href": "course-support.html#academic-support",
     "title": "Course support",
     "section": "Academic support",
-    "text": "Academic support\nThere are times may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Academic Resource Center. The Academic Resource Center (ARC) offers free services to all students during their undergraduate careers at Duke. Services include Learning Consultations, Peer Tutoring and Study Groups, ADHD/LD Coaching, Outreach Workshops, and more. Because learning is a process unique to every individual, they work with each student to discover and develop their own academic strategy for success at Duke. Contact the ARC to schedule an appointment. Undergraduates in any year, studying any discipline can benefit! Contact ARC@duke.edu, 919-684-5917.",
+    "text": "Academic support\nThere are times may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit UAlberta’s Academic Success Centre.\nThey provide\n\n… professional academic support to help students maximize their academic success and achieve their academic goals. [They] offer appointments, advising, group workshops, online courses, and specialized programming year-round to students in all university programs, and at all levels of achievement and study.",
     "crumbs": [
       "Course information",
       "Support"
@@ -92,7 +92,7 @@
     "href": "course-support.html#course-costs",
     "title": "Course support",
     "section": "Course costs",
-    "text": "Course costs\n\nTextbooks: The textbooks for this course are freely available on the web.\nLaptops: Each student is expected to have a laptop they can bring to each lecture and lab.\n\nIf you are having difficulty with costs associated with this course, here are some resources:\n\nContact the financial aid office (whether or not you are on aid). They have loans and resources for connecting students with programs on campus that might be able to help alleviate these costs.\nDukeLIFE offers course materials assistance for eligible students. Please note that students who are eligible for DukeLIFE benefits are notified prior to the start of the semester; program resources are limited.",
+    "text": "Course costs\n\nTextbooks: The textbooks for this course are freely available on the web.\nInternet access: This course is offered online. Internet access (preferably broadband) is required.\nWeb browser: A device capable of running a web browser (e.g. laptop or desktop computer, Chromebook, or a tablet with a keyboard) is necessary to access course materials. The screen on the device should be large enough to work comfortably on: a mobile phone screen is probably too small.\nPosit Cloud Subscription: The course is set up to use RStudio in the Posit Cloud. I recommend purchasing a Cloud Student subscription at US$/month. However, you may find that the free subscription is sufficient (compute hours are more limited). You can upgrade your subscription to the student version later, if you wish.\nIf you are comfortable installing software on your own computer, you can install the needed sofware on your own computer. You will need to install R, RStudio Desktop, and git. These software are available for free for Mac OS, Linux, and Windows computers. For Windows, I recommend the version of git found here. Please note that I will be unable to provide support for your local installation of these software.",
     "crumbs": [
       "Course information",
       "Support"
@@ -3050,7 +3050,7 @@
     "href": "course-links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Course GitHub organization\n🔗 on GitHub |\n\n\n\n\n\n\n\n\n\n\n\n\nEd Discussion\n🔗 on Canvas\n\n\nClass recordings\n🔗 on Panopto\n\n\nGradescope\n🔗 on Canvas\n\n\nGradebook\n🔗 on Canvas\n\n\nTextbooks\n🔗 R for Data Science\n🔗 Introduction to Modern Statistics\n\n\nPackage documentation\n🔗 ggplot2: ggplot2.tidyverse.org\n🔗 dplyr: dplyr.tidyverse.org\n🔗 tidyr: tidyr.tidyverse.org\n🔗 forcats: forcats.tidyverse.org\n🔗 stringr: stringr.tidyverse.org\n🔗 lubridate: lubridate.tidyverse.org\n🔗 readr: readr.tidyverse.org\n🔗 readxl: readxl.tidyverse.org",
+    "text": "Course GitHub organization\n🔗 on GitHub |\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussion\n🔗 on Canvas\n\n\nClass recordings\n🔗 on Panopto\n\n\nGradescope\n🔗 on Canvas\n\n\nGradebook\n🔗 on Canvas\n\n\nTextbooks\n🔗 R for Data Science\n🔗 Introduction to Modern Statistics\n\n\nPackage documentation\n🔗 ggplot2: ggplot2.tidyverse.org\n🔗 dplyr: dplyr.tidyverse.org\n🔗 tidyr: tidyr.tidyverse.org\n🔗 forcats: forcats.tidyverse.org\n🔗 stringr: stringr.tidyverse.org\n🔗 lubridate: lubridate.tidyverse.org\n🔗 readr: readr.tidyverse.org\n🔗 readxl: readxl.tidyverse.org",
     "crumbs": [
       "Course information",
       "Useful links"
@@ -4594,7 +4594,7 @@
     "href": "index.html",
     "title": "REN R 213: Data Science for Resource Management",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 International Deed. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 InternationalLicense. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -4605,7 +4605,7 @@
     "href": "index.html#introduction",
     "title": "REN R 213: Data Science for Resource Management",
     "section": "",
-    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 International Deed. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
+    "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 InternationalLicense. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -6055,14 +6055,14 @@
     "href": "slides/00-welcome-renr213.html#homepage",
     "title": "Welcome to REN R 213",
     "section": "Homepage",
-    "text": "Homepage\nhttps://renr213.github.io\n\nAll course materials\nLinks to Canvas, GitHub, RStudio containers, etc."
+    "text": "Homepage\nhttps://renr213.github.io\n\nAll course materials\nLinks to Posit Cloud, Canvas, GitHub, etc."
   },
   {
     "objectID": "slides/00-welcome-renr213.html#course-toolkit",
     "href": "slides/00-welcome-renr213.html#course-toolkit",
     "title": "Welcome to REN R 213",
     "section": "Course toolkit",
-    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/renr213\nRStudio containers: cmgr.oit.duke.edu/containers\nCommunication: Ed Discussion\nAssignment submission and feedback: Gradescope"
+    "text": "Course toolkit\nAll linked from the course website:\n\nGitHub organization: github.com/renr213\nCanvas discussions page\nAssignment submission and feedback: Gradescope"
   },
   {
     "objectID": "slides/00-welcome-renr213.html#activities",
@@ -6079,20 +6079,6 @@
     "text": "Exams\n\nTwo exams, each 20%\nEach exam comprised of two parts:\n\nIn class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”, no larger than 8 1/2 x 11, both sides, must be prepared by you) – 70% of the grade\nTake home: The take home portion will follow from the in class exam and focus on the analysis of a dataset introduced in the take home exam – 30% of the grade\n\n\n\n\n\n\n\n\nCaution\n\n\nExam dates cannot be changed and no make-up exams will be given. If you can’t take the exams on these dates, you should drop this class."
   },
   {
-    "objectID": "slides/00-welcome-renr213.html#project",
-    "href": "slides/00-welcome-renr213.html#project",
-    "title": "Welcome to REN R 213",
-    "section": "Project",
-    "text": "Project\n\nDataset of your choice, method of your choice\nTeamwork\nPresentation and write-up\nPresentations in the last lab\nInterim deadlines, peer review on content, peer evaluation for team contribution\nSome lab sessions allocated to working on projects, doing peer review, getting feedback from TAs\n\n\n\n\n\n\n\nCaution\n\n\nFinal presentation date cannot be changed. If you can’t present on that date, you should drop this class. You must complete the project to pass this class."
-  },
-  {
-    "objectID": "slides/00-welcome-renr213.html#teams",
-    "href": "slides/00-welcome-renr213.html#teams",
-    "title": "Welcome to REN R 213",
-    "section": "Teams",
-    "text": "Teams\n\nAssigned by me\nProject\nPeer evaluation during teamwork and after completion\nExpectations and roles\n\nEveryone is expected to contribute equal effort\nEveryone is expected to understand all code turned in\nIndividual contribution evaluated by peer evaluation, commits, etc."
-  },
-  {
     "objectID": "slides/00-welcome-renr213.html#grading",
     "href": "slides/00-welcome-renr213.html#grading",
     "title": "Welcome to REN R 213",
@@ -6104,7 +6090,7 @@
     "href": "slides/00-welcome-renr213.html#support",
     "title": "Welcome to REN R 213",
     "section": "Support",
-    "text": "Support\n\nAttend office hours\nAsk and answer questions on the discussion forum\nReserve email for questions on personal matters and/or grades\nRead the course support page"
+    "text": "Support\n\nAsk and answer questions on the discussion forum\nReserve email for questions on personal matters and/or grades\nRead the course support page"
   },
   {
     "objectID": "slides/00-welcome-renr213.html#announcements",
@@ -6112,13 +6098,6 @@
     "title": "Welcome to REN R 213",
     "section": "Announcements",
     "text": "Announcements\n\nPosted on Canvas (Announcements tool) and sent via email, be sure to check both regularly\nI’ll assume that you’ve read an announcement by the next “business” day\nI’ll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare, practice, and perform"
-  },
-  {
-    "objectID": "slides/00-welcome-renr213.html#diversity-inclusion",
-    "href": "slides/00-welcome-renr213.html#diversity-inclusion",
-    "title": "Welcome to REN R 213",
-    "section": "Diversity + inclusion",
-    "text": "Diversity + inclusion\nIt is my intent that students from all diverse backgrounds and perspectives be well-served by this course, that students’ learning needs be addressed both in and out of class, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit.\n\n\nPlease let me know your preferred name and pronouns on the Getting to know you survey.\nIf you feel like your performance in the class is being impacted by your experiences outside of class, please don’t hesitate to come and talk with me. I want to be a resource for you. If you prefer to speak with someone outside of the course, your advisors, and deans are excellent resources.\nI (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it."
   },
   {
     "objectID": "slides/00-welcome-renr213.html#late-work-waivers-regrades-policy",
@@ -6132,7 +6111,7 @@
     "href": "slides/00-welcome-renr213.html#academic-integrity",
     "title": "Welcome to REN R 213",
     "section": "Academic integrity",
-    "text": "Academic integrity\n\nTo uphold the Duke Community Standard:\n\nI will not lie, cheat, or steal in my academic endeavors;\nI will conduct myself honorably in all my endeavors; and\nI will act if the Standard is compromised."
+    "text": "Academic integrity\nSee the University of Alberta’s academic integrity pages.\n\nBe aware of the interpretations of, and the serious academic penalties for:\n\ncheating,\ninappropriate collaboration,\nplagiarism, and\nsubstantial assistance\n\n\nUAlberta’s formal definitions of academic misconduct can be found here."
   },
   {
     "objectID": "slides/00-welcome-renr213.html#this-weeks-tasks",
@@ -6792,6 +6771,39 @@
     "crumbs": [
       "Course information",
       "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-support.html#canvas-discussion",
+    "href": "course-support.html#canvas-discussion",
+    "title": "Course support",
+    "section": "Canvas Discussion",
+    "text": "Canvas Discussion\nHave a question that can’t wait? Prefer to write out your question in detail rather than asking in person? The course discussion forum, Canvas discussion, is the best venue for these! Another student may have asked a similar question, so please check the other posts on before asking a new question. If you know the answer to a question that is posted, I encourage you to respond.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#google-chat",
+    "href": "course-support.html#google-chat",
+    "title": "Course support",
+    "section": "Google Chat",
+    "text": "Google Chat\nPlease refrain from trying to contact me via email. I greatly prefer Google Chat to email for course related communication.\nAny course content questions (those should go to Canvas Discussion), and only use Google Chat for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).\nUse Google Chat for questions not appropriate for the public forum. Please send me a Google Chat message at gwa@ualberta.ca. Barring extenuating circumstances, I will respond to REN R 213 chats within two business days.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-support.html#assistance-with-google-meet-or-canvas",
+    "href": "course-support.html#assistance-with-google-meet-or-canvas",
+    "title": "Course support",
+    "section": "Assistance with Google Meet or Canvas",
+    "text": "Assistance with Google Meet or Canvas\nFor technical help with Google Meet or Canvas, access the self-service help documentation for Google Meet here and for Canvas here. If this documentation does not provide an adequate answer, email IST eClass Support at eclass@ualberta.ca or phone 780-492-9372.\nNote that we will be making minimal use of Canvas in this course (primarily for announcements and grade book). All assignment submission will take place on GitHub and conversation on Ed Discussion.\nGoogle Meet will be used for live interactions between the instructor and students.",
+    "crumbs": [
+      "Course information",
+      "Support"
     ]
   }
 ]
