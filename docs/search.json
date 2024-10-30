@@ -22,17 +22,6 @@
     ]
   },
   {
-    "objectID": "course-support.html#lectures-and-labs",
-    "href": "course-support.html#lectures-and-labs",
-    "title": "Course support",
-    "section": "Lectures and labs",
-    "text": "Lectures and labs\nIf you have a question during lecture or lab, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
     "objectID": "course-support.html#office-hours",
     "href": "course-support.html#office-hours",
     "title": "Course support",
@@ -44,22 +33,22 @@
     ]
   },
   {
-    "objectID": "course-support.html#ed-discussion",
-    "href": "course-support.html#ed-discussion",
+    "objectID": "course-support.html#canvas-discussion",
+    "href": "course-support.html#canvas-discussion",
     "title": "Course support",
-    "section": "Ed Discussion",
-    "text": "Ed Discussion\nHave a question that can’t wait for office hours? Prefer to write out your question in detail rather than asking in person? The course discussion forum, Ed Discussion, is the best venue for these! There is a chance another student has already asked a similar question, so please check the other posts on before asking a new question. If you know the answer to a question that is posted, I encourage you to respond!",
+    "section": "Canvas Discussion",
+    "text": "Canvas Discussion\nHave a question that can’t wait? Prefer to write out your question in detail rather than asking in person? The course discussion forum, Canvas discussion, is the best venue for these! Another student may have asked a similar question, so please check the other posts on before asking a new question. If you know the answer to a question that is posted, I encourage you to respond.",
     "crumbs": [
       "Course information",
       "Support"
     ]
   },
   {
-    "objectID": "course-support.html#email",
-    "href": "course-support.html#email",
+    "objectID": "course-support.html#google-chat",
+    "href": "course-support.html#google-chat",
     "title": "Course support",
-    "section": "Email",
-    "text": "Email\nPlease refrain from emailing any course content questions (those should go to Ed Discussion), and only use email for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.). For such matters, you may email Dr. Mine Çetinkaya-Rundel at mc301@duke.edu.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include “STA 199” in the subject line. Barring extenuating circumstances, I will respond to STA 199 emails within 48 hours Monday - Friday. Response time may be slower for emails sent Friday evening - Sunday.",
+    "section": "Google Chat",
+    "text": "Google Chat\nPlease refrain from trying to contact me via email. I greatly prefer Google Chat to email for course related communication.\nAny course content questions (those should go to Canvas Discussion), and only use Google Chat for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).\nUse Google Chat for questions not appropriate for the public forum. Please send me a Google Chat message at gwa@ualberta.ca. Barring extenuating circumstances, I will respond to REN R 213 chats within two business days.",
     "crumbs": [
       "Course information",
       "Support"
@@ -77,17 +66,6 @@
     ]
   },
   {
-    "objectID": "course-support.html#mental-health-and-wellness",
-    "href": "course-support.html#mental-health-and-wellness",
-    "title": "Course support",
-    "section": "Mental health and wellness",
-    "text": "Mental health and wellness\nIf your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to help you through difficult times.  Duke encourages all students to access these resources.\n\nCAPS: Duke Counseling & Pyschological Services (CAPS) helps Duke Students enhance strengths and develop abilities to successfully live, grow and learn in their personal and academic lives. CAPS recognizes that we are living in unprecedented times and that the changes, challenges and stressors brought on by the COVID-19 pandemic have impacted everyone, often in ways that are tax our well-being. CAPS offers many services to Duke undergraduate students, including brief individual and group counseling, couples counseling and more. CAPS staff also provides outreach to student groups, particularly programs supportive of at-risk populations, on a wide range of issues impacting them in various aspects of campus life. CAPS provides services to students via Telehealth. To initiate services, you can contact their front desk at 919-660-1000.\nDuWell: (919) 681-8421, provides Moments of Mindfulness (stress management and resilience building) and meditation programming to assist students in developing a daily emotional well-being practice. To see schedules for programs please see https://studentaffairs.duke.edu/duwell. All are welcome and no experience necessary.\nDukeReach: Provides comprehensive outreach services to identify and support students in managing all aspects of well-being. If you have concerns about a student’s behavior or health visit the website for resources and assistance: http://studentaffairs.duke.edu/dukereach.\nTimelyCare: (formerly known as Blue Devils Care) An online platform that is a convenient, confidential, and free way for Duke students to receive 24/7 mental health support through TalkNow and scheduled counseling: https://bluedevilscare.duke.edu.\nTwo-Click Support: Duke Student Government and DukeReach partnership that connects students to help in just two clicks: https://bit.ly/TwoClickSupport.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
     "objectID": "course-support.html#course-costs",
     "href": "course-support.html#course-costs",
     "title": "Course support",
@@ -99,11 +77,11 @@
     ]
   },
   {
-    "objectID": "course-support.html#assistance-with-zoom-or-canvas",
-    "href": "course-support.html#assistance-with-zoom-or-canvas",
+    "objectID": "course-support.html#assistance-with-google-meet-or-canvas",
+    "href": "course-support.html#assistance-with-google-meet-or-canvas",
     "title": "Course support",
-    "section": "Assistance with Zoom or Canvas",
-    "text": "Assistance with Zoom or Canvas\nFor technical help with Canvas or Zoom, contact the Duke OIT Service Desk at oit.duke.edu/help. You can also access the self-service help documentation for Zoom here and for Canvas here.\nNote that we will be making minimal use of Canvas in this course (primarily for announcements and grade book). All assignment submission will take place on GitHub and conversation on Ed Discussion.\nZoom will be used for online office hours as well as as a backup option should we need to hold the course online instead of in person.",
+    "section": "Assistance with Google Meet or Canvas",
+    "text": "Assistance with Google Meet or Canvas\nFor technical help with Google Meet or Canvas, access the self-service help documentation for Google Meet here and for Canvas here. If this documentation does not provide an adequate answer, email IST eClass Support at eclass@ualberta.ca or phone 780-492-9372.\nNote that we will be making minimal use of Canvas in this course (primarily for announcements and grade book). All assignment submission will take place on GitHub and conversation on Ed Discussion.\nGoogle Meet will be used for live interactions between the instructor and students.",
     "crumbs": [
       "Course information",
       "Support"
@@ -112,7 +90,7 @@
   {
     "objectID": "course-faq.html",
     "href": "course-faq.html",
-    "title": "FAQ",
+    "title": "Frequently Asked Questions (FAQ)",
     "section": "",
     "text": "Go to your Files tab, check the box next to the file you want to download, then click on the blue gear icon on the Files tab to reveal the drop down menu, and select Export… If you have selected multiple files to export, RStudio will zip them up into a single zip file for you. If you’ve selected just a single file, it will only download that. The downloaded file will go to wherever files you download off the internet goes on your computer (usually your Downloads folder).",
     "crumbs": [
@@ -121,9 +99,9 @@
     ]
   },
   {
-    "objectID": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope",
-    "href": "course-faq.html#how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope",
-    "title": "FAQ",
+    "objectID": "course-faq.html#xxxx-how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope",
+    "href": "course-faq.html#xxxx-how-do-i-export-my-assignment-pdf-from-rstudio-to-upload-to-gradescope",
+    "title": "Frequently Asked Questions (FAQ)",
     "section": "",
     "text": "Go to your Files tab, check the box next to the file you want to download, then click on the blue gear icon on the Files tab to reveal the drop down menu, and select Export… If you have selected multiple files to export, RStudio will zip them up into a single zip file for you. If you’ve selected just a single file, it will only download that. The downloaded file will go to wherever files you download off the internet goes on your computer (usually your Downloads folder).",
     "crumbs": [
@@ -132,11 +110,11 @@
     ]
   },
   {
-    "objectID": "course-faq.html#how-can-i-submit-my-assignment-to-gradescope",
-    "href": "course-faq.html#how-can-i-submit-my-assignment-to-gradescope",
-    "title": "FAQ",
-    "section": "How can I submit my assignment to Gradescope?",
-    "text": "How can I submit my assignment to Gradescope?\nThe instructions for submitting your assignment to Gradescope can be found here. In a nutshell, you’ll upload your PDF and them mark the page(s) where each question can be found. It’s OK if a question spans multiple pages, just mark them all. It’s also OK if a page includes multiple questions.",
+    "objectID": "course-faq.html#xxxx-how-can-i-submit-my-assignment-to-gradescope",
+    "href": "course-faq.html#xxxx-how-can-i-submit-my-assignment-to-gradescope",
+    "title": "Frequently Asked Questions (FAQ)",
+    "section": "XXXX How can I submit my assignment to Gradescope?",
+    "text": "XXXX How can I submit my assignment to Gradescope?\nThe instructions for submitting your assignment to Gradescope can be found here. In a nutshell, you’ll upload your PDF and them mark the page(s) where each question can be found. It’s OK if a question spans multiple pages, just mark them all. It’s also OK if a page includes multiple questions.",
     "crumbs": [
       "Course information",
       "FAQ"
@@ -145,9 +123,9 @@
   {
     "objectID": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
     "href": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-the-rstudio-containers",
-    "title": "FAQ",
+    "title": "Frequently Asked Questions (FAQ)",
     "section": "Can I use a local install of R and RStudio instead of using the RStudio containers?",
-    "text": "Can I use a local install of R and RStudio instead of using the RStudio containers?\nThe short answer is, I’d rather you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. Myself and the TAs are always happy to provide help with any computational questions when you’re working in the containers we have provided for you. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R 4.3.2: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto 1.4: https://quarto.org/docs/download/prerelease.html\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"___\")\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the computing environment we have set up for you. More on that here.",
+    "text": "Can I use a local install of R and RStudio instead of using the RStudio containers?\nThe short answer is, I’d rather you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. I am always happy to provide help with any computational questions when you’re working in the Posit Cloud. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R XXX: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto XXXX: https://quarto.org/docs/get-started/\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"___\")\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the computing environment (i.e. Posit Cloud) that I have tested the course material on.",
     "crumbs": [
       "Course information",
       "FAQ"
@@ -529,7 +507,7 @@
     "href": "slides/11-web-scraping.html#workflow-screen-scraping-vs.-apis",
     "title": "Web scraping",
     "section": "Workflow: Screen scraping vs. APIs",
-    "text": "Workflow: Screen scraping vs. APIs\nTwo different scenarios for web scraping:\n\nScreen scraping: extract data from source code of website, with html parser (easy) or regular expression matching (less easy)\nWeb APIs (application programming interface): website offers a set of structured http requests that return JSON or XML files\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Workflow: Screen scraping vs. APIs\nTwo different scenarios for web scraping:\n\nScreen scraping: extract data from source code of website, with html parser (easy) or regular expression matching (less easy)\nWeb APIs (application programming interface): website offers a set of structured http requests that return JSON or XML files"
   },
   {
     "objectID": "slides/12-chat-gpt.html#while-you-wait-for-class-to-begin",
@@ -865,7 +843,7 @@
     "href": "slides/12-chat-gpt.html#guidelines-and-best-practices-for-using-chat-gpt",
     "title": "Web scraping wrap-up + Chat GPT",
     "section": "Guidelines and best practices for using Chat GPT",
-    "text": "Guidelines and best practices for using Chat GPT\n\n\nDo not just copy-paste the prompt – for appropriate academic conduct, for your own learning, and for getting to better results faster\nEngineer the prompt until the response starts to look like code you’re learning in the course\nIf the response is not correct, ask for a correction\nIf the response doesn’t follow the guidelines, ask for a correction\nDo not just copy-paste code from Chat GPT responses, run it line-by-line and edit as needed\nWatch out for clear mistakes in the response: do not keep loading packages that are already loaded, use the base pipe |&gt;, use tidyverse-based code, etc.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Guidelines and best practices for using Chat GPT\n\n\nDo not just copy-paste the prompt – for appropriate academic conduct, for your own learning, and for getting to better results faster\nEngineer the prompt until the response starts to look like code you’re learning in the course\nIf the response is not correct, ask for a correction\nIf the response doesn’t follow the guidelines, ask for a correction\nDo not just copy-paste code from Chat GPT responses, run it line-by-line and edit as needed\nWatch out for clear mistakes in the response: do not keep loading packages that are already loaded, use the base pipe |&gt;, use tidyverse-based code, etc."
   },
   {
     "objectID": "slides/16-linear-model-multiple-predictors-I.html#announcements",
@@ -942,7 +920,7 @@
     "href": "slides/16-linear-model-multiple-predictors-I.html#application-exercise-ae-12-modeling-penguins-multi",
     "title": "Linear regression with a multiple predictors I",
     "section": "Application exercise: ae-12-modeling-penguins-multi",
-    "text": "Application exercise: ae-12-modeling-penguins-multi\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-12-modeling-penguins-multi.qmd.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Application exercise: ae-12-modeling-penguins-multi\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-12-modeling-penguins-multi.qmd."
   },
   {
     "objectID": "slides/19-logistic-regression.html#while-you-wait-for-class-to-begin",
@@ -1089,7 +1067,7 @@
     "href": "slides/19-logistic-regression.html#takeaways",
     "title": "Logistic regression",
     "section": "Takeaways",
-    "text": "Takeaways\n\nGeneralized linear models allow us to fit models to predict non-continuous outcomes\nPredicting binary outcomes requires modeling the log-odds of success, where p = probability of success\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Takeaways\n\nGeneralized linear models allow us to fit models to predict non-continuous outcomes\nPredicting binary outcomes requires modeling the log-odds of success, where p = probability of success"
   },
   {
     "objectID": "slides/07-joining-data.html#while-you-wait-for-class-to-begin",
@@ -1229,7 +1207,7 @@
     "href": "slides/07-joining-data.html#ae-06-population-joining",
     "title": "Joining data",
     "section": "ae-06-population-joining",
-    "text": "ae-06-population-joining\n\n\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae.\nIf there are any uncommitted files, commit them, and then click Pull.\nOpen the file called ae-06-population-joining.qmd and render it.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "ae-06-population-joining\n\n\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae.\nIf there are any uncommitted files, commit them, and then click Pull.\nOpen the file called ae-06-population-joining.qmd and render it."
   },
   {
     "objectID": "slides/24-quarto.html#while-you-wait-for-class-to-begin",
@@ -1369,7 +1347,7 @@
     "href": "slides/24-quarto.html#before-you-leave",
     "title": "Customizing Quarto reports and presentations",
     "section": "Before you leave",
-    "text": "Before you leave\nif you haven’t yet done so…\n\n\nGo to your ae repo, and pull.\nMake a change, any change, to ae-18-second-to-last-ae.qmd. render, commit, and push.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Before you leave\nif you haven’t yet done so…\n\n\nGo to your ae repo, and pull.\nMake a change, any change, to ae-18-second-to-last-ae.qmd. render, commit, and push."
   },
   {
     "objectID": "slides/23-communicate.html#while-you-wait-for-class-to-begin",
@@ -1418,7 +1396,7 @@
     "href": "slides/23-communicate.html#recap",
     "title": "Communicating data science results effectively",
     "section": "Recap",
-    "text": "Recap\n\n\nRepresent percentages as parts of a whole\nPlace variables representing time on the x-axis when possible\nPay attention to data types, e.g., represent time as time on a continuous scale, not years as levels of a categorical variable\nPrefer direct labeling over legends\nUse accessible colors\nUse color to draw attention\nPick a purpose and label, color, annotate for that purpose\nCommunicate your main message directly in the plot labels\nSimplify before you call it done (a.k.a. “Before you leave the house, look in the mirror and take one thing off”)\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Recap\n\n\nRepresent percentages as parts of a whole\nPlace variables representing time on the x-axis when possible\nPay attention to data types, e.g., represent time as time on a continuous scale, not years as levels of a categorical variable\nPrefer direct labeling over legends\nUse accessible colors\nUse color to draw attention\nPick a purpose and label, color, annotate for that purpose\nCommunicate your main message directly in the plot labels\nSimplify before you call it done (a.k.a. “Before you leave the house, look in the mirror and take one thing off”)"
   },
   {
     "objectID": "slides/03-visualizing-data.html#while-you-wait",
@@ -1698,7 +1676,7 @@
     "href": "slides/03-visualizing-data.html#density-plots-3",
     "title": "Visualizing various types of data",
     "section": "Density plots",
-    "text": "Density plots\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = body_mass_g,\n    color = species,\n    fill = species\n    )\n  ) +\n  geom_density(\n    alpha = 0.5\n  ) +\n  theme(\n    legend.position = \"bottom\"\n  )\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n🔗 renr213.github.io"
+    "text": "Density plots\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = body_mass_g,\n    color = species,\n    fill = species\n    )\n  ) +\n  geom_density(\n    alpha = 0.5\n  ) +\n  theme(\n    legend.position = \"bottom\"\n  )"
   },
   {
     "objectID": "slides/14-language-of-models.html#while-you-wait-for-class-to-begin",
@@ -1873,7 +1851,7 @@
     "href": "slides/14-language-of-models.html#application-exercise-ae-10-modeling-fish",
     "title": "The language of models",
     "section": "Application exercise: ae-10-modeling-fish",
-    "text": "Application exercise: ae-10-modeling-fish\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-10-modeling-fish.qmd.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Application exercise: ae-10-modeling-fish\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-10-modeling-fish.qmd."
   },
   {
     "objectID": "slides/04-dataviz-overview.html#while-you-wait",
@@ -2048,7 +2026,7 @@
     "href": "slides/04-dataviz-overview.html#ae-03-duke-forest",
     "title": "Data visualization overview",
     "section": "ae-03-duke-forest",
-    "text": "ae-03-duke-forest\n\n\nIf you’ve been here for a while:\nand following along with the application exercises…\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae. If there are any uncommitted files, commit them, and then click Pull.\n\nIf you’ve new:\nor haven’t been following along with the application exercises…\nGo to the course GitHub org and find your ae repo. Clone the repo in your container, open the Quarto document called ae-03-duke-forest.\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "ae-03-duke-forest\n\n\nIf you’ve been here for a while:\nand following along with the application exercises…\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae. If there are any uncommitted files, commit them, and then click Pull.\n\nIf you’ve new:\nor haven’t been following along with the application exercises…\nGo to the course GitHub org and find your ae repo. Clone the repo in your container, open the Quarto document called ae-03-duke-forest."
   },
   {
     "objectID": "slides/17-linear-model-multiple-predictors-II.html#while-you-wait-for-class-to-begin",
@@ -2083,7 +2061,7 @@
     "href": "slides/17-linear-model-multiple-predictors-II.html#application-exercise-ae-13-modeling-loans",
     "title": "Linear regression with a multiple predictors II",
     "section": "Application exercise: ae-13-modeling-loans",
-    "text": "Application exercise: ae-13-modeling-loans\n\n\nGo to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-13-modeling-loans.qmd.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Application exercise: ae-13-modeling-loans\n\n\nGo to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-13-modeling-loans.qmd."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#announcements",
@@ -2272,7 +2250,7 @@
     "href": "slides/01-meet-the-toolkit.html#whats-with-all-the-hexes",
     "title": "Meet the toolkit",
     "section": "What’s with all the hexes?",
-    "text": "What’s with all the hexes?\n\n\n\n\n\n\n\n\n\n🔗 renr213.github.io"
+    "text": "What’s with all the hexes?"
   },
   {
     "objectID": "slides/22-exam-2-review.html#announcements",
@@ -2300,7 +2278,7 @@
     "href": "slides/22-exam-2-review.html#questions-1",
     "title": "Exam 2 review",
     "section": "Questions",
-    "text": "Questions\n\n\nDo we need to know functions and iteration for the exam? Since we didn’t work very much with them after the HW videos.\nWhen we run bootstrapping simulations for different types of statistics (proportions, means, medians, slopes, etc), are there any differences in the methodology? Or does it all rely on calculating sample statistics for many simulations and then taking the middle 90 or 95% as a confidence interval estimate for that statistic.\nHow do you determine whether a relationship is nonlinear without visualization?\nCould you go over how logistic regression works again? Especially how a log(p/1-p) transformation of binary data creates a linear model?\nWhen do you use logarithmic functions in linear regression, rather than a logistic regression?\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Questions\n\n\nDo we need to know functions and iteration for the exam? Since we didn’t work very much with them after the HW videos.\nWhen we run bootstrapping simulations for different types of statistics (proportions, means, medians, slopes, etc), are there any differences in the methodology? Or does it all rely on calculating sample statistics for many simulations and then taking the middle 90 or 95% as a confidence interval estimate for that statistic.\nHow do you determine whether a relationship is nonlinear without visualization?\nCould you go over how logistic regression works again? Especially how a log(p/1-p) transformation of binary data creates a linear model?\nWhen do you use logarithmic functions in linear regression, rather than a logistic regression?"
   },
   {
     "objectID": "exam-review/exam-1-review.html",
@@ -3050,7 +3028,7 @@
     "href": "course-links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Course GitHub organization\n🔗 on GitHub |\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussion\n🔗 on Canvas\n\n\nClass recordings\n🔗 on Panopto\n\n\nGradescope\n🔗 on Canvas\n\n\nGradebook\n🔗 on Canvas\n\n\nTextbooks\n🔗 R for Data Science\n🔗 Introduction to Modern Statistics\n\n\nPackage documentation\n🔗 ggplot2: ggplot2.tidyverse.org\n🔗 dplyr: dplyr.tidyverse.org\n🔗 tidyr: tidyr.tidyverse.org\n🔗 forcats: forcats.tidyverse.org\n🔗 stringr: stringr.tidyverse.org\n🔗 lubridate: lubridate.tidyverse.org\n🔗 readr: readr.tidyverse.org\n🔗 readxl: readxl.tidyverse.org",
+    "text": "Course GitHub organization\n🔗 on GitHub |\n\n\n\n\n\n\n\n\n\n\n\n\nDiscussion\n🔗 on Canvas\n\n\nClass recordings\n🔗 on ca\n\n\nGradescope\n🔗 on Canvas\n\n\nGradebook\n🔗 on Canvas\n\n\nTextbooks\n🔗 R for Data Science\n🔗 Introduction to Modern Statistics\n\n\nPackage documentation\n🔗 ggplot2: ggplot2.tidyverse.org\n🔗 dplyr: dplyr.tidyverse.org\n🔗 tidyr: tidyr.tidyverse.org\n🔗 forcats: forcats.tidyverse.org\n🔗 stringr: stringr.tidyverse.org\n🔗 lubridate: lubridate.tidyverse.org\n🔗 readr: readr.tidyverse.org\n🔗 readxl: readxl.tidyverse.org",
     "crumbs": [
       "Course information",
       "Useful links"
@@ -4893,7 +4871,7 @@
     "href": "slides/02-grammar-of-graphics.html#recap-of-ae",
     "title": "Grammar of graphics",
     "section": "Recap of AE",
-    "text": "Recap of AE\n\nConstruct plots with ggplot().\nLayers of ggplots are separated by +s.\nThe formula is (almost) always as follows:\n\n\nggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +\n  geom_XXX()\n\n\nAesthetic attributes of a geometries (color, size, transparency, etc.) can be mapped to variables in the data or set by the user, e.g. color = binary vs. color = \"pink\".\nUse facet_wrap() when faceting (creating small multiples) by one variable and facet_grid() when faceting by two variables.\n\n\n\n\n\n🔗 renr213.github.io"
+    "text": "Recap of AE\n\nConstruct plots with ggplot().\nLayers of ggplots are separated by +s.\nThe formula is (almost) always as follows:\n\n\nggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +\n  geom_XXX()\n\n\nAesthetic attributes of a geometries (color, size, transparency, etc.) can be mapped to variables in the data or set by the user, e.g. color = binary vs. color = \"pink\".\nUse facet_wrap() when faceting (creating small multiples) by one variable and facet_grid() when faceting by two variables."
   },
   {
     "objectID": "slides/08-data-types-classes.html#while-you-wait-for-class-to-begin",
@@ -4977,7 +4955,7 @@
     "href": "slides/08-data-types-classes.html#ae-07-population-types",
     "title": "Data types and classes",
     "section": "ae-07-population-types",
-    "text": "ae-07-population-types\n\n\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae.\nIf there are any uncommitted files, commit them, and then click Pull.\nOpen the file called ae-07-population-types.qmd and render it.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "ae-07-population-types\n\n\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae.\nIf there are any uncommitted files, commit them, and then click Pull.\nOpen the file called ae-07-population-types.qmd and render it."
   },
   {
     "objectID": "slides/25-wrapup-shiny.html#while-you-wait-for-class-to-begin",
@@ -5096,7 +5074,7 @@
     "href": "slides/25-wrapup-shiny.html#live-demo",
     "title": "Wrap-up + Shiny",
     "section": "Live demo",
-    "text": "Live demo\nLet’s make a weather app!\nGo to https://github.com/renr213/shiny-demo to follow along.\n\n\n\n\n\n\nNote\n\n\nIf you want to code along, click on the “Use this template” button to create a copy of this repo for yourself, clone it in RStudio, and code along as usual.\n\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Live demo\nLet’s make a weather app!\nGo to https://github.com/renr213/shiny-demo to follow along.\n\n\n\n\n\n\nNote\n\n\nIf you want to code along, click on the “Use this template” button to create a copy of this repo for yourself, clone it in RStudio, and code along as usual."
   },
   {
     "objectID": "slides/15-linear-model-single-predictor.html#announcements",
@@ -5257,7 +5235,7 @@
     "href": "slides/15-linear-model-single-predictor.html#application-exercise-ae-11-penguins-modeling",
     "title": "Linear regression with a single predictor",
     "section": "Application exercise: ae-11-penguins-modeling",
-    "text": "Application exercise: ae-11-penguins-modeling\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nPull, and then work on ae-11-penguins-modeling.qmd.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Application exercise: ae-11-penguins-modeling\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nPull, and then work on ae-11-penguins-modeling.qmd."
   },
   {
     "objectID": "slides/13-ethics.html#while-you-wait-for-class-to-begin",
@@ -5446,7 +5424,7 @@
     "href": "slides/13-ethics.html#wru-package-2",
     "title": "Data science ethics",
     "section": "wru package",
-    "text": "wru package\n\nme &lt;- tibble(surname = \"Rundel\")\n\npredict_race(voter.file = me, surname.only = TRUE)\n\n  surname  pred.whi pred.bla pred.his pred.asi   pred.oth\n1  Rundel 0.9177967        0        0        0 0.08220329\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "wru package\n\nme &lt;- tibble(surname = \"Rundel\")\n\npredict_race(voter.file = me, surname.only = TRUE)\n\n  surname  pred.whi pred.bla pred.his pred.asi   pred.oth\n1  Rundel 0.9177967        0        0        0 0.08220329"
   },
   {
     "objectID": "slides/21-randomization.html#while-you-wait-for-class-to-begin",
@@ -5572,7 +5550,7 @@
     "href": "slides/21-randomization.html#recap-of-ae",
     "title": "Making decisions with randomization tests",
     "section": "Recap of AE",
-    "text": "Recap of AE\n\nA hypothesis test is a statistical technique used to evaluate competing claims (null and alternative hypotheses) using data.\nWe simulate a null distribution using our original data.\nWe use our sample statistic and direction of the alternative hypothesis to calculate the p-value.\nWe use the p-value to determine conclusions about the alternative hypotheses.\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Recap of AE\n\nA hypothesis test is a statistical technique used to evaluate competing claims (null and alternative hypotheses) using data.\nWe simulate a null distribution using our original data.\nWe use our sample statistic and direction of the alternative hypothesis to calculate the p-value.\nWe use the p-value to determine conclusions about the alternative hypotheses."
   },
   {
     "objectID": "slides/06-tidying-data.html#while-you-wait-for-class-to-begin",
@@ -5691,7 +5669,7 @@
     "href": "slides/06-tidying-data.html#recap-pivoting",
     "title": "Tidying data",
     "section": "Recap: pivoting",
-    "text": "Recap: pivoting\n\n\nData sets can’t be labeled as wide or long but they can be made wider or longer for a certain analysis that requires a certain format\nWhen pivoting longer, variable names that turn into values are characters by default. If you need them to be in another format, you need to explicitly make that transformation, which you can do so within the pivot_longer() function.\nYou can tweak a plot forever, but at some point the tweaks are likely not very productive. However, you should always be critical of defaults (however pretty they might be) and see if you can improve the plot to better portray your data / results / what you want to communicate.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Recap: pivoting\n\n\nData sets can’t be labeled as wide or long but they can be made wider or longer for a certain analysis that requires a certain format\nWhen pivoting longer, variable names that turn into values are characters by default. If you need them to be in another format, you need to explicitly make that transformation, which you can do so within the pivot_longer() function.\nYou can tweak a plot forever, but at some point the tweaks are likely not very productive. However, you should always be critical of defaults (however pretty they might be) and see if you can improve the plot to better portray your data / results / what you want to communicate."
   },
   {
     "objectID": "slides/09-exam-1-review.html#while-you-wait-for-class-to-begin",
@@ -6118,7 +6096,7 @@
     "href": "slides/00-welcome-renr213.html#this-weeks-tasks",
     "title": "Welcome to REN R 213",
     "section": "This week’s tasks",
-    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\nRead the syllabus\nStart readings for next week\n\n\n\n\n\n🔗 renr213.github.io"
+    "text": "This week’s tasks\n\nComplete Lab 0\n\nComputational setup\nGetting to know you survey\n\nRead the syllabus\nStart readings for next week"
   },
   {
     "objectID": "slides/20-bootstrap.html#while-you-wait-for-class-to-begin",
@@ -6237,7 +6215,7 @@
     "href": "slides/20-bootstrap.html#application-exercise-ae-15-duke-forest-bootstrap",
     "title": "Quantifying uncertainty with bootstrap intervals",
     "section": "Application exercise: ae-15-duke-forest-bootstrap",
-    "text": "Application exercise: ae-15-duke-forest-bootstrap\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-15-duke-forest-bootstrap.qmd.\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Application exercise: ae-15-duke-forest-bootstrap\n\n\nGo back to your project called ae.\nIf there are any uncommitted files, commit them, and push.\nWork on ae-15-duke-forest-bootstrap.qmd."
   },
   {
     "objectID": "slides/05-grammar-of-data-wrangling.html#while-you-wait-for-class-to-begin",
@@ -6426,7 +6404,7 @@
     "href": "slides/05-grammar-of-data-wrangling.html#recap-logical-operators-1",
     "title": "Grammar of data wrangling",
     "section": "Recap: logical operators",
-    "text": "Recap: logical operators\n\n\n\n\n\n\n\noperator\ndefinition\n\n\n\n\nx & y\nis x AND y?\n\n\nx \\| y\nis x OR y?\n\n\nis.na(x)\nis x NA?\n\n\n!is.na(x)\nis x not NA?\n\n\nx %in% y\nis x in y?\n\n\n!(x %in% y)\nis x not in y?\n\n\n!x\nis not x? (only makes sense if x is TRUE or FALSE)\n\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Recap: logical operators\n\n\n\n\n\n\n\noperator\ndefinition\n\n\n\n\nx & y\nis x AND y?\n\n\nx \\| y\nis x OR y?\n\n\nis.na(x)\nis x NA?\n\n\n!is.na(x)\nis x not NA?\n\n\nx %in% y\nis x in y?\n\n\n!(x %in% y)\nis x not in y?\n\n\n!x\nis not x? (only makes sense if x is TRUE or FALSE)"
   },
   {
     "objectID": "slides/10-importing-recoding-data.html#while-you-wait-for-class-to-begin",
@@ -6503,7 +6481,7 @@
     "href": "slides/10-importing-recoding-data.html#exams",
     "title": "Importing and recoding data",
     "section": "Exams",
-    "text": "Exams\n\n\n\n\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Exams"
   },
   {
     "objectID": "slides/18-model-selection-overfitting.html#while-you-wait-for-class-to-begin",
@@ -6566,7 +6544,7 @@
     "href": "slides/18-model-selection-overfitting.html#recap-ae-13-modeling-loans",
     "title": "Model selection and overfitting",
     "section": "Recap: ae-13-modeling-loans",
-    "text": "Recap: ae-13-modeling-loans\n\nWhat is the practical difference between a model with parallel and non-parallel lines?\nWhat is the definition of R-squared?\nWhy do we choose models based on adjusted R-squared and not R-squared?\n\n\n\n\n\n🔗 renr213.github.io  ·  ❓ Ask on Ed"
+    "text": "Recap: ae-13-modeling-loans\n\nWhat is the practical difference between a model with parallel and non-parallel lines?\nWhat is the definition of R-squared?\nWhy do we choose models based on adjusted R-squared and not R-squared?"
   },
   {
     "objectID": "about.html",
@@ -6771,39 +6749,6 @@
     "crumbs": [
       "Course information",
       "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-support.html#canvas-discussion",
-    "href": "course-support.html#canvas-discussion",
-    "title": "Course support",
-    "section": "Canvas Discussion",
-    "text": "Canvas Discussion\nHave a question that can’t wait? Prefer to write out your question in detail rather than asking in person? The course discussion forum, Canvas discussion, is the best venue for these! Another student may have asked a similar question, so please check the other posts on before asking a new question. If you know the answer to a question that is posted, I encourage you to respond.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#google-chat",
-    "href": "course-support.html#google-chat",
-    "title": "Course support",
-    "section": "Google Chat",
-    "text": "Google Chat\nPlease refrain from trying to contact me via email. I greatly prefer Google Chat to email for course related communication.\nAny course content questions (those should go to Canvas Discussion), and only use Google Chat for questions about personal matters that may not be appropriate for the public course forum (e.g., illness, accommodations, etc.).\nUse Google Chat for questions not appropriate for the public forum. Please send me a Google Chat message at gwa@ualberta.ca. Barring extenuating circumstances, I will respond to REN R 213 chats within two business days.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "course-support.html#assistance-with-google-meet-or-canvas",
-    "href": "course-support.html#assistance-with-google-meet-or-canvas",
-    "title": "Course support",
-    "section": "Assistance with Google Meet or Canvas",
-    "text": "Assistance with Google Meet or Canvas\nFor technical help with Google Meet or Canvas, access the self-service help documentation for Google Meet here and for Canvas here. If this documentation does not provide an adequate answer, email IST eClass Support at eclass@ualberta.ca or phone 780-492-9372.\nNote that we will be making minimal use of Canvas in this course (primarily for announcements and grade book). All assignment submission will take place on GitHub and conversation on Ed Discussion.\nGoogle Meet will be used for live interactions between the instructor and students.",
-    "crumbs": [
-      "Course information",
-      "Support"
     ]
   }
 ]
