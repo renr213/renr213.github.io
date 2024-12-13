@@ -15,13 +15,13 @@ But today, we need to set you up for success! Let's first briefly review the com
 
 1.  R: The programming language you'll learn in this course.
 
-2.  RStudio: The piece of software (a.k.a. the integrated development environment, IDE) you'll use to write R code in.
+2.  RStudio: The piece of software (a.k.a. the integrated development environment, IDE) you'll use to write R code.
 
 ::: callout-note
 R is the name of the programming language itself and RStudio is a convenient interface.
 :::
 
-3.  Quarto: The tool you'll use to create reproducible computational documents that contain both your narrative (i.e., words in English) and your code (i.e., code in R). Every assignment and lab you hand in will be a Quarto document.
+3.  Quarto: The tool you'll use to create reproducible computational documents that contain both your narrative (*i.e.*, words in English) and your code (*i.e.*, code in R). Every assignment and lab you hand in will be a Quarto document.
 
 ::: callout-note
 You might be familiar with word processors like MS Word or Google Docs. We will not be using these in this class. Instead, the words you would write in such a document as well as the code will go into a Quarto document, and when you *render* the document (more on what this means later) you will get a document out that has your words, your code, and the output of that code. Everything in one place, beautifully formatted!
@@ -36,9 +36,9 @@ Git is a version control system (like "Track Changes" features from Microsoft Wo
 
 ## Access R and RStudio
 
-Create a student account on Posit Cloud at <https://posit.cloud/plans>. This will cost you \$5/month and gives you 75 hours/month of compute hours.
+Create a student account on Posit Cloud at <https://posit.cloud/plans>. This will cost you \$5 (US)/month and will give you 75 hours/month of compute hours.
 
-Alternatively, you can create a free account which gives you 25 hours/month of compute hours. You can upgrade to a student account later if you need to.
+Alternatively, you can create a free account which will give you 25 hours/month of compute hours. You can upgrade to a student account later if you need to.
 
 ## Create a GitHub account
 
@@ -82,24 +82,17 @@ To do so, you will use the `use_git_config()` function from the `usethis` packag
 You'll hear about 📦 packages a lot in the context of R – basically they're how developers write functions and bundle them to distribute to the community (and more on this later too!).
 :::
 
-Type the following lines of code in the **console** in RStudio filling in your name and the address associated with your GitHub account.
+Type the following lines of code in the **console** in RStudio using your name and the address associated with your GitHub account.
 
-```{install.packages("usethis")}
-usethis::use_git_config(
-  user.name = "Your name", 
-  user.email = "Email associated with your GitHub account"
-)
-```
+`{install.packages("usethis")}`
+
+`usethis::use_git_config(user.name = "Your name",    user.email = "Email associated with your GitHub account" )`
 
 For example, mine would be
 
-```{install.packages("usethis")}
+`{install.packages("usethis")}`
 
-usethis::use_git_config(
-  user.name = "Glen Armstrong", 
-  user.email = "glen.armstrong@ualberta.ca"
-)
-```
+`usethis::use_git_config( user.name = "Glen Armstrong", user.email = "glen.armstrong@ualberta.ca" )`
 
 You are now ready interact with GitHub via RStudio!
 

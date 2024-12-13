@@ -1,0 +1,226 @@
+---
+title: "Welcome to REN R 213"
+subtitle: "Lecture 0"
+date: "January 6, 2025"
+format: revealjs
+---
+
+## Meet the prof
+
+::::: columns
+::: {.column width="50%"}
+Dr. Glen W. Armstrong
+
+Associate Professor
+:::
+
+::: {.column width="50%"}
+![](images/glen.png){fig-alt="Headshot of Dr. Glen W. Armstrong" fig-align="center"}
+:::
+:::::
+
+::: notes
+Speaker notes go here.
+:::
+
+## Meet data science
+
+-   Data science is an exciting discipline that allows you to turn raw data into understanding, insight, and knowledge.
+
+-   We're going to learn to do this in a `tidy` way -- more on that later!
+
+-   This is a course on introduction to data science, with an emphasis on statistical thinking.
+
+# Software
+
+## Excel - not...
+
+![](images/excel.png){fig-alt="An Excel window with data about countries" fig-align="center"}
+
+## R
+
+![](images/r.png){fig-alt="An R shell" fig-align="center"}
+
+## RStudio
+
+![](images/rstudio.png){fig-alt="An RStudio window" fig-align="center"}
+
+# Data science life cycle
+
+## Data science life cycle
+
+![](images/data-science-cycle/data-science-cycle.001.png){fig-alt="Data science life cycle"}
+
+## Import
+
+![](images/data-science-cycle/data-science-cycle.002.png){fig-alt="Data science life cycle, with import highlighted"}
+
+## Tidy + transform
+
+![](images/data-science-cycle/data-science-cycle.003.png){fig-alt="Data science life cycle, with tidy and transform highlighted"}
+
+## Visualize
+
+![](images/data-science-cycle/data-science-cycle.004.png){fig-alt="Data science life cycle, with visualize highlighted"}
+
+## Model
+
+![](images/data-science-cycle/data-science-cycle.005.png){fig-alt="Data science life cycle, with model highlighted"}
+
+## Understand
+
+![](images/data-science-cycle/data-science-cycle.006.png){fig-alt="Data science life cycle, with understand highlighted"}
+
+## 
+
+::::: columns
+::: {.column width="50%"}
+```{r echo=FALSE, out.width="75%", fig.align="left"}
+knitr::include_graphics("images/google-trend-index.png")
+```
+:::
+
+::: {.column width="50%"}
+```{r echo=FALSE, out.width="90%", fig.align="right"}
+knitr::include_graphics("images/data-science-cycle/data-science-cycle.006.png")
+```
+
+```{r}
+#| echo: false
+#| message: false
+
+library(tidyverse)
+travel <- tribble(
+  ~date,              ~season,
+  "23 January 2017",  "winter",
+  "4 March 2017",     "spring",
+  "14 June 2017",     "summer",
+  "1 September 2017", "fall",
+  "...", "..."
+)
+travel
+```
+:::
+:::::
+
+## Communicate
+
+![](images/data-science-cycle/data-science-cycle.007.png){fig-alt="Data science life cycle, with communicate highlighted"}
+
+## Understand + communicate
+
+![](images/data-science-cycle/data-science-cycle.008.png){fig-alt="Data science life cycle, with understand and communicate highlighted"}
+
+## Program
+
+![](images/data-science-cycle/data-science-cycle.009.png){fig-alt="Data science life cycle, with program highlighted"}
+
+# Let's dive in!
+
+## Application exercise
+
+::: appex
+Or more like demo for today...
+
+📋 [github.com/renr213/](https://github.com/renr213/ae-00-unvotes/)[ae-00-unvotes](https://github.com/renr213/ae-00-unvotes)
+:::
+
+# Course overview
+
+## Homepage
+
+[https://renr213.github.io](https://renr213-w25.github.io/){.uri}
+
+-   All course materials
+-   Links to Posit Cloud, Canvas, GitHub, etc.
+
+## Course toolkit
+
+All linked from the course website:
+
+-   GitHub organization: [github.com/renr213](https://github.com/renr213)
+-   Canvas discussions page
+-   Assignment submission and feedback: Gradescope
+
+## Activities {.smaller}
+
+-   Introduce new content and prepare for lectures by watching the videos and completing the readings
+-   Attend and actively participate in lectures and labs, office hours, team meetings
+-   Practice applying statistical concepts and computing with application exercises during lecture, graded for completion
+-   Put together what you've learned to analyze real-world data
+    -   Lab assignments x 7
+    -   Exams x 2
+    -   Term project presented in the last lab session
+
+## Exams {.smaller}
+
+-   Two exams, each 20%
+
+-   Each exam comprised of two parts:
+
+    -   In class: 75 minute in-class exam. Closed book, one sheet of notes (“cheat sheet”, no larger than 8 1/2 x 11, both sides, **must be prepared by you**) – 70% of the grade
+
+    -   Take home: The take home portion will follow from the in class exam and focus on the analysis of a dataset introduced in the take home exam – 30% of the grade
+
+::: callout-caution
+Exam dates cannot be changed and no make-up exams will be given. If you can’t take the exams on these dates, you should drop this class.
+:::
+
+## Grading {.smaller}
+
+| Category              | Percentage |
+|-----------------------|------------|
+| Labs                  | 35%        |
+| Project               | 20%        |
+| Exam 1                | 20%        |
+| Exam 2                | 20%        |
+| Application Exercises | 5%         |
+
+No specific points allocated to attendance, but attendance will be recorded periodically throughout the semester, and this information will be used as “extra credit” if you’re in between two grades and a minor bump would help.
+
+See [course syllabus](https://renr213-w25.github.io/course-syllabus.html) for how the final letter grade will be determined.
+
+## Support
+
+-   Ask and answer questions on the discussion forum
+-   Reserve email for questions on personal matters and/or grades
+-   Read the [course support](https://sta199-f22-1.github.io/course-support.html) page
+
+## Announcements
+
+-   Posted on Canvas (Announcements tool) and sent via email, be sure to check both regularly
+-   I'll assume that you've read an announcement by the next "business" day
+-   I'll (try my best to) send a weekly update announcement each Friday, outlining the plan for the following week and reminding you what you need to do to prepare, practice, and perform
+
+# Course policies
+
+## Late work, waivers, regrades policy
+
+-   We have policies!
+-   Read about them on the [course syllabus](https://sta199-f22-1.github.io/course-syllabus.html) and refer back to them when you need it
+
+## Academic integrity
+
+See the University of Alberta's [academic integrity pages](https://www.ualberta.ca/en/dean-of-students/projects-and-initiatives/academic-integrity-students/index.html).
+
+> Be aware of the interpretations of, and the serious academic penalties for:
+>
+> -   cheating,
+>
+> -   inappropriate collaboration,
+>
+> -   plagiarism, and
+>
+> -   substantial assistance
+
+UAlberta's formal definitions of academic misconduct can be found [here](https://policiesonline.ualberta.ca/PoliciesProcedures/Procedures/Student%20Academic%20Integrity%20Policy%20Appendix%20A%20Academic%20Misconduct.pdf).
+
+# Wrap up
+
+## This week's tasks
+
+-   Complete Lab 0
+    -   Computational setup
+    -   Getting to know you survey
+-   Read the syllabus
+-   Start readings for next week

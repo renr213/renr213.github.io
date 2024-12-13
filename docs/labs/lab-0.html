@@ -341,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
 <p>But today, we need to set you up for success! Let’s first briefly review the components of the computational toolkit for the course:</p>
 <ol type="1">
 <li><p>R: The programming language you’ll learn in this course.</p></li>
-<li><p>RStudio: The piece of software (a.k.a. the integrated development environment, IDE) you’ll use to write R code in.</p></li>
+<li><p>RStudio: The piece of software (a.k.a. the integrated development environment, IDE) you’ll use to write R code.</p></li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -357,7 +357,7 @@ Note
 </div>
 </div>
 <ol start="3" type="1">
-<li>Quarto: The tool you’ll use to create reproducible computational documents that contain both your narrative (i.e., words in English) and your code (i.e., code in R). Every assignment and lab you hand in will be a Quarto document.</li>
+<li>Quarto: The tool you’ll use to create reproducible computational documents that contain both your narrative (<em>i.e.</em>, words in English) and your code (<em>i.e.</em>, code in R). Every assignment and lab you hand in will be a Quarto document.</li>
 </ol>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -391,8 +391,8 @@ Note
 </div>
 <section id="access-r-and-rstudio" class="level2">
 <h2 class="anchored" data-anchor-id="access-r-and-rstudio">Access R and RStudio</h2>
-<p>Create a student account on Posit Cloud at <a href="https://posit.cloud/plans" class="uri">https://posit.cloud/plans</a>. This will cost you $5/month and gives you 75 hours/month of compute hours.</p>
-<p>Alternatively, you can create a free account which gives you 25 hours/month of compute hours. You can upgrade to a student account later if you need to.</p>
+<p>Create a student account on Posit Cloud at <a href="https://posit.cloud/plans" class="uri">https://posit.cloud/plans</a>. This will cost you $5 (US)/month and will give you 75 hours/month of compute hours.</p>
+<p>Alternatively, you can create a free account which will give you 25 hours/month of compute hours. You can upgrade to a student account later if you need to.</p>
 </section>
 <section id="create-a-github-account" class="level2">
 <h2 class="anchored" data-anchor-id="create-a-github-account">Create a GitHub account</h2>
@@ -469,11 +469,12 @@ Note
 <p>You’ll hear about 📦 packages a lot in the context of R – basically they’re how developers write functions and bundle them to distribute to the community (and more on this later too!).</p>
 </div>
 </div>
-<p>Type the following lines of code in the <strong>console</strong> in RStudio filling in your name and the address associated with your GitHub account.</p>
-<p><code>{install.packages("usethis")} usethis::use_git_config(   user.name = "Your name",    user.email = "Email associated with your GitHub account" )</code></p>
+<p>Type the following lines of code in the <strong>console</strong> in RStudio using your name and the address associated with your GitHub account.</p>
+<p><code>{install.packages("usethis")}</code></p>
+<p><code>usethis::use_git_config(user.name = "Your name",    user.email = "Email associated with your GitHub account" )</code></p>
 <p>For example, mine would be</p>
-<p>```{install.packages(“usethis”)}</p>
-<p>usethis::use_git_config( user.name = “Glen Armstrong”, user.email = “glen.armstrong@ualberta.ca” ) ```</p>
+<p><code>{install.packages("usethis")}</code></p>
+<p><code>usethis::use_git_config( user.name = "Glen Armstrong", user.email = "glen.armstrong@ualberta.ca" )</code></p>
 <p>You are now ready interact with GitHub via RStudio!</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
