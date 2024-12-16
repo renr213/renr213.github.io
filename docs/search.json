@@ -3614,11 +3614,11 @@
     ]
   },
   {
-    "objectID": "labs/lab-0.html#set-up-your-ssh-key",
-    "href": "labs/lab-0.html#set-up-your-ssh-key",
+    "objectID": "labs/lab-0.html#create-a-personal-access-token-pat",
+    "href": "labs/lab-0.html#create-a-personal-access-token-pat",
     "title": "Lab 0 - Hello, World and REN R 213!",
-    "section": "Set up your SSH key",
-    "text": "Set up your SSH key\nYou will authenticate GitHub using SSH (Secure Shell Protocol – it doesn’t really matter what this means for the purpose of this course). Below is an outline of the authentication steps; you are encouraged to follow along as your instructor the steps.\n\n\n\n\n\n\nNote\n\n\n\nYou only need to do this authentication process one time on a single system.\n\n\n\nGo back to your RStudio instance on Posit Cloud and type install.packages(\"credentials\") into your console. You will see a number of information messages about the installation of the credentials package.\nThen type credentials::ssh_setup_github() into your console.\nR will ask “No SSH key found. Generate one now?” You should click 1 for yes.\nYou will generate a key. It will begin with “ecdsa-sha2….” R will then ask “Would you like to open a browser now?” First you should copy the key to your clipboard, and then you should click 1 for yes.\nYou may be asked to provide your GitHub username and password to log into GitHub. After entering this information, you should paste the key in and give it a name. You might name it in a way that indicates where the key will be used, e.g., renr213).\n\nYou can find more detailed instructions here if you’re interested.",
+    "section": "Create a personal access token (PAT)",
+    "text": "Create a personal access token (PAT)\nYou will authenticate GitHub using a personal access token (PAT), which is like a password which allows one application to access another. Below is an outline of the authentication steps; you are encouraged to follow along as your instructor the steps.\n\n\n\n\n\n\nNote\n\n\n\nI strongly recommend that you store your PAT in a password manager, like 1Password or Passwords (on a Mac).",
     "crumbs": [
       "Labs",
       "Lab 0"
@@ -3629,7 +3629,7 @@
     "href": "labs/lab-0.html#configure-git",
     "title": "Lab 0 - Hello, World and REN R 213!",
     "section": "Configure Git",
-    "text": "Configure Git\nThere is one more thing we need to do before getting started on the assignment. Specifically, we need to configure your git so that RStudio can communicate with GitHub. This requires two pieces of information: your name and email address.\nTo do so, you will use the use_git_config() function from the usethis package.\n\n\n\n\n\n\nNote\n\n\n\nYou’ll hear about 📦 packages a lot in the context of R – basically they’re how developers write functions and bundle them to distribute to the community (and more on this later too!).\n\n\nType the following lines of code in the console in RStudio using your name and the address associated with your GitHub account.\n{install.packages(\"usethis\")}\nusethis::use_git_config(user.name = \"Your name\",    user.email = \"Email associated with your GitHub account\" )\nFor example, mine would be\n{install.packages(\"usethis\")}\nusethis::use_git_config( user.name = \"Glen Armstrong\", user.email = \"glen.armstrong@ualberta.ca\" )\nYou are now ready interact with GitHub via RStudio!\n\n\n\n\n\n\nNeed a recap? Watch this video!\n\n\n\n\n\nThe following video walks you through the steps outlined in the SSH key generation and Git configuration sections above.",
+    "text": "Configure Git\nThere is one more thing we need to do before getting started on the assignment. Specifically, we need to configure your git so that RStudio can communicate with GitHub. This requires two pieces of information: your name and email address.\nTo do so, you will use the use_git_config() function from the usethis package.\n\n\n\n\n\n\nNote\n\n\n\nYou’ll hear about 📦 packages a lot in the context of R – basically they’re how developers write functions and bundle them to distribute to the community (and more on this later too!).\n\n\nType the following lines of code in the console in RStudio using your name and the address associated with your GitHub account.\ninstall.packages(\"usethis\")\nusethis::use_git_config(user.name = \"Your name\",    user.email = \"Email associated with your GitHub account\" )\nFor example, mine would be\ninstall.packages(\"usethis\")\nusethis::use_git_config( user.name = \"Glen Armstrong\", user.email = \"glen.armstrong@ualberta.ca\" )\nYou are now ready interact with GitHub via RStudio!\n\n\n\n\n\n\nNeed a recap? Watch this video!\n\n\n\n\n\nThe following video walks you through the steps outlined in the Git configuration section above.",
     "crumbs": [
       "Labs",
       "Lab 0"
@@ -4570,7 +4570,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "REN R 213: Data Science for Resource Management",
+    "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "",
     "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 InternationalLicense. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
     "crumbs": [
@@ -4581,7 +4581,7 @@
   {
     "objectID": "index.html#introduction",
     "href": "index.html#introduction",
-    "title": "REN R 213: Data Science for Resource Management",
+    "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "",
     "text": "This page contains an outline of the topics, content, and assignments for the semester. Note that this schedule will be updated as the semester progresses and the timeline of topics and assignments might be updated throughout the semester.\nMost of the material for this course was developed by Mine Çetinkaya-Rundel. I thank her for making this material available to the public through a Creative Commons Attribution-Noncommercial 4.0 InternationalLicense. Any material on this web site created by me (Glen W. Armstrong) is licensed under the same terms.",
     "crumbs": [
@@ -4592,7 +4592,7 @@
   {
     "objectID": "index.html#class-schedule",
     "href": "index.html#class-schedule",
-    "title": "REN R 213: Data Science for Resource Management",
+    "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "Class Schedule",
     "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0\n\n\n\n\n\n\nTue, Jan 7\n\n\n🗣️Welcome to REN R 213\n🖥️ slides 00  ⌨️ ae 00\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1 \n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 \n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n💻 lab 1 \n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n🖥️ slides 03  ⌨️ ae 02 (cont.) \n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n🖥️ slides 04  ⌨️ ae 03 \n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n🖥️ slides 05  ⌨️ ae 04 \nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n💻 lab 2 \n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n🖥️ slides 06  ⌨️ ae 05 \n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n🖥️ slides 07  ⌨️ ae 06 \n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n💻 lab 3 \nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n🖥️ slides 08  ⌨️ ae 07 \n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n🖥️ slides 10  ⌨️ ae 08 \n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n🖥️ slides 11  ⌨️ ae 09  ⌨️ ae 09 \nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n💻 lab 4 \n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n🖥️ slides 12  ⌨️ ae 09 \n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n🖥️ slides 14  ⌨️ ae 10 \n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n🖥️ slides 15  ⌨️ ae 11 \nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
     "crumbs": [

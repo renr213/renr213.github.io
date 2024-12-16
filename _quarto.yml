@@ -5,7 +5,7 @@ project:
 website:
   page-navigation: true
   title: REN R 213
-  description: "Homepage for REN R 213 - Data Science for Resource Management."
+  description: "Homepage for REN R 213 - Data Science for Natural Resource Managers"
   site-url: "https://renr213.github.io/"
 
   repo-url: https://github.com/renr213/renr213.github.io/

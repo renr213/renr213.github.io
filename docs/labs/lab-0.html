@@ -72,10 +72,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Lab 0 - Hello, World and REN R 213! – REN R 213">
-<meta property="og:description" content="Homepage for REN R 213 - Data Science for Resource Management.">
+<meta property="og:description" content="Homepage for REN R 213 - Data Science for Natural Resource Managers">
 <meta property="og:site_name" content="REN R 213">
 <meta name="twitter:title" content="Lab 0 - Hello, World and REN R 213! – REN R 213">
-<meta name="twitter:description" content="Homepage for REN R 213 - Data Science for Resource Management.">
+<meta name="twitter:description" content="Homepage for REN R 213 - Data Science for Natural Resource Managers">
 <meta name="twitter:image" content="https://renr213.github.io/labs/img/twitter-card.png">
 <meta name="twitter:creator" content="@minebocek">
 <meta name="twitter:card" content="summary_large_image">
@@ -302,7 +302,7 @@ ul.task-list li input[type="checkbox"] {
   <ul class="collapse">
   <li><a href="#access-r-and-rstudio" id="toc-access-r-and-rstudio" class="nav-link" data-scroll-target="#access-r-and-rstudio">Access R and RStudio</a></li>
   <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">Create a GitHub account</a></li>
-  <li><a href="#set-up-your-ssh-key" id="toc-set-up-your-ssh-key" class="nav-link" data-scroll-target="#set-up-your-ssh-key">Set up your SSH key</a></li>
+  <li><a href="#create-a-personal-access-token-pat" id="toc-create-a-personal-access-token-pat" class="nav-link" data-scroll-target="#create-a-personal-access-token-pat">Create a personal access token (PAT)</a></li>
   <li><a href="#configure-git" id="toc-configure-git" class="nav-link" data-scroll-target="#configure-git">Configure Git</a></li>
   </ul></li>
   <li><a href="#hello-ren-r-213" id="toc-hello-ren-r-213" class="nav-link" data-scroll-target="#hello-ren-r-213">Hello REN R 213!</a></li>
@@ -427,9 +427,9 @@ What if I already have a GitHub account?
 </div>
 </div>
 </section>
-<section id="set-up-your-ssh-key" class="level2">
-<h2 class="anchored" data-anchor-id="set-up-your-ssh-key">Set up your SSH key</h2>
-<p>You will authenticate GitHub using SSH (Secure Shell Protocol – it doesn’t really matter what this means for the purpose of this course). Below is an outline of the authentication steps; you are encouraged to follow along as your instructor the steps.</p>
+<section id="create-a-personal-access-token-pat" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-personal-access-token-pat">Create a personal access token (PAT)</h2>
+<p>You will authenticate GitHub using a personal access token (PAT), which is like a password which allows one application to access another. Below is an outline of the authentication steps; you are encouraged to follow along as your instructor the steps.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -440,17 +440,9 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You only need to do this authentication process one time on a single system.</p>
+<p>I strongly recommend that you store your PAT in a password manager, like 1Password or Passwords (on a Mac).</p>
 </div>
 </div>
-<ul>
-<li>Go back to your RStudio instance on Posit Cloud and type <code>install.packages("credentials")</code> into your console. You will see a number of information messages about the installation of the credentials package.</li>
-<li>Then type <code>credentials::ssh_setup_github()</code> into your console.</li>
-<li>R will ask “No SSH key found. Generate one now?” You should click 1 for yes.</li>
-<li>You will generate a key. It will begin with “ecdsa-sha2….” R will then ask “Would you like to open a browser now?” First you should copy the key to your clipboard, and then you should click 1 for yes.</li>
-<li>You may be asked to provide your GitHub username and password to log into GitHub. After entering this information, you should paste the key in and give it a name. You might name it in a way that indicates where the key will be used, e.g., <code>renr213</code>).</li>
-</ul>
-<p>You can find more detailed instructions <a href="https://github.com/DukeStatSci/github_auth_guide">here</a> if you’re interested.</p>
 </section>
 <section id="configure-git" class="level2">
 <h2 class="anchored" data-anchor-id="configure-git">Configure Git</h2>
@@ -470,10 +462,10 @@ Note
 </div>
 </div>
 <p>Type the following lines of code in the <strong>console</strong> in RStudio using your name and the address associated with your GitHub account.</p>
-<p><code>{install.packages("usethis")}</code></p>
+<p><code>install.packages("usethis")</code></p>
 <p><code>usethis::use_git_config(user.name = "Your name",    user.email = "Email associated with your GitHub account" )</code></p>
 <p>For example, mine would be</p>
-<p><code>{install.packages("usethis")}</code></p>
+<p><code>install.packages("usethis")</code></p>
 <p><code>usethis::use_git_config( user.name = "Glen Armstrong", user.email = "glen.armstrong@ualberta.ca" )</code></p>
 <p>You are now ready interact with GitHub via RStudio!</p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -488,7 +480,7 @@ Need a recap? Watch this video!
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>The following video walks you through the steps outlined in the SSH key generation and Git configuration sections above.</p>
+<p>The following video walks you through the steps outlined in the Git configuration section above.</p>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3lONVzFw680" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 </div>
