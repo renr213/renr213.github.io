@@ -11,9 +11,7 @@ format: revealjs
 
 -   If you have not yet completed the Getting to know you survey, please do so asap!
 
--   If you have not yet accepted the invite to join the course GitHub Organization (I'm looking at 41 of you as of this morning!), please do so asap!
-
--   Office hours + locations linked at <https://renr213.github.io/course-team.html>, come say hi to me or any of the TAs!
+-   If you have not yet accepted the invite to join the course GitHub Organization
 
 # From last time...
 
@@ -22,8 +20,6 @@ format: revealjs
 Let's take a tour!
 
 ## Collaboration policy
-
--   Only work that is clearly assigned as team work should be completed collaboratively.
 
 -   Homeworks must be completed individually. You may **not** directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.
 
@@ -53,13 +49,7 @@ Let's take a tour!
 
 ## Academic integrity
 
-> To uphold the Duke Community Standard:
->
-> -   I will not lie, cheat, or steal in my academic endeavors;
->
-> -   I will conduct myself honorably in all my endeavors; and
->
-> -   I will act if the Standard is compromised.
+Familiarize yourself with UAlberta's [Student Academic Integrity Policy](https://policiesonline.ualberta.ca/PoliciesProcedures/Procedures/Student%20Academic%20Integrity%20Policy%20Appendix%20A%20Academic%20Misconduct.pdf)
 
 ## Most importantly!
 
@@ -85,9 +75,9 @@ Ask if you're not sure if something violates a policy!
 ::: {.column width="50%"}
 **Course operation**
 
--   Materials: [renr213.github.io](https://renr213.github.io/)
+-   Materials:[https://w25.r4nrm.ca](#0)
 -   Submission: Gradescope
--   Discussion: Ed Discussion
+-   Discussion: Canvas
 -   Gradebook: Canvas
 :::
 
@@ -115,8 +105,8 @@ By the end of the course, you will be able to...
 -   gain insight from data
 -   gain insight from data, **reproducibly**
 -   gain insight from data, reproducibly, **using modern programming tools and techniques**
--   gain insight from data, reproducibly **and collaboratively**, using modern programming tools and techniques
--   gain insight from data, reproducibly **(with literate programming and version control)** and collaboratively, using modern programming tools and techniques
+-   gain insight from data, reproducibly **and collaboratively**, using modern 
+-   gain insight from data, reproducibly **(with literate programming and version control)**, using modern programming tools and techniques
 :::
 
 # Reproducible data analysis
