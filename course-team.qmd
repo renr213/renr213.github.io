@@ -2,6 +2,8 @@
 title: "Instructor"
 ---
 
-![](img/team/glen.png){width=50%, style="float:right;padding: 0 0 0 10px;"}
+![](img/team/glen.png){width="50%," style="float:right;padding: 0 0 0 10px;"}
 
-**Dr. Glen W. Armstrong** is a very funny man.
+**Dr. Glen W. Armstrong** is an Associate Professor in the Department of Renewable Resources at the University of Alberta. He has degrees in forestry, forest economics, and forest biology and management. He loves learning new software to help communicate ideas.
+
+He much prefers to be called "Glen" than "Dr Armstrong". He can be reached at Google Chat or email at [gwa\@ualberta.ca](mailto:gwa@ualberta.ca).
