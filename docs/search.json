@@ -103,7 +103,7 @@
     "href": "course-faq.html#can-i-use-a-local-install-of-r-and-rstudio-instead-of-using-posit-cloud",
     "title": "Frequently Asked Questions (FAQ)",
     "section": "Can I use a local install of R and RStudio instead of using Posit Cloud?",
-    "text": "Can I use a local install of R and RStudio instead of using Posit Cloud?\nThe short answer is, I’d rather you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. I am always happy to provide help with any computational questions when you’re working in the Posit Cloud. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R XXX: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto XXXX: https://quarto.org/docs/get-started/\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"___\")\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the computing environment (i.e. Posit Cloud) that I have tested the course material on.",
+    "text": "Can I use a local install of R and RStudio instead of using Posit Cloud?\nThe short answer is, I’d prefer if you didn’t, to save yourself some headache. But, the long answer is, sure! But you will need to install a specific versions of R and RStudio for everything to work as expected. You will also need to install the R packages we’re using as well as have Git installed on your computer. These are not extremely challenging things to get right, but they are not trivial either, particularly on certain operating systems. I am always happy to provide help with any computational questions when you’re working in the Posit Cloud. If you’re working on your local setup, we can’t guarantee being able to resolve your issues, though we’re happy to try.\nIf you want to take this path, here is what you need to do:\n\nDownload and install R XXX: https://cran.r-project.org/\nDownload and install RStudio: https://posit.co/download/rstudio-desktop/\nInstall Quarto XXXX: https://quarto.org/docs/get-started/\nInstall Git: https://happygitwithr.com/install-git.html\nInstall any necessary packages with install.packages(\"___\")\n\nAnd I’d like to reiterate again that successful installation of these software is not a learning goal of this course. So if any of this seems tedious or intimidating in any way, just use the computing environment (i.e. Posit Cloud) that I have tested the course material on.",
     "crumbs": [
       "Course information",
       "FAQ"
@@ -2046,7 +2046,7 @@
     "href": "slides/01-meet-the-toolkit.html#announcements",
     "title": "Meet the toolkit",
     "section": "Announcements",
-    "text": "Announcements\n\nIf you have not yet completed the Getting to know you survey, please do so asap!\nIf you have not yet accepted the invite to join the course GitHub Organization"
+    "text": "Announcements\n\nIf you have not yet completed the Getting to know you survey, please do so ASAP!"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#course-homepage",
@@ -2074,7 +2074,7 @@
     "href": "slides/01-meet-the-toolkit.html#use-of-generative-ai",
     "title": "Meet the toolkit",
     "section": "Use of generative AI",
-    "text": "Use of generative AI\n\nTreat generative AI, such as ChatGPT, the same as other online resources.\nGuiding principles:\n\n(1) Cognitive dimension: Working with AI should not reduce your ability to think clearly. We will practice using AI to facilitate—rather than hinder—learning.\n(2) Ethical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity.\n\n✅ AI tools for code: You may make use of the technology for coding examples on assignments; if you do so, you must explicitly cite where you obtained the code. See the syllabus for guidelines for citing AI-generated content.\n❌ AI tools for narrative: Unless instructed otherwise, you may not use generative AI to write narrative on assignments. In general, you may use generative AI as a resource as you complete assignments but not to answer the exercises for you."
+    "text": "Use of generative AI\n\nTreat generative AI, such as GitHub Copilot and ChatGPT, the same as other online resources.\nGuiding principles:\n\n(1) Cognitive dimension: Working with AI should not reduce your ability to think clearly. We will practice using AI to facilitate—rather than hinder—learning.\n(2) Ethical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity.\n\n✅ AI tools for code: You may make use of the technology for coding examples on assignments; if you do so, you must explicitly cite where you obtained the code. See the syllabus for guidelines for citing AI-generated content.\n❌ AI tools for narrative: Unless instructed otherwise, you may not use generative AI to write narrative on assignments. In general, you may use generative AI as a resource as you complete assignments but not to answer the exercises for you."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#academic-integrity",
@@ -2102,14 +2102,14 @@
     "href": "slides/01-meet-the-toolkit.html#course-toolkit-1",
     "title": "Meet the toolkit",
     "section": "Course toolkit",
-    "text": "Course toolkit\n\n\nCourse operation\n\nMaterials:https://w25.r4nrm.ca\nSubmission: Gradescope\nDiscussion: Canvas\nGradebook: Canvas\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\ntidyverse\nQuarto\n\nVersion control and collaboration:\n\nGit\nGitHub"
+    "text": "Course toolkit\n\n\nCourse operation\n\nMaterials:https://renr213.github.io\nSubmission: Canvas\nDiscussion: Canvas\nGradebook: Canvas\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\ntidyverse\nQuarto\n\nVersion control and collaboration:\n\nGit\nGitHub"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#learning-goals",
     "href": "slides/01-meet-the-toolkit.html#learning-goals",
     "title": "Meet the toolkit",
     "section": "Learning goals",
-    "text": "Learning goals\nBy the end of the course, you will be able to…\n\n\ngain insight from data\ngain insight from data, reproducibly\ngain insight from data, reproducibly, using modern programming tools and techniques\ngain insight from data, reproducibly and collaboratively, using modern\ngain insight from data, reproducibly (with literate programming and version control), using modern programming tools and techniques"
+    "text": "Learning goals\nBy the end of the course, you will be able to…\n\n\ngain insight from data\ngain insight from data, reproducibly\ngain insight from data, reproducibly, using modern programming tools and techniques\ngain insight from data, reproducibly (with literate programming and version control), using modern programming tools and techniques"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#reproducibility-checklist",
@@ -2144,14 +2144,14 @@
     "href": "slides/01-meet-the-toolkit.html#r-packages",
     "title": "Meet the toolkit",
     "section": "R packages",
-    "text": "R packages\n\n\nPackages: Fundamental units of reproducible R code, including reusable R functions, the documentation that describes how to use them, and sample data1\nAs of 15 January 2023, there are 20,252 R packages available on CRAN (the Comprehensive R Archive Network)2\nWe’re going to work with a small (but important) subset of these!\n\n\n\n\n1 Wickham and Bryan, R Packages.\n2 CRAN contributed packages."
+    "text": "R packages\n\n\nPackages: Fundamental units of reproducible R code, including reusable R functions, the documentation that describes how to use them, and sample data1\nAs of 8 January 2025, there are 21,879 R packages available on CRAN (the Comprehensive R Archive Network)2\nWe’re going to work with a small (but important) subset of these!\n\n\n\n\n1 Wickham and Bryan, R Packages.\n2 CRAN contributed packages."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#tour-r-rstudio",
     "href": "slides/01-meet-the-toolkit.html#tour-r-rstudio",
     "title": "Meet the toolkit",
     "section": "Tour: R + RStudio",
-    "text": "Tour: R + RStudio\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\nOption 2:\nClone the corresponding application exercise repo and follow along.\n ae-01-meet-the-penguins\nGo to the course GitHub organization and clone ae-01-meet-the-penguins to your container."
+    "text": "Tour: R + RStudio\nSit back and enjoy the show."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#tour-recap-r-rstudio",
@@ -2189,11 +2189,11 @@
     "text": "Quarto\n\n\nFully reproducible reports – each time you render the analysis is ran from the beginning\nCode goes in chunks narrative goes outside of chunks\nA visual editor for a familiar / Google docs-like editing experience"
   },
   {
-    "objectID": "slides/01-meet-the-toolkit.html#tour-quarto",
-    "href": "slides/01-meet-the-toolkit.html#tour-quarto",
+    "objectID": "slides/01-meet-the-toolkit.html#tour-r-rstudio-and-quarto",
+    "href": "slides/01-meet-the-toolkit.html#tour-r-rstudio-and-quarto",
     "title": "Meet the toolkit",
-    "section": "Tour: Quarto",
-    "text": "Tour: Quarto\n\n\n\nOption 1:\nSit back and enjoy the show!\n\n\n\nOption 2:\nClone the corresponding application exercise repo (if you haven’t yet done so) and follow along.\n ae-01-meet-the-penguins\nGo to the course GitHub organization and clone ae-01-meet-the-penguins to your container."
+    "section": "Tour: R, RStudio, and Quarto",
+    "text": "Tour: R, RStudio, and Quarto\nLet’s work through the first real Application Exercise\n ae-01-meet-the-penguins"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#tour-recap-quarto",

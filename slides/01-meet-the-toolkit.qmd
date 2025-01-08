@@ -1,7 +1,7 @@
 ---
 title: "Meet the toolkit"
 subtitle: "Lecture 1"
-date: "January 6, 2025"
+date: "January 9, 2025"
 format: revealjs
 ---
 
@@ -9,9 +9,7 @@ format: revealjs
 
 ## Announcements
 
--   If you have not yet completed the Getting to know you survey, please do so asap!
-
--   If you have not yet accepted the invite to join the course GitHub Organization
+-   If you have not yet completed the Getting to know you survey, please do so ASAP!
 
 # From last time...
 
@@ -35,7 +33,7 @@ Let's take a tour!
 
 ## Use of generative AI {.smaller}
 
--   Treat generative AI, such as ChatGPT, the same as other online resources.
+-   Treat generative AI, such as GitHub Copilot and ChatGPT, the same as other online resources.
 
 -   Guiding principles:
 
@@ -75,8 +73,8 @@ Ask if you're not sure if something violates a policy!
 ::: {.column width="50%"}
 **Course operation**
 
--   Materials:[https://w25.r4nrm.ca](#0)
--   Submission: Gradescope
+-   Materials:<https://renr213.github.io>
+-   Submission: Canvas
 -   Discussion: Canvas
 -   Gradebook: Canvas
 :::
@@ -105,7 +103,6 @@ By the end of the course, you will be able to...
 -   gain insight from data
 -   gain insight from data, **reproducibly**
 -   gain insight from data, reproducibly, **using modern programming tools and techniques**
--   gain insight from data, reproducibly **and collaboratively**, using modern 
 -   gain insight from data, reproducibly **(with literate programming and version control)**, using modern programming tools and techniques
 :::
 
@@ -172,7 +169,7 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html).
 ::: incremental
 -   **Packages**: Fundamental units of reproducible R code, including reusable R functions, the documentation that describes how to use them, and sample data<sup>1</sup>
 
--   As of 15 January 2023, there are 20,252 R packages available on **CRAN** (the Comprehensive R Archive Network)<sup>2</sup>
+-   As of 8 January 2025, there are 21,879 R packages available on **CRAN** (the Comprehensive R Archive Network)<sup>2</sup>
 
 -   We're going to work with a small (but important) subset of these!
 :::
@@ -185,27 +182,9 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html).
 
 ## Tour: R + RStudio {.smaller}
 
-::::::: columns
-:::: {.column width="50%"}
-::: demo
-**Option 1:**
+Sit back and enjoy the show.
 
-Sit back and enjoy the show!
-:::
-::::
 
-:::: {.column width="50%"}
-::: appex
-**Option 2:**
-
-Clone the corresponding application exercise repo and follow along.
-
-{{< fa laptop >}} `ae-01-meet-the-penguins`
-
-Go to the [course GitHub organization](https://github.com/renr213) and clone [`ae-01-meet-the-penguins`](https://github.com/renr213/ae-01-penguins) to [your container](https://cmgr.oit.duke.edu/containers).
-:::
-::::
-:::::::
 
 ## Tour recap: R + RStudio
 
@@ -278,29 +257,13 @@ dataframe$var_name
 -   A visual editor for a familiar / Google docs-like editing experience
 :::
 
-## Tour: Quarto {.smaller}
+## Tour: R, RStudio, and Quarto {.smaller}
 
-::::::: columns
-:::: {.column width="50%"}
-::: demo
-**Option 1:**
-
-Sit back and enjoy the show!
-:::
-::::
-
-:::: {.column width="50%"}
-::: appex
-**Option 2:**
-
-Clone the corresponding application exercise repo (if you haven't yet done so) and follow along.
+Let's work through the first real Application Exercise 
 
 {{< fa laptop >}} `ae-01-meet-the-penguins`
 
-Go to the [course GitHub organization](https://github.com/renr213) and clone [`ae-01-meet-the-penguins`](https://github.com/renr213/ae-01-penguins) to [your container](https://cmgr.oit.duke.edu/containers).
-:::
-::::
-:::::::
+
 
 ## Tour recap: Quarto
 
