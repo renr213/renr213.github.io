@@ -5,13 +5,13 @@ date: "January 9, 2025"
 format: revealjs
 ---
 
-# Warm-up
+# Housekeeping
 
 ## Announcements
 
--   If you have not yet completed the Getting to know you survey, please do so ASAP!
+-   If you have not yet completed the "getting to know you survey", please do so ASAP!
 
-# From last time...
+# The course!
 
 ## Course homepage
 
@@ -19,7 +19,7 @@ Let's take a tour!
 
 ## Collaboration policy
 
--   Homeworks must be completed individually. You may **not** directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.
+-   Assignments must be completed individually. You may **not** directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.
 
 -   Exams must be completed individually. You may **not** discuss any aspect of the exam with peers. If you have questions, post as private questions on the course forum, only the teaching team will see and answer.
 
@@ -73,7 +73,7 @@ Ask if you're not sure if something violates a policy!
 ::: {.column width="50%"}
 **Course operation**
 
--   Materials:<https://renr213.github.io>
+-   Materials: <https://renr213.github.io> and GitHub Classroom
 -   Submission: Canvas
 -   Discussion: Canvas
 -   Gradebook: Canvas
@@ -314,7 +314,7 @@ What happens? Why the error?
 
 ## Tour recap: Quarto
 
-## Tour:  GitHub, Posit Cloud, and RStudio
+## Tour: GitHub, Posit Cloud, and RStudio
 
 -   See this [video](https://youtu.be/n0Hl8w8fIl0) for a detailed walk-through of how to retrieve and submit assignments using GitHub, Posit Cloud, and RStudio.
 

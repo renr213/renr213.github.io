@@ -2046,7 +2046,7 @@
     "href": "slides/01-meet-the-toolkit.html#announcements",
     "title": "Meet the toolkit",
     "section": "Announcements",
-    "text": "Announcements\n\nIf you have not yet completed the Getting to know you survey, please do so ASAP!"
+    "text": "Announcements\n\nIf you have not yet completed the “getting to know you survey”, please do so ASAP!"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#course-homepage",
@@ -2060,7 +2060,7 @@
     "href": "slides/01-meet-the-toolkit.html#collaboration-policy",
     "title": "Meet the toolkit",
     "section": "Collaboration policy",
-    "text": "Collaboration policy\n\nHomeworks must be completed individually. You may not directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.\nExams must be completed individually. You may not discuss any aspect of the exam with peers. If you have questions, post as private questions on the course forum, only the teaching team will see and answer."
+    "text": "Collaboration policy\n\nAssignments must be completed individually. You may not directly share answers / code with others, however you are welcome to discuss the problems in general and ask for advice.\nExams must be completed individually. You may not discuss any aspect of the exam with peers. If you have questions, post as private questions on the course forum, only the teaching team will see and answer."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#sharing-reusing-code-policy",
@@ -2102,7 +2102,7 @@
     "href": "slides/01-meet-the-toolkit.html#course-toolkit-1",
     "title": "Meet the toolkit",
     "section": "Course toolkit",
-    "text": "Course toolkit\n\n\nCourse operation\n\nMaterials:https://renr213.github.io\nSubmission: Canvas\nDiscussion: Canvas\nGradebook: Canvas\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\ntidyverse\nQuarto\n\nVersion control and collaboration:\n\nGit\nGitHub"
+    "text": "Course toolkit\n\n\nCourse operation\n\nMaterials: https://renr213.github.io and GitHub Classroom\nSubmission: Canvas\nDiscussion: Canvas\nGradebook: Canvas\n\n\nDoing data science\n\nComputing:\n\nR\nRStudio\ntidyverse\nQuarto\n\nVersion control and collaboration:\n\nGit\nGitHub"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#learning-goals",
