@@ -2,7 +2,9 @@
 title: "Meet the toolkit"
 subtitle: "Lecture 1"
 date: "January 9, 2025"
-format: revealjs
+format: 
+  revealjs:
+    smaller: true
 ---
 
 # Housekeeping
