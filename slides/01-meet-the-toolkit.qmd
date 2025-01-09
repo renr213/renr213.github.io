@@ -184,8 +184,6 @@ Source: [Modern Dive](https://moderndive.com/1-getting-started.html).
 
 Sit back and enjoy the show.
 
-
-
 ## Tour recap: R + RStudio
 
 ![](images/tour-r-rstudio.png)
@@ -259,15 +257,11 @@ dataframe$var_name
 
 ## Tour: R, RStudio, and Quarto {.smaller}
 
-Let's work through the first real Application Exercise 
+-   Let's work through the first real Application Exercise
 
 {{< fa laptop >}} `ae-01-meet-the-penguins`
 
-
-
-## Tour recap: Quarto
-
-![](images/tour-quarto.png){fig-alt="RStudio IDE with a Quarto document, source code on the left and output on the right. Annotated to show the YAML, a link, a header, and a code chunk." fig-align="center"}
+## 
 
 ## Environments
 
@@ -317,6 +311,12 @@ What happens? Why the error?
 -   Every application exercise, lab, project, etc. is an Quarto document
 -   You'll always have a template Quarto document to start with
 -   The amount of scaffolding in the template will decrease over the semester
+
+## Tour recap: Quarto
+
+## Tour:  GitHub, Posit Cloud, and RStudio
+
+-   See this [video](https://youtu.be/n0Hl8w8fIl0) for a detailed walk-through of how to retrieve and submit assignments using GitHub, Posit Cloud, and RStudio.
 
 ## What's with all the hexes?
 

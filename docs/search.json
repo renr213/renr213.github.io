@@ -2193,14 +2193,7 @@
     "href": "slides/01-meet-the-toolkit.html#tour-r-rstudio-and-quarto",
     "title": "Meet the toolkit",
     "section": "Tour: R, RStudio, and Quarto",
-    "text": "Tour: R, RStudio, and Quarto\nLet’s work through the first real Application Exercise\n ae-01-meet-the-penguins"
-  },
-  {
-    "objectID": "slides/01-meet-the-toolkit.html#tour-recap-quarto",
-    "href": "slides/01-meet-the-toolkit.html#tour-recap-quarto",
-    "title": "Meet the toolkit",
-    "section": "Tour recap: Quarto",
-    "text": "Tour recap: Quarto"
+    "text": "Tour: R, RStudio, and Quarto\n\nLet’s work through the first real Application Exercise\n\n ae-01-meet-the-penguins"
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#environments",
@@ -2222,6 +2215,20 @@
     "title": "Meet the toolkit",
     "section": "How will we use Quarto?",
     "text": "How will we use Quarto?\n\nEvery application exercise, lab, project, etc. is an Quarto document\nYou’ll always have a template Quarto document to start with\nThe amount of scaffolding in the template will decrease over the semester"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#tour-recap-quarto",
+    "href": "slides/01-meet-the-toolkit.html#tour-recap-quarto",
+    "title": "Meet the toolkit",
+    "section": "Tour recap: Quarto",
+    "text": "Tour recap: Quarto"
+  },
+  {
+    "objectID": "slides/01-meet-the-toolkit.html#tour-github-posit-cloud-and-rstudio",
+    "href": "slides/01-meet-the-toolkit.html#tour-github-posit-cloud-and-rstudio",
+    "title": "Meet the toolkit",
+    "section": "Tour: GitHub, Posit Cloud, and RStudio",
+    "text": "Tour: GitHub, Posit Cloud, and RStudio\n\nSee this video for a detailed walk-through of how to retrieve and submit assignments using GitHub, Posit Cloud, and RStudio."
   },
   {
     "objectID": "slides/01-meet-the-toolkit.html#whats-with-all-the-hexes",
@@ -4572,7 +4579,7 @@
     "href": "index.html#class-schedule",
     "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "Class Schedule",
-    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0 🎥 Cloud setup🎥 RStudio tour🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1 \n🗣️Grammar of graphics\n\n\n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n\n\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
+    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments 🎥 GitHub and Posit Cloud\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1 \n🗣️Grammar of graphics\n\n\n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n\n\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
     "crumbs": [
       "Course information",
       "Schedule"
