@@ -250,6 +250,9 @@ dataframe$var_name
 # Quarto
 
 ## Quarto
+::: {.notes}
+Hi, I'm James! I should say some things!
+:::
 
 ::: incremental
 -   Fully reproducible reports -- each time you render the analysis is ran from the beginning
@@ -263,7 +266,7 @@ dataframe$var_name
 
 {{< fa laptop >}} `ae-01-meet-the-penguins`
 
-## 
+f## 
 
 ## Environments
 

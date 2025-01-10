@@ -83,7 +83,21 @@ More detail about the exams will be given during the semester.
 
 ## Grading
 
-The final course grade will be calculated as follows:
+I grade each question on exams and the labs using a 4 point scale.
+
+| Descriptor   | Score |
+|--------------|-------|
+| Excellent    | 4     |
+| Good         | 3     |
+| Satisfactory | 2     |
+| Poor         | 1     |
+| Failure      | 0     |
+
+: 4 point grading system
+
+The overall score for the exam and each lab is calculated as the mean of the scores for the individual questions.
+
+The final course grade will be calculated using the following weights.
 
 | Category              | Percentage     |
 |-----------------------|----------------|
@@ -91,9 +105,26 @@ The final course grade will be calculated as follows:
 | Final Exam            | 20%            |
 | Application Exercises | 10%            |
 
-|     |
-|-----|
-|     |
+The weighted average for the course will be multiplied by 1.125 to allow for final course grades ranging from A+ to F using the following table.
+
+| Weighted average (adjusted) | Final Grade |
+|------------------|-------------|
+| \[4.15, 4.50\]   | A+          |
+| \[3.85, 4.15)    | A           |
+| \[3.50, 3.85)    | A-          |
+| \[3.15, 3.50)    | B+          |
+| \[2.85, 3.15)     | B           |
+| \[2.50, 2.85)    | B -         |
+| \[2.15, 2.50)    | C+          |
+| \[1.85, 2.15)    | C           |
+| \[1.50, 1.85)    | C-          |
+| \[1.15, 1.50)    | D+          |
+| \[0.85, 1.15)    | D           |
+| \[0.00, 0.85)       | F           |
+
+: Assignment of Final Grade
+
+A range of grades ($g$) expressed as \[2.85, 3.15) means $2.85 \le g < 3.15$.
 
 ## Five tips for success
 
