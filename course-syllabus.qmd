@@ -105,6 +105,8 @@ The final course grade will be calculated using the following weights.
 | Final Exam            | 20%            |
 | Application Exercises | 10%            |
 
+: Course component weighting
+
 The weighted average for the course will be multiplied by 1.125 to allow for final course grades ranging from A+ to F using the following table.
 
 | Weighted average (adjusted) | Final Grade |
