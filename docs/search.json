@@ -4579,7 +4579,7 @@
     "href": "index.html#class-schedule",
     "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "Class Schedule",
-    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1 \n🗣️Grammar of graphics\n\n\n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n\n\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
+    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1  🎥 Data and visualization  🎥 Visualising data with ggplot2\n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 \n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n\n\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -4747,27 +4747,6 @@
     "text": "b, c, f, g -\n\nThe blizzard_salary dataset has 409 rows.\nThe percent_incr variable is numerical and continuous.\nThe salary_type variable is categorical.\n\nFigure 1 - A shared x-axis makes it easier to compare summary statistics for the variable on the x-axis.\nc - It’s a value higher than the median for hourly but lower than the mean for salaried.\nb - There is more variability around the mean compared to the hourly distribution.\na, b, e - Pie charts and waffle charts are for visualizing distributions of categorical data only. Scatterplots are for visualizing the relationship between two numerical variables.\nc - mutate() is used to create or modify a variable.\na - \"Poor\", \"Successful\", \"High\", \"Top\"\nb - Option 2. The plot in Option 1 shows the number of employees with a given performance rating for each salary type while the plot in Option 2 gives the proportion of employees with a given performance rating for each salary type. In order to assess the relationship between these variables (e.g., how much more likely is a Top rating among Salaried vs. Hourly workers), we need the proportions, not the counts.\nThere may be some NAs in these two variables that are not visible in the plot.\nThe proportions under Hourly would go in the Hourly bar, and those under Salaried would go in the Salaried bar.\nc - filter(salary_type != \"Hourly\" & performance_rating == \"Poor\") - There are 5 observations for “not Hourly” “and” Poor.\na - arrange() - The result is arranged in increasing order of annual_salary, which is the default for arrange().\nc, d, e, f.\nPart 1: The following should be fixed:\n\nThere should be a | after # before label\nThere should be a : after label, not =\nThere shouldn’t be a space in the chunk label, it should be plot-blizzard\nThere should be spaces after commas in the code\nThere should be spaces on both sides of = in the code\nThere should be a space before +\ngeom_boxplot() should be on the next line and indented\nThere should be a + at the end of the geom_boxplot() line\nlabs() should be indented\n\nPart 2: The warning is caused by NA in the data. It means that 39 observations were NAs and are not plotted/represented on the plot.\nPart 1:\n\nRender: Run all of the code and render all of the text in the document and produce an output.\nCommit: Take a snapshot of your changes in Git with an appropriate message.\nPush: Send your changes off to GitHub.\n\nPart 2: c - Rendering or committing isn’t sufficient to send your changes to your GitHub repository, a push is needed. A pull is also not needed to view the changes in the browser."
   },
   {
-    "objectID": "slides/02-grammar-of-graphics.html#while-you-wait",
-    "href": "slides/02-grammar-of-graphics.html#while-you-wait",
-    "title": "Grammar of graphics",
-    "section": "While you wait…",
-    "text": "While you wait…\nQuestions from the prepare materials?"
-  },
-  {
-    "objectID": "slides/02-grammar-of-graphics.html#announcements",
-    "href": "slides/02-grammar-of-graphics.html#announcements",
-    "title": "Grammar of graphics",
-    "section": "Announcements",
-    "text": "Announcements\n\nLab 1 on Monday – go to your assigned lab\nCatch up with the prepare materials"
-  },
-  {
-    "objectID": "slides/02-grammar-of-graphics.html#from-the-survey",
-    "href": "slides/02-grammar-of-graphics.html#from-the-survey",
-    "title": "Grammar of graphics",
-    "section": "From the survey",
-    "text": "From the survey\n\nAlmost half of the class mentioned being nervous about coding – you’re not alone! 💙\nA good number of students mentioned being nervous about being new to stats + data science – you’re also not alone! 💜\nVisibility of text on slides: Cranked up font size! 💛\nAbout exams: No coding on the in class (time-limited) exam + there will be practice exams\nAbout teams: Peer evaluations + milestones throughout semester\nGrading criteria: Scale of 0-4 for each exercise on lab + more details in lab instructions\nHardware: Code running on university containers"
-  },
-  {
     "objectID": "slides/02-grammar-of-graphics.html#git-and-github",
     "href": "slides/02-grammar-of-graphics.html#git-and-github",
     "title": "Grammar of graphics",
@@ -4828,28 +4807,49 @@
     "href": "slides/02-grammar-of-graphics.html#git-and-github-tips",
     "title": "Grammar of graphics",
     "section": "Git and GitHub tips",
-    "text": "Git and GitHub tips\n\n\nThere are millions of git commands – ok, that’s an exaggeration, but there are a lot of them – and very few people know them all. 99% of the time you will use git to add, commit, push, and pull.\nWe will be doing Git things and interfacing with GitHub through RStudio, but if you google for help you might come across methods for doing these things in the command line – skip that and move on to the next resource unless you feel comfortable trying it out.\nThere is a great resource for working with git and R: happygitwithr.com. Some of the content in there is beyond the scope of this course, but it’s a good place to look for help."
+    "text": "Git and GitHub tips\n\n\nThere are many many GitHub commands and very few people know them all. 99% of the time you will use git to add, commit, push, and pull.\nWe will be doing Git things and interfacing with GitHub through RStudio, but if you google for help you might come across methods for doing these things in the command line – skip that and move on to the next resource unless you feel comfortable trying it out.\nThere is a great resource for working with git and R: happygitwithr.com. Some of the content in there is beyond the scope of this course, but it’s a good place to look for help.\nIf you are really curious about Git and GitHub, let me know. But for this course, the interface between RStudio on the Posit Cloud and GitHub will be sufficient."
   },
   {
     "objectID": "slides/02-grammar-of-graphics.html#tour-git-github",
     "href": "slides/02-grammar-of-graphics.html#tour-git-github",
     "title": "Grammar of graphics",
-    "section": "Tour: Git + GitHub",
-    "text": "Tour: Git + GitHub\n\nJust one option for now:\nSit back and enjoy the show!"
+    "section": "Tour: Git & GitHub",
+    "text": "Tour: Git & GitHub\n\nJust one option for now:\nSit back and enjoy the show!"
   },
   {
     "objectID": "slides/02-grammar-of-graphics.html#examining-data-visualization",
     "href": "slides/02-grammar-of-graphics.html#examining-data-visualization",
     "title": "Grammar of graphics",
     "section": "Examining data visualization",
-    "text": "Examining data visualization\n\n\nDiscuss the following for the visualization.\n\n\n\n\n\n−+\n04:00\n\n\n\n\n\n\n\nSource: Twitter"
+    "text": "Examining data visualization\n\n\n\nSource: Twitter"
+  },
+  {
+    "objectID": "slides/02-grammar-of-graphics.html#what-makes-that-a-bad-visualization",
+    "href": "slides/02-grammar-of-graphics.html#what-makes-that-a-bad-visualization",
+    "title": "Grammar of graphics",
+    "section": "What makes that a bad visualization?",
+    "text": "What makes that a bad visualization?\n\n\nIs the average female Latvian really 4x the height of the average female Indian?\nThe height of the average female is presented as a two-dimensional graphic element. Height is only one dimension.\nWhat purpose to the colours serve?\nPlot title in in a distracting font.\nIt looks like the average Australian, Scot, and Peruvian have exactly the same height. Correct precision of the average?\nIs this only for adult females?\nAre the data correct?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-graphics.html#what-would-be-better",
+    "href": "slides/02-grammar-of-graphics.html#what-would-be-better",
+    "title": "Grammar of graphics",
+    "section": "What would be better?",
+    "text": "What would be better?"
+  },
+  {
+    "objectID": "slides/02-grammar-of-graphics.html#what-would-be-better-1",
+    "href": "slides/02-grammar-of-graphics.html#what-would-be-better-1",
+    "title": "Grammar of graphics",
+    "section": "What would be better?",
+    "text": "What would be better?\n\nThese data came from this Wikipedia page."
   },
   {
     "objectID": "slides/02-grammar-of-graphics.html#ae-02-bechdel-dataviz",
     "href": "slides/02-grammar-of-graphics.html#ae-02-bechdel-dataviz",
     "title": "Grammar of graphics",
     "section": "ae-02-bechdel-dataviz",
-    "text": "ae-02-bechdel-dataviz\n\n\nGo to the course GitHub org and find your ae repo (repo name will be suffixed with your GitHub name).\nClone the repo in your container, open the Quarto document in the repo, and follow along and complete the exercises.\nRender, commit, and push your edits by the AE deadline (end of this week)"
+    "text": "ae-02-bechdel-dataviz\n\n\nClick on the link in your email to accept the assignment.\nCreate an new project on Posit.Cloud from your new repository\nRender, commit, and push your edits by the AE deadline (8:00 am January 20)"
   },
   {
     "objectID": "slides/02-grammar-of-graphics.html#recap-of-ae",
