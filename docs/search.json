@@ -1377,102 +1377,11 @@
     "text": "Recap\n\n\nRepresent percentages as parts of a whole\nPlace variables representing time on the x-axis when possible\nPay attention to data types, e.g., represent time as time on a continuous scale, not years as levels of a categorical variable\nPrefer direct labeling over legends\nUse accessible colors\nUse color to draw attention\nPick a purpose and label, color, annotate for that purpose\nCommunicate your main message directly in the plot labels\nSimplify before you call it done (a.k.a. “Before you leave the house, look in the mirror and take one thing off”)"
   },
   {
-    "objectID": "slides/03-visualizing-data.html#while-you-wait",
-    "href": "slides/03-visualizing-data.html#while-you-wait",
-    "title": "Visualizing various types of data",
-    "section": "While you wait…",
-    "text": "While you wait…\n\nhello these are speaker notes\n\nQuestions from the prepare materials?"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#violin-plots",
-    "href": "slides/03-visualizing-data.html#violin-plots",
-    "title": "Visualizing various types of data",
-    "section": "Violin plots",
-    "text": "Violin plots\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin()"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#multiple-geoms",
-    "href": "slides/03-visualizing-data.html#multiple-geoms",
-    "title": "Visualizing various types of data",
-    "section": "Multiple geoms",
-    "text": "Multiple geoms\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin() +\n  geom_point()"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#multiple-geoms-1",
-    "href": "slides/03-visualizing-data.html#multiple-geoms-1",
-    "title": "Visualizing various types of data",
-    "section": "Multiple geoms",
-    "text": "Multiple geoms\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin() +\n  geom_jitter()"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics",
-    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics",
-    "title": "Visualizing various types of data",
-    "section": "Multiple geoms + aesthetics",
-    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter()"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-1",
-    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-1",
-    "title": "Visualizing various types of data",
-    "section": "Multiple geoms + aesthetics",
-    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter() +\n  theme(\n    legend.position = \"none\"\n  )"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-2",
-    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-2",
-    "title": "Visualizing various types of data",
-    "section": "Multiple geoms + aesthetics",
-    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter() +\n  theme(\n    legend.position = \"none\"\n  ) +\n  scale_color_colorblind()"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#while-you-wait-1",
-    "href": "slides/03-visualizing-data.html#while-you-wait-1",
-    "title": "Visualizing various types of data",
-    "section": "While you wait…",
-    "text": "While you wait…\nQuestions from the prepare materials?"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#questions-from-last-time",
-    "href": "slides/03-visualizing-data.html#questions-from-last-time",
-    "title": "Visualizing various types of data",
-    "section": "Questions from last time",
-    "text": "Questions from last time\n\nIs there any code in the videos that is not in the readings? Yes and no. There is no substantial functionality introduced in the videos that is not also in the readings, however the examples in the videos are different than the ones in the reading.\nWhat are all of the geoms we need to know? You don’t need to “memorize” or even “know” all o the geoms available in the ggplot2 package, but you can find a list of them on the ggplot2 cheat sheet or on the reference page.\nCould you please clarify what situations it would be appropriate to use each geom function? Today’s topic! And think about it as “what plot should I make for which type of variable”."
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#announcements",
-    "href": "slides/03-visualizing-data.html#announcements",
-    "title": "Visualizing various types of data",
-    "section": "Announcements",
-    "text": "Announcements\n\nAEs this week should be submitted by midnight on Sunday. To “submit”, commit and push at least once to your ae repo for each application exercise this week.\nIf you email me, please put STA 199 in the subject."
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#ae-02-bechdel-dataviz",
-    "href": "slides/03-visualizing-data.html#ae-02-bechdel-dataviz",
-    "title": "Visualizing various types of data",
-    "section": "ae-02-bechdel-dataviz",
-    "text": "ae-02-bechdel-dataviz\n\n\nIf you were in class last Thursday:\nand followed along with the application exercise…\nGo to the project navigator in RStudio (top right corner of your RStudio window) and open the project called ae. If there are any uncommitted files, commit them so you can start with a clean slate.\n\nIf you missed class last Thursday:\nor didn’t follow along with the application exercise…\nGo to the course GitHub org and find your ae repo. Clone the repo in your container, open the Quarto document called ae-02-bechdel."
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#recap-of-ae",
-    "href": "slides/03-visualizing-data.html#recap-of-ae",
-    "title": "Visualizing various types of data",
-    "section": "Recap of AE",
-    "text": "Recap of AE\n\nConstruct plots with ggplot().\nLayers of ggplots are separated by +s.\nThe formula is (almost) always as follows:\n\n\nggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +\n  geom_XXX()\n\n\nAesthetic attributes of a geometries (color, size, transparency, etc.) can be mapped to variables in the data or set by the user, e.g. color = binary vs. color = \"pink\".\nUse facet_wrap() when faceting (creating small multiples) by one variable and facet_grid() when faceting by two variables."
-  },
-  {
     "objectID": "slides/03-visualizing-data.html#identifying-variable-types",
     "href": "slides/03-visualizing-data.html#identifying-variable-types",
     "title": "Visualizing various types of data",
     "section": "Identifying variable types",
-    "text": "Identifying variable types\n\nQuestionVote\n\n\n\nIdentify the type of each of the following variables.\n\nFavorite food\nNumber of classes you’re taking this semester\nZip code\nAge"
-  },
-  {
-    "objectID": "slides/03-visualizing-data.html#the-way-data-is-displayed-matters",
-    "href": "slides/03-visualizing-data.html#the-way-data-is-displayed-matters",
-    "title": "Visualizing various types of data",
-    "section": "The way data is displayed matters",
-    "text": "The way data is displayed matters\n\nWhat do these three plots show?\n\n\n\n\n\n\n\n\nSource: #barbarplots"
+    "text": "Identifying variable types"
   },
   {
     "objectID": "slides/03-visualizing-data.html#visualizing-penguins",
@@ -1612,7 +1521,7 @@
     "href": "slides/03-visualizing-data.html#weights-of-penguins",
     "title": "Visualizing various types of data",
     "section": "Weights of penguins",
-    "text": "Weights of penguins\n\nQuestionVote\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTRUE / FALSE\n\nThe distribution of penguin weights in this sample is left skewed.\nThe distribution of penguin weights in this sample is unimodal."
+    "text": "Weights of penguins\n\nQuestion\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTRUE / FALSE\n\nThe distribution of penguin weights in this sample is left skewed.\nThe distribution of penguin weights in this sample is unimodal."
   },
   {
     "objectID": "slides/03-visualizing-data.html#bivariate-analysis-1",
@@ -1655,6 +1564,48 @@
     "title": "Visualizing various types of data",
     "section": "Density plots",
     "text": "Density plots\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = body_mass_g,\n    color = species,\n    fill = species\n    )\n  ) +\n  geom_density(\n    alpha = 0.5\n  ) +\n  theme(\n    legend.position = \"bottom\"\n  )"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#violin-plots",
+    "href": "slides/03-visualizing-data.html#violin-plots",
+    "title": "Visualizing various types of data",
+    "section": "Violin plots",
+    "text": "Violin plots\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin()"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#multiple-geoms",
+    "href": "slides/03-visualizing-data.html#multiple-geoms",
+    "title": "Visualizing various types of data",
+    "section": "Multiple geoms",
+    "text": "Multiple geoms\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin() +\n  geom_point()"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#multiple-geoms-1",
+    "href": "slides/03-visualizing-data.html#multiple-geoms-1",
+    "title": "Visualizing various types of data",
+    "section": "Multiple geoms",
+    "text": "Multiple geoms\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g\n    )\n  ) +\n  geom_violin() +\n  geom_jitter()"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics",
+    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics",
+    "title": "Visualizing various types of data",
+    "section": "Multiple geoms + aesthetics",
+    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter()"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-1",
+    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-1",
+    "title": "Visualizing various types of data",
+    "section": "Multiple geoms + aesthetics",
+    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter() +\n  theme(\n    legend.position = \"none\"\n  )"
+  },
+  {
+    "objectID": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-2",
+    "href": "slides/03-visualizing-data.html#multiple-geoms-aesthetics-2",
+    "title": "Visualizing various types of data",
+    "section": "Multiple geoms + aesthetics",
+    "text": "Multiple geoms + aesthetics\n\n\n\nggplot(\n  penguins,\n  aes(\n    x = species,\n    y = body_mass_g,\n    color = species\n    )\n  ) +\n  geom_violin() +\n  geom_jitter() +\n  theme(\n    legend.position = \"none\"\n  ) +\n  scale_color_colorblind()"
   },
   {
     "objectID": "slides/14-language-of-models.html#while-you-wait-for-class-to-begin",
@@ -3240,7 +3191,7 @@
     "href": "labs/lab-1.html",
     "title": "Lab 1 - Data visualization",
     "section": "",
-    "text": "This lab will introduce you to the course computing workflow. The main goal is to reinforce our demo of R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\n\n\n\n\n\n\nNote\n\n\n\nR is the name of the programming language itself and RStudio is a convenient interface, commonly referred to as an integrated development environment or an IDE, for short.\n\n\nAn additional goal is to reinforce Git and GitHub, the version control, web hosting, and collaboration systems that we will be using throughout the course.\n\n\n\n\n\n\nNote\n\n\n\nGit is a version control system (like “Track Changes” features from Microsoft Word but more powerful) and GitHub is the home for your Git-based projects on the internet (like DropBox but much better).\n\n\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\n\n\n\n\n\n\nWarning\n\n\n\nThis lab assumes that you have already completed Lab 0. If you have not, please go back and do that first before proceeding.\n\n\n\nBy the end of the lab, you will…\n\nBe familiar with the workflow using R, RStudio, Git, and GitHub\nGain practice writing a reproducible report using Quarto\nPractice version control using Git and GitHub\nBe able to create data visualizations using ggplot2\n\n\n\n\nGo to https://cmgr.oit.duke.edu/containers and login with your Duke NetID and Password.\nClick STA198-199 under My reservations to log into your container. You should now see the RStudio environment.\n\n\nGo to the course organization at github.com/renr213 organization on GitHub. Click on the repo with the prefix lab-1. It contains the starter documents you need to complete the lab.\nClick on the green CODE button, select Use SSH (this might already be selected by default, and if it is, you’ll see the text Clone with SSH). Click on the clipboard icon to copy the repo URL.\nIn RStudio, go to File ➛ New Project ➛Version Control ➛ Git.\nCopy and paste the URL of your assignment repo into the dialog box Repository URL. Again, please make sure to have SSH highlighted under Clone when you copy the address.\nClick Create Project, and the files from your GitHub repo will be displayed in the Files pane in RStudio.\nClick lab-1.qmd to open the template Quarto file. This is where you will write up your code and narrative for the lab.\n\nBelow are the components of the RStudio IDE.\n\nBelow are the components of a Quarto (.qmd) file.\n\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for “YAML Ain’t Markup Language”. It is a human friendly data representation for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\n\n\n\n\nImportant\n\n\n\nOpen the Quarto (.qmd) file in your project, change the author name to your name, and render the document. Examine the rendered document.\n\n\n\nNow, go to the Git pane in your RStudio instance. This will be in the top right hand corner in a separate tab.\nIf you have made changes to your Quarto (.qmd) file, you should see it listed here. Click on it to select it in this list and then click on Diff. This shows you the difference between the last committed state of the document and its current state including changes. You should see deletions in red and additions in green.\nIf you’re happy with these changes, we’ll prepare the changes to be pushed to your remote repository. First, stage your changes by checking the appropriate box on the files you want to prepare. Next, write a meaningful commit message (for instance, “updated author name”) in the Commit message box. Finally, click Commit. Note that every commit needs to have a commit message associated with it.\nYou don’t have to commit after every change, as this would get quite tedious. You should commit states that are meaningful to you for inspection, comparison, or restoration.\nIn the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.\nNow let’s make sure all the changes went to GitHub. Go to your GitHub repo and refresh the page. You should see your commit message next to the updated files. If you see this, all your changes are on GitHub and you’re good to go!\n\nNow that you have made an update and committed this change, it’s time to push these changes to your repo on GitHub.\nIn order to push your changes to GitHub, you must have staged your commit to be pushed. click on Push.\n\nIn this lab we will work with the tidyverse package, which is a collection of packages for doing data analysis in a “tidy” way.\n\nlibrary(tidyverse)\n\nRender the document which loads this package with the library() function.\n\n\n\n\n\n\nNote\n\n\n\nThe rendered document will include a message about which packages the tidyverse package is loading along with it. It’s just R being informative, a message does not indicate anything is wrong (it’s not a warning or an error).\n\n\nThe tidyverse is a meta-package. When you load it you get nine packages loaded for you:\n\n\ndplyr: for data wrangling\n\nforcats: for dealing with factors\n\nggplot2: for data visualization\n\nlubridate: for dealing with dates\n\npurrr: for iteration with functional programming\n\nreadr: for reading and writing data\n\nstringr: for string manipulation\n\ntibble: for modern, tidy data frames\n\ntidyr: for data tidying and rectangling\n\nThe message that’s printed when you load the package tells you which versions of these packages are loaded as well as any conflicts they may have introduced, e.g., the filter() function from dplyr has now masked (overwritten) the filter() function available in base R (and that’s ok, we’ll use dplyr::filter() anyway).\nYou can now Render your template document and see the results.\n\nAs we’ve discussed in lecture, your plots should include an informative title, axes should be labeled, and careful consideration should be given to aesthetic choices.\nIn addition, the code should all the code should be be able to be read (not run off the page) when you render to PDF. Make sure that is the case, and add line breaks where the code is running off the page.1\nRemember that continuing to develop a sound workflow for reproducible data analysis is important as you complete the lab and other assignments in this course. There will be periodic reminders in this assignment to remind you to render, commit, and push your changes to GitHub. You should have at least 3 commits with meaningful commit messages by the end of the assignment.",
+    "text": "This lab will introduce you to the course computing workflow. The main goal is to reinforce our demo of R and RStudio, which we will be using throughout the course both to learn the statistical concepts discussed in the course and to analyze real data and come to informed conclusions.\n\n\n\n\n\n\nNote\n\n\n\nR is the name of the programming language itself and RStudio is a convenient interface, commonly referred to as an integrated development environment or an IDE, for short.\n\n\nAn additional goal is to reinforce Git and GitHub, the version control, web hosting, and collaboration systems that we will be using throughout the course.\n\n\n\n\n\n\nNote\n\n\n\nGit is a version control system (like “Track Changes” features from Microsoft Word but more powerful) and GitHub is the home for your Git-based projects on the internet (like DropBox but much better).\n\n\nAs the labs progress, you are encouraged to explore beyond what the labs dictate; a willingness to experiment will make you a much better programmer. Before we get to that stage, however, you need to build some basic fluency in R. Today we begin with the fundamental building blocks of R and RStudio: the interface, reading in data, and basic commands.\n\n\n\n\n\n\nWarning\n\n\n\nThis lab assumes that you have already completed Lab 0. If you have not, please go back and do that first before proceeding.\n\n\n\nBy the end of the lab, you will…\n\nBe familiar with the workflow using R, RStudio, Git, and GitHub\nGain practice writing a reproducible report using Quarto\nPractice version control using Git and GitHub\nBe able to create data visualizations using ggplot2\n\n\n\n\ncopy the URL from GitHub.\n\n\nGo to https://posit.cloud and log into you RStudio instance.\nCreate a new RStudio project from the GitHub repository.\n\nBelow are the components of the RStudio IDE.\n\nBelow are the components of a Quarto (.qmd) file.\n\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for “YAML Ain’t Markup Language”. It is a human friendly data representation for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\n\n\n\n\nImportant\n\n\n\nOpen the Quarto (.qmd) file in your project, change the author name to your name, and render the document. Examine the rendered document.\n\n\n\nNow, go to the Git pane in your RStudio instance. This will be in the top right hand corner in a separate tab.\nIf you have made changes to your Quarto (.qmd) file, you should see it listed here. Click on it to select it in this list and then click on Diff. This shows you the difference between the last committed state of the document and its current state including changes. You should see deletions in red and additions in green.\nIf you’re happy with these changes, we’ll prepare the changes to be pushed to your remote repository. First, stage your changes by checking the appropriate box on the files you want to prepare. Next, write a meaningful commit message (for instance, “updated author name”) in the Commit message box. Finally, click Commit. Note that every commit needs to have a commit message associated with it.\nYou don’t have to commit after every change, as this would get quite tedious. You should commit states that are meaningful to you for inspection, comparison, or restoration.\nIn the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.\nNow let’s make sure all the changes went to GitHub. Go to your GitHub repo and refresh the page. You should see your commit message next to the updated files. If you see this, all your changes are on GitHub and you’re good to go!\n\nNow that you have made an update and committed this change, it’s time to push these changes to your repo on GitHub.\nIn order to push your changes to GitHub, you must have staged your commit to be pushed. click on Push.\n\nIn this lab we will work with the tidyverse package, which is a collection of packages for doing data analysis in a “tidy” way.\n\nlibrary(tidyverse)\n\nRender the document which loads this package with the library() function.\n\n\n\n\n\n\nNote\n\n\n\nThe rendered document will include a message about which packages the tidyverse package is loading along with it. It’s just R being informative, a message does not indicate anything is wrong (it’s not a warning or an error).\n\n\nThe tidyverse is a meta-package. When you load it you get nine packages loaded for you:\n\n\ndplyr: for data wrangling\n\nforcats: for dealing with factors\n\nggplot2: for data visualization\n\nlubridate: for dealing with dates\n\npurrr: for iteration with functional programming\n\nreadr: for reading and writing data\n\nstringr: for string manipulation\n\ntibble: for modern, tidy data frames\n\ntidyr: for data tidying and rectangling\n\nThe message that’s printed when you load the package tells you which versions of these packages are loaded as well as any conflicts they may have introduced, e.g., the filter() function from dplyr has now masked (overwritten) the filter() function available in base R (and that’s ok, we’ll use dplyr::filter() anyway).\nYou can now Render your template document and see the results.\n\nAs we’ve discussed in lecture, your plots should include an informative title, axes should be labeled, and careful consideration should be given to aesthetic choices.\nIn addition, the code should all the code should be be able to be read (not run off the page) when you render to PDF. Make sure that is the case, and add line breaks where the code is running off the page.1\nRemember that continuing to develop a sound workflow for reproducible data analysis is important as you complete the lab and other assignments in this course. There will be periodic reminders in this assignment to remind you to render, commit, and push your changes to GitHub. You should have at least 3 commits with meaningful commit messages by the end of the assignment.",
     "crumbs": [
       "Labs",
       "Lab 1"
@@ -3262,7 +3213,7 @@
     "href": "labs/lab-1.html#getting-started",
     "title": "Lab 1 - Data visualization",
     "section": "",
-    "text": "Go to https://cmgr.oit.duke.edu/containers and login with your Duke NetID and Password.\nClick STA198-199 under My reservations to log into your container. You should now see the RStudio environment.\n\n\nGo to the course organization at github.com/renr213 organization on GitHub. Click on the repo with the prefix lab-1. It contains the starter documents you need to complete the lab.\nClick on the green CODE button, select Use SSH (this might already be selected by default, and if it is, you’ll see the text Clone with SSH). Click on the clipboard icon to copy the repo URL.\nIn RStudio, go to File ➛ New Project ➛Version Control ➛ Git.\nCopy and paste the URL of your assignment repo into the dialog box Repository URL. Again, please make sure to have SSH highlighted under Clone when you copy the address.\nClick Create Project, and the files from your GitHub repo will be displayed in the Files pane in RStudio.\nClick lab-1.qmd to open the template Quarto file. This is where you will write up your code and narrative for the lab.\n\nBelow are the components of the RStudio IDE.\n\nBelow are the components of a Quarto (.qmd) file.\n\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for “YAML Ain’t Markup Language”. It is a human friendly data representation for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\n\n\n\n\nImportant\n\n\n\nOpen the Quarto (.qmd) file in your project, change the author name to your name, and render the document. Examine the rendered document.\n\n\n\nNow, go to the Git pane in your RStudio instance. This will be in the top right hand corner in a separate tab.\nIf you have made changes to your Quarto (.qmd) file, you should see it listed here. Click on it to select it in this list and then click on Diff. This shows you the difference between the last committed state of the document and its current state including changes. You should see deletions in red and additions in green.\nIf you’re happy with these changes, we’ll prepare the changes to be pushed to your remote repository. First, stage your changes by checking the appropriate box on the files you want to prepare. Next, write a meaningful commit message (for instance, “updated author name”) in the Commit message box. Finally, click Commit. Note that every commit needs to have a commit message associated with it.\nYou don’t have to commit after every change, as this would get quite tedious. You should commit states that are meaningful to you for inspection, comparison, or restoration.\nIn the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.\nNow let’s make sure all the changes went to GitHub. Go to your GitHub repo and refresh the page. You should see your commit message next to the updated files. If you see this, all your changes are on GitHub and you’re good to go!\n\nNow that you have made an update and committed this change, it’s time to push these changes to your repo on GitHub.\nIn order to push your changes to GitHub, you must have staged your commit to be pushed. click on Push.",
+    "text": "copy the URL from GitHub.\n\n\nGo to https://posit.cloud and log into you RStudio instance.\nCreate a new RStudio project from the GitHub repository.\n\nBelow are the components of the RStudio IDE.\n\nBelow are the components of a Quarto (.qmd) file.\n\n\nThe top portion of your R Markdown file (between the three dashed lines) is called YAML. It stands for “YAML Ain’t Markup Language”. It is a human friendly data representation for all programming languages. All you need to know is that this area is called the YAML (we will refer to it as such) and that it contains meta information about your document.\n\n\n\n\n\n\nImportant\n\n\n\nOpen the Quarto (.qmd) file in your project, change the author name to your name, and render the document. Examine the rendered document.\n\n\n\nNow, go to the Git pane in your RStudio instance. This will be in the top right hand corner in a separate tab.\nIf you have made changes to your Quarto (.qmd) file, you should see it listed here. Click on it to select it in this list and then click on Diff. This shows you the difference between the last committed state of the document and its current state including changes. You should see deletions in red and additions in green.\nIf you’re happy with these changes, we’ll prepare the changes to be pushed to your remote repository. First, stage your changes by checking the appropriate box on the files you want to prepare. Next, write a meaningful commit message (for instance, “updated author name”) in the Commit message box. Finally, click Commit. Note that every commit needs to have a commit message associated with it.\nYou don’t have to commit after every change, as this would get quite tedious. You should commit states that are meaningful to you for inspection, comparison, or restoration.\nIn the first few assignments we will tell you exactly when to commit and in some cases, what commit message to use. As the semester progresses we will let you make these decisions.\nNow let’s make sure all the changes went to GitHub. Go to your GitHub repo and refresh the page. You should see your commit message next to the updated files. If you see this, all your changes are on GitHub and you’re good to go!\n\nNow that you have made an update and committed this change, it’s time to push these changes to your repo on GitHub.\nIn order to push your changes to GitHub, you must have staged your commit to be pushed. click on Push.",
     "crumbs": [
       "Labs",
       "Lab 1"
@@ -3306,7 +3257,7 @@
     "href": "labs/lab-1.html#part-2",
     "title": "Lab 1 - Data visualization",
     "section": "Part 2",
-    "text": "Part 2\nEnough about the Midwest!\nIn this part we will use a new, more recent, and potentially more relevant dataset on counties in North Carolina.\nThis dataset is stored in a file called nc-county.csv in the data folder of your project/repository.\nYou can read this file into R with the following code:\n\nnc_county &lt;- read_csv(\"data/nc-county.csv\")\n\nThis will read the CSV (comma separated values) file from the data folder and store the dataset as a data frame called nc_county in R.\nThe variables in the dataset and their descriptions are as follows:\n\n\ncounty: Name of county.\n\nstate_abb: State abbreviation (NC).\n\nstate_name: State name (North Carolina).\n\nland_area_m2: Land area of county in meters-squared, based on the 2020 census.\n\nland_area_mi2: Land area of county in miles-squared, based on the 2020 census.\n\npopulation: Population of county, based on the 2020 census.\n\ndensity: Population density calculated as population divided by land area in miles-squared.\n\nIn addition to being more recent and more relevant, this dataset is also more complete in the sense that we know the units of population density: people per mile-squared!\nQuestion 8\nFirst, guess what the relationship between population density and land area might be – positive? negative? no relationship?\nThen, make a scatter plot of population density (density on the y-axis) vs. land area in miles-squared (land_area_mi2 on the x-axis). Make sure to set an informative title and axis labels for your plot. Describe the relationship. Was your guess correct?\nQuestion 9\nNow make a scatter plot of population density (density on the y-axis) vs. land area in meters-squared (land_area_m2 on the x-axis). Make sure to set an informative title and axis labels for your plot. Comment on how this scatterplot compares to the one in Exercise 8 — is the relationship displayed same or different. Explain why.\nQuestion 10\nDid you select your pages on Gradescope? You don’t need to write an answer for this question, if you select your pages when you upload your lab to Gradescope, you’ll get full points on this question. Otherwise, you’ll get a 0 on this question.2",
+    "text": "Part 2\nEnough about the Midwest!\nIn this part we will use a new, more recent, and potentially more relevant dataset on counties in North Carolina.\nThis dataset is stored in a file called nc-county.csv in the data folder of your project/repository.\nYou can read this file into R with the following code:\n\nnc_county &lt;- read_csv(\"data/nc-county.csv\")\n\nThis will read the CSV (comma separated values) file from the data folder and store the dataset as a data frame called nc_county in R.\nThe variables in the dataset and their descriptions are as follows:\n\n\ncounty: Name of county.\n\nstate_abb: State abbreviation (NC).\n\nstate_name: State name (North Carolina).\n\nland_area_m2: Land area of county in square metres, based on the 2020 census.\n\nland_area_mi2: Land area of county in square miles, based on the 2020 census.\n\npopulation: Population of county, based on the 2020 census.\n\ndensity: Population density calculated as population divided by land area in square miles.\n\nIn addition to being more recent and more relevant, this dataset is also more complete in the sense that we know the units of population density: people per mile-squared!\nQuestion 8\nFirst, guess what the relationship between population density and land area might be – positive? negative? no relationship?\nThen, make a scatter plot of population density (density on the y-axis) vs. land area in square miles (land_area_mi2 on the x-axis). Make sure to set an informative title and axis labels for your plot. Describe the relationship. Was your guess correct?\nQuestion 9\nNow make a scatter plot of population density (density on the y-axis) vs. land area in square metres (land_area_m2 on the x-axis). Make sure to set an informative title and axis labels for your plot. Comment on how this scatterplot compares to the one in Exercise 8 — is the relationship displayed same or different. Explain why.\nQuestion 10\nDid you select your pages on Gradescope? You don’t need to write an answer for this question, if you select your pages when you upload your lab to Gradescope, you’ll get full points on this question. Otherwise, you’ll get a 0 on this question.2",
     "crumbs": [
       "Labs",
       "Lab 1"
@@ -3317,7 +3268,7 @@
     "href": "labs/lab-1.html#submission",
     "title": "Lab 1 - Data visualization",
     "section": "Submission",
-    "text": "Submission\nOnce you are finished with the lab, you will submit your final PDF document to Gradescope.\n\n\n\n\n\n\nWarning\n\n\n\nBefore you wrap up the assignment, make sure all of your documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.\nYou must turn in a PDF file to the Gradescope page by the submission deadline to be considered “on time”.\n\n\nTo submit your assignment:\n\nGo to http://www.gradescope.com and click Log in in the top right corner.\nClick School Credentials \\(\\rightarrow\\) Duke NetID and log in using your NetID credentials.\nClick on your STA 199 course.\nClick on the assignment, and you’ll be prompted to submit it.\nMark all the pages associated with question. All the pages of your lab should be associated with at least one question (i.e., should be “checked”).\n\n\n\n\n\n\n\nChecklist\n\n\n\nMake sure you have:\n\nattempted all questions\nrendered your Quarto document\ncommitted and pushed everything to your GitHub repository such that the Git pane in RStudio is empty\nuploaded your PDF to Gradescope\nselected pages associated with each question on Gradescope",
+    "text": "Submission\nOnce you are finished with the lab, you will submit your final PDF document to Gradescope.\n\n\n\n\n\n\nWarning\n\n\n\nBefore you wrap up the assignment, make sure all of your documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.\nYou must turn in a PDF file to the Gradescope page by the submission deadline to be considered “on time”.\n\n\nTo submit your assignment:\n\nGo to http://www.gradescope.com and click Log in in the top right corner.\nClick School Credentials \\(\\rightarrow\\) Duke NetID and log in using your NetID credentials.\nClick on your STA 199 course.\nClick on the assignment, and you’ll be prompted to submit it.\nMark all the pages associated with question. All the pages of your lab should be associated with at least one question (i.e., should be “checked”).\n\n\n\n\n\n\n\nChecklist\n\n\n\nMake sure you have:\n\nattempted all questions\nrendered your Quarto document\ncommitted and pushed everything to your GitHub repository such that the Git pane in RStudio is empty\nuploaded your PDF to Canvas\nselected pages associated with each question on Canvas",
     "crumbs": [
       "Labs",
       "Lab 1"
@@ -3328,7 +3279,7 @@
     "href": "labs/lab-1.html#grading",
     "title": "Lab 1 - Data visualization",
     "section": "Grading",
-    "text": "Grading\nThe lab is graded out of a total of 50 points.\nOn Questions 1 through 9, you can earn up to 5 points on each question:\n\n5: Response shows excellent understanding and addresses all or almost all of the rubric items.\n4: Response shows good understanding and addresses most of the rubric items.\n3: Response shows understanding and addresses a majority of the rubric items.\n2: Response shows effort and misses many of the rubric items.\n1: Response does not show sufficient effort or understanding and/or is largely incomplete.\n0: No attempt.\n\nOn Question 10, you can earn either 0 or 5 points for selecting questions and pages on Gradescope:\n\n5: Selected questions and pages on Gradescope.\n0: Did not select some or all questions and pages on Gradescope.",
+    "text": "Grading\nThe lab is graded out of a total of 36 points.\nYou can earn up to 4 points on each question:\n\n4: Response shows excellent understanding and addresses all or almost all of the rubric items.\n3: Response shows good understanding and addresses most of the rubric items.\n2: Response shows understanding and addresses a majority of the rubric items.\n1: Response shows effort and misses many of the rubric items.\n0: Response does not show sufficient effort or understanding and/or is largely incomplete.\n0: No attempt.",
     "crumbs": [
       "Labs",
       "Lab 1"
@@ -4579,7 +4530,7 @@
     "href": "index.html#class-schedule",
     "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "Class Schedule",
-    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1  🎥 Data and visualization  🎥 Visualising data with ggplot2\n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 \n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n\n\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
+    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1  🎥 Data and visualization  🎥 Visualising data with ggplot2\n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 \n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n🖥️ slides 03\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 \n🗣️Visualizing various types of data\n\n\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n\n\n\n\n\n\n4\nTue, Jan 28\n📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n\n\nThu, Jan 30\n📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\n\n\n\n\n5\nTue, Feb 4\n📗 r4ds - chp 5\n🗣️Tidying data\n\n\n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n\n\n\n\n\n\n6\nTue, Feb 11\n\n\n🥼Lab 3: Data tidying and joining\n\n\nLab 2: 8:00 a.m.\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n\n\n\n\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n📗 r4ds - chp 7  📗 r4ds - chp 17.1 - 17.3\n🗣️Importing and recoding data\n\n\n\n\n\n\n\n\nThu, Feb 27\n📗 r4ds - chp 24.1 - 24.6\n🗣️Web scraping\n\n\nLab 3: 8:00 a.m.\n\n\n9\nTue, Mar 4\n\n\n🥼Lab 4: Web scraping and ethics\n\n\n\n\n\n\n\n\nThu, Mar 6\n🎥 Functions  🎥 Iteration  📗 r4ds - chp 25.1 - 25.2\n🗣️Working with Chat GPT\n\n\n\n\n\n\n10\nTue, Mar 11\n📘 ims - chp 7.1\n🗣️ The language of models\n\n\n\n\n\n\n\n\nThu, Mar 13\n📘 ims - chp 7.2\n🗣️ Linear regression with a single predictor\n\n\nLab 4: 8:00 a.m.\n\n\n11\nTue, Mar 18\n\n\n🗣️.Non-linear regression\n\n\n\n\n\n\n\n\nThu, Mar 20\n\n\n🥼Lab 5: Statistical modelling\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🗣️Yield curves\n\n\n\n\n\n\n\n\nThu, Mar 27\n\n\n🗣️Spatial analysis\n\n\n\n\n\n\n13\nTue, Apr 1\n🎥 Misrepresentation  🎥 Data privacy  🎥 Algorithmic bias  📕 mdsr - chp 8  🎥 Alberto Cairo - How charts lie  🎥 Joy Buolamwini - How I’m fighting bias in algorithms\nData science ethics\n\n\nLab 5: 8:00 a.m.\n\n\n14\nThu, Apr 3\n\n\nFinal Exam Review\n\n\n\n\n\n\n15\nTue, Apr 8\n\n\nFinal Exam",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -4828,18 +4779,11 @@
     "href": "slides/02-grammar-of-graphics.html#what-makes-that-a-bad-visualization",
     "title": "Grammar of graphics",
     "section": "What makes that a bad visualization?",
-    "text": "What makes that a bad visualization?\n\n\nIs the average female Latvian really 4x the height of the average female Indian?\nThe height of the average female is presented as a two-dimensional graphic element. Height is only one dimension.\nWhat purpose to the colours serve?\nPlot title in in a distracting font.\nIt looks like the average Australian, Scot, and Peruvian have exactly the same height. Correct precision of the average?\nIs this only for adult females?\nAre the data correct?"
+    "text": "What makes that a bad visualization?\n\n\nIs the average female Latvian really 4x the height of the average female Indian?\nThe height of the average female is presented as a two-dimensional graphic element. Height is only one dimension.\nWhat purpose to the colours serve?\nPlot title is in a distracting font.\nIt looks like the average Australian, Scot, and Peruvian have exactly the same height. Correct precision of the average?\nIs this only for adult females?\nAre the data correct?"
   },
   {
     "objectID": "slides/02-grammar-of-graphics.html#what-would-be-better",
     "href": "slides/02-grammar-of-graphics.html#what-would-be-better",
-    "title": "Grammar of graphics",
-    "section": "What would be better?",
-    "text": "What would be better?"
-  },
-  {
-    "objectID": "slides/02-grammar-of-graphics.html#what-would-be-better-1",
-    "href": "slides/02-grammar-of-graphics.html#what-would-be-better-1",
     "title": "Grammar of graphics",
     "section": "What would be better?",
     "text": "What would be better?\n\nThese data came from this Wikipedia page."

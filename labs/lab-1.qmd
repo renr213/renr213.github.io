@@ -1,6 +1,6 @@
 ---
 title: "Lab 1 - Data visualization"
-format: pdf
+format: html
 ---
 
 # Introduction
@@ -34,24 +34,14 @@ By the end of the lab, you will...
 
 ## Getting started
 
+### Click on the invitation email to load the lab material into GitHub
+
+-   copy the URL from GitHub.
+
 ### Log in to RStudio
 
--   Go to <https://cmgr.oit.duke.edu/containers> and login with your Duke NetID and Password.
--   Click `STA198-199` under My reservations to log into your container. You should now see the RStudio environment.
-
-### Clone the repo & start new RStudio project
-
--   Go to the course organization at [github.com/renr213](https://github.com/renr213) organization on GitHub. Click on the repo with the prefix **lab-1**. It contains the starter documents you need to complete the lab.
-
--   Click on the green **CODE** button, select **Use SSH** (this might already be selected by default, and if it is, you'll see the text **Clone with SSH**). Click on the clipboard icon to copy the repo URL.
-
--   In RStudio, go to *File* ➛ *New Project* ➛*Version Control* ➛ *Git*.
-
--   Copy and paste the URL of your assignment repo into the dialog box *Repository URL*. Again, please make sure to have *SSH* highlighted under *Clone* when you copy the address.
-
--   Click *Create Project*, and the files from your GitHub repo will be displayed in the *Files* pane in RStudio.
-
--   Click *lab-1.qmd* to open the template Quarto file. This is where you will write up your code and narrative for the lab.
+-   Go to <https://posit.cloud> and log into you RStudio instance.
+-   Create a new RStudio project from the GitHub repository.
 
 ### R and R Studio
 
@@ -302,10 +292,10 @@ The variables in the dataset and their descriptions are as follows:
 -   `county`: Name of county.
 -   `state_abb`: State abbreviation (NC).
 -   `state_name`: State name (North Carolina).
--   `land_area_m2`: Land area of county in meters-squared, based on the 2020 census.
--   `land_area_mi2`: Land area of county in miles-squared, based on the 2020 census.
+-   `land_area_m2`: Land area of county in square metres, based on the 2020 census.
+-   `land_area_mi2`: Land area of county in square miles, based on the 2020 census.
 -   `population`: Population of county, based on the 2020 census.
--   `density`: Population density calculated as population divided by land area in miles-squared.
+-   `density`: Population density calculated as population divided by land area in square miles.
 
 In addition to being more recent and more relevant, this dataset is also more complete in the sense that we know the units of population density: people per mile-squared!
 
@@ -313,11 +303,11 @@ In addition to being more recent and more relevant, this dataset is also more co
 
 First, guess what the relationship between population density and land area might be – positive? negative? no relationship?
 
-Then, make a scatter plot of population density (`density` on the y-axis) vs. land area in miles-squared (`land_area_mi2` on the x-axis). Make sure to set an informative title and axis labels for your plot. Describe the relationship. Was your guess correct?
+Then, make a scatter plot of population density (`density` on the y-axis) vs. land area in square miles (`land_area_mi2` on the x-axis). Make sure to set an informative title and axis labels for your plot. Describe the relationship. Was your guess correct?
 
 ### Question 9
 
-Now make a scatter plot of population density (`density` on the y-axis) vs. land area in meters-squared (`land_area_m2` on the x-axis). Make sure to set an informative title and axis labels for your plot. Comment on how this scatterplot compares to the one in Exercise 8 — is the relationship displayed same or different. Explain why.
+Now make a scatter plot of population density (`density` on the y-axis) vs. land area in square metres (`land_area_m2` on the x-axis). Make sure to set an informative title and axis labels for your plot. Comment on how this scatterplot compares to the one in Exercise 8 — is the relationship displayed same or different. Explain why.
 
 ### Question 10
 
@@ -353,29 +343,24 @@ Make sure you have:
 -   attempted all questions
 -   rendered your Quarto document
 -   committed and pushed everything to your GitHub repository such that the Git pane in RStudio is empty
--   uploaded your PDF to Gradescope
--   selected pages associated with each question on Gradescope
+-   uploaded your PDF to Canvas
+-   selected pages associated with each question on Canvas
 :::
 
 ## Grading
 
-The lab is graded out of a total of 50 points.
+The lab is graded out of a total of 36 points.
 
-On Questions 1 through 9, you can earn up to 5 points on each question:
+You can earn up to 4 points on each question:
 
--   5: Response shows excellent understanding and addresses all or almost all of the rubric items.
+-   4: Response shows excellent understanding and addresses all or almost all of the rubric items.
 
--   4: Response shows good understanding and addresses most of the rubric items.
+-   3: Response shows good understanding and addresses most of the rubric items.
 
--   3: Response shows understanding and addresses a majority of the rubric items.
+-   2: Response shows understanding and addresses a majority of the rubric items.
 
--   2: Response shows effort and misses many of the rubric items.
+-   1: Response shows effort and misses many of the rubric items.
 
--   1: Response does not show sufficient effort or understanding and/or is largely incomplete.
+-   0: Response does not show sufficient effort or understanding and/or is largely incomplete.
 
 -   0: No attempt.
-
-On Question 10, you can earn either 0 or 5 points for selecting questions and pages on Gradescope:
-
--   5: Selected questions and pages on Gradescope.
--   0: Did not select some or all questions and pages on Gradescope.

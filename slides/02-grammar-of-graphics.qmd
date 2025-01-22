@@ -5,22 +5,6 @@ date: "January 13, 2025"
 format: revealjs
 ---
 
-# From the survey
-
--   Almost half of the class mentioned being nervous about coding – you're not alone! 💙
-
--   A good number of students mentioned being nervous about being new to stats + data science – you're also not alone! 💜
-
--   Visibility of text on slides: Cranked up font size! 💛
-
--   About exams: No coding on the in class (time-limited) exam + there will be practice exams
-
--   About teams: Peer evaluations + milestones throughout semester
-
--   Grading criteria: Scale of 0-4 for each exercise on lab + more details in lab instructions
-
--   Hardware: Code running on university containers
-
 # Toolkit: Version control and collaboration
 
 ## Git and GitHub {.smaller}
@@ -101,13 +85,11 @@ Sit back and enjoy the show!
 -   Is the average female Latvian really 4x the height of the average female Indian?
 -   The height of the average female is presented as a two-dimensional graphic element. Height is only one dimension.
 -   What purpose to the colours serve?
--   Plot title in in a distracting font.
+-   Plot title is in a distracting font.
 -   It looks like the average Australian, Scot, and Peruvian have exactly the same height. Correct precision of the average?
 -   Is this only for adult females?
 -   Are the data correct?
 :::
-
-## What would be better? {.smaller}
 
 ## What would be better? {.smaller}
 
@@ -158,5 +140,5 @@ ggplot(DATA, aes(x = X-VAR, y = Y-VAR, ...)) +
   geom_XXX()
 ```
 
--   Aesthetic attributes of a geometries (color, size, transparency, etc.) can be **map**ped to variables in the data or **set** by the user, e.g. `color = binary` vs. `color = "pink"`.
+-   Aesthetic attributes of a geometries (color, size, transparency, etc.) can be **mapped** to variables in the data or **set** by the user, e.g. `color = binary` vs. `color = "pink"`.
 -   Use `facet_wrap()` when faceting (creating small multiples) by one variable and `facet_grid()` when faceting by two variables.
