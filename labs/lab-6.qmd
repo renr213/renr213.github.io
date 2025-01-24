@@ -5,7 +5,7 @@ categories: "Lab"
 
 # Introduction
 
-In this lab you'll start your practice of statistical modeling.
+In this lab you'll start your practice of statistical modelling.
 You'll fit models, interpret model output, and make decisions about your data and research question based on the model results.
 
 ## Guidelines
@@ -268,20 +268,20 @@ Then, write a paragraph (4-5 sentences) addressing the following:
 
 ## Submission
 
-Once you are finished with the lab, you will submit your final PDF document to Gradescope.
+Once you are finished with the lab, you will submit your final PDF document to Canvas.
 
 ::: callout-warning
 Before you wrap up the assignment, make sure all of your documents are updated on your GitHub repo.
 We will be checking these to make sure you have been practicing how to commit and push changes.
 
-You must turn in a PDF file to the Gradescope page by the submission deadline to be considered "on time".
+You must turn in a PDF file to the Canvas page by the submission deadline to be considered "on time".
 :::
 
 To submit your assignment:
 
--   Go to <http://www.gradescope.com> and click *Log in* in the top right corner.
+-   Go to <http://www.Canvas.com> and click *Log in* in the top right corner.
 -   Click *School Credentials* $\rightarrow$ *Duke NetID* and log in using your NetID credentials.
--   Click on your *STA 199* course.
+-   Click on your *REN R 213* course.
 -   Click on the assignment, and you'll be prompted to submit it.
 -   Mark all the pages associated with question. All the pages of your lab should be associated with at least one question (i.e., should be "checked").
 
@@ -293,15 +293,15 @@ Make sure you have:
 -   attempted all questions
 -   rendered your Quarto document
 -   committed and pushed everything to your GitHub repository such that the Git pane in RStudio is empty
--   uploaded your PDF to Gradescope
--   selected pages associated with each question on Gradescope
+-   uploaded your PDF to Canvas
+-   selected pages associated with each question on Canvas
 :::
 
 ## Grading
 
-The lab is graded out of a total of 50 points.
+The lab is graded out of a total of 36 points.
 
-You can earn up to 5 points on each question:
+You can earn up to 4 points on each question:
 
 -   5: Response shows excellent understanding and addresses all or almost all of the rubric items.
 

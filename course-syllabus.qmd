@@ -21,7 +21,7 @@ All books are **freely available online**.
 By the end of the semester, you will...
 
 -   learn to explore, visualize, and analyze data in a reproducible and shareable manner using R and RStudio
--   gain experience in data wrangling and munging, exploratory data analysis, predictive modeling, and data visualization
+-   gain experience in data wrangling and munging, exploratory data analysis, predictive modelling, and data visualization
 -   work on problems and case studies inspired by and based on real-world questions and data
 -   learn to effectively communicate results through written assignments
 

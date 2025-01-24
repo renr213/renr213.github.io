@@ -44,7 +44,7 @@ Or access to an API where you can fetch the data from.
 
 > Do we have to use OpenIntro for data modelling?
 
-Yes, I recommend the readings from the OpenIntro book for modeling, where relevant they're linked from the prepare materials.
+Yes, I recommend the readings from the OpenIntro book for modelling, where relevant they're linked from the prepare materials.
 
 ## Goals
 
@@ -292,10 +292,10 @@ $$\widehat{\text{audience}} = 32.3 + 0.519 \times \text{critics}$$
 
 # Application exercise
 
-## Application exercise: `ae-11-penguins-modeling`
+## Application exercise: `ae-11-penguins-modelling`
 
 ::: appex
 -   Go back to your project called `ae`.
 -   If there are any uncommitted files, commit them, and push.
--   Pull, and then work on `ae-11-penguins-modeling.qmd`.
+-   Pull, and then work on `ae-11-penguins-modelling.qmd`.
 :::

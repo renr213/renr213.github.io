@@ -309,31 +309,17 @@ Then, make a scatter plot of population density (`density` on the y-axis) vs. la
 
 Now make a scatter plot of population density (`density` on the y-axis) vs. land area in square metres (`land_area_m2` on the x-axis). Make sure to set an informative title and axis labels for your plot. Comment on how this scatterplot compares to the one in Exercise 8 — is the relationship displayed same or different. Explain why.
 
-### Question 10
-
-Did you select your pages on Gradescope? You don't need to write an answer for this question, if you select your pages when you upload your lab to Gradescope, you'll get full points on this question. Otherwise, you'll get a 0 on this question.[^2]
-
-[^2]: We're assigning points to this seemingly trivial task because not selecting your pages and questions will greatly slow down the grading. So we want to make sure you're properly motivated to complete this task!
-
 # Wrap-up
 
 ## Submission
 
-Once you are finished with the lab, you will submit your final PDF document to Gradescope.
+Once you are finished with the lab, you will submit your final PDF document to Canvas.
 
 ::: callout-warning
 Before you wrap up the assignment, make sure all of your documents are updated on your GitHub repo. We will be checking these to make sure you have been practicing how to commit and push changes.
 
-You must turn in a PDF file to the Gradescope page by the submission deadline to be considered "on time".
+You must turn in a PDF file to the Canvas page by the submission deadline to be considered "on time".
 :::
-
-To submit your assignment:
-
--   Go to <http://www.gradescope.com> and click *Log in* in the top right corner.
--   Click *School Credentials* $\rightarrow$ *Duke NetID* and log in using your NetID credentials.
--   Click on your *STA 199* course.
--   Click on the assignment, and you'll be prompted to submit it.
--   Mark all the pages associated with question. All the pages of your lab should be associated with at least one question (i.e., should be "checked").
 
 ::: callout-important
 ## Checklist
@@ -362,5 +348,3 @@ You can earn up to 4 points on each question:
 -   1: Response shows effort and misses many of the rubric items.
 
 -   0: Response does not show sufficient effort or understanding and/or is largely incomplete.
-
--   0: No attempt.

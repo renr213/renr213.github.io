@@ -1,0 +1,83 @@
+2 + 2
+x <- 2
+x
+x + 3
+library(palmerpenguins)
+View(penguins)
+penguins$body_mass_g
+mean(penguins$body_mass_g)
+?mean
+mean(penguins$body_mass_g, na.rm = TRUE)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa", "India") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Barplot
+ggplot(data, aes(x=name, y=value)) +
+geom_bar(stat = "identity")
+library(tidyverse)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa", "India") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Barplot
+ggplot(data, aes(x=name, y=value)) +
+geom_bar(stat = "identity")
+library(tidyverse)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa", "India") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Barplot
+ggplot(data, aes(x=name, y=value)) +
+geom_bar(stat = "identity", width=0.5) +
+labs(title = "Average adult female height by country") +
+labs(xlab = "Country") +
+labs(ylab) = "Average height (cm)") +
+library(tidyverse)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa", "India") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Barplot
+ggplot(data, aes(x=name, y=value)) +
+geom_bar(stat = "identity", width=0.5) +
+labs(title = "Average adult female height by country") +
+labs(xlab = "Country") +
+labs(ylab = "Average height (cm") +
+labs(caption = "based on data from Wikipedia")
+#| echo: false
+library(tidyverse)
+# Create data
+data <- data.frame(
+name=c("Latvia","Australia","Scotland","Peru","South Africa", "India") ,
+value=c(168.8,161.8,161.3,151.0,159.0,152.0)
+)
+# Barplot
+ggplot(data, aes(x=name, y=value)) +
+geom_bar(stat = "identity", width=0.5) +
+labs(title = "Average adult female height by country") +
+labs(xlab = "Country") +
+labs(ylab = "Average height (cm") +
+labs(caption = "based on data from Wikipedia")
+#| label: load-packages
+#| warning: false
+library(tidyverse)
+library(scales)
+#| label: read-data
+#| message: false
+bechdel <- read_csv("data/bechdel.csv")
+#| label: read-data
+#| message: false
+bechdel <- read_csv("data/bechdel.csv")
+View(bechdel)
+View(bechdel)

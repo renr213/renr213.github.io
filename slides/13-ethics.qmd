@@ -268,7 +268,7 @@ ggplot(
 
 ## Garbage in, garbage out
 
--   In statistical modeling and inference we talk about "garbage in, garbage out" -- if you don't have good (random, representative) data, results of your analysis will not be reliable or generalizable.
+-   In statistical modelling and inference we talk about "garbage in, garbage out" -- if you don't have good (random, representative) data, results of your analysis will not be reliable or generalizable.
 -   Corollary: Bias in, bias out.
 
 ## Google translate

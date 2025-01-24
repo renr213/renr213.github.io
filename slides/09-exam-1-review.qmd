@@ -427,7 +427,7 @@ str(loan50$homeownership)
 ::: incremental
 -   The **forcats** package has a bunch of functions (that start with `fct_*()`) for dealing with factors and their levels: <https://forcats.tidyverse.org/reference/index.html>
 
--   Factors and the order of their levels are relevant for displays (tables, plots) and they'll be relevant for modeling (later in the course)
+-   Factors and the order of their levels are relevant for displays (tables, plots) and they'll be relevant for modelling (later in the course)
 
 -   `factor` is a data **class**
 :::

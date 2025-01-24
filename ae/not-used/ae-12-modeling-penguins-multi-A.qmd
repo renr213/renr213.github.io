@@ -8,7 +8,7 @@ editor: visual
 ---
 
 In this application exercise we will be studying penguins.
-The data can be found in the **palmerpenguins** package and we will use **tidyverse** and **tidymodels** for data exploration and modeling, respectively.
+The data can be found in the **palmerpenguins** package and we will use **tidyverse** and **tidymodels** for data exploration and modelling, respectively.
 
 ```{r}
 #| label: load-packages
@@ -228,7 +228,7 @@ $$
 - 19.4 \times flipper~length*Dream - 17.4 \times flipper~length*Torgersen
 $$
 
--   **Review:** What does modeling body mass with an interaction effect get us that without doing so does not?
+-   **Review:** What does modelling body mass with an interaction effect get us that without doing so does not?
 
 The interaction effect allows us to model the rate of change in estimated body mass as flipper length increases as different in the three islands.
 

@@ -2,10 +2,10 @@
 title: "Course overview"
 ---
 
-Introduction to data science for natural resource management. Learn to explore, visualize, and analyze data to understand natural phenomena, investigate patterns, model outcomes, and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling, exploratory data analysis, predictive modeling, data visualization, and effective communication of results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language. No statistical or computing background is necessary.
+Introduction to data science for natural resource management. Learn to explore, visualize, and analyze data to understand natural phenomena, investigate patterns, model outcomes, and make predictions, and do so in a reproducible and shareable manner. Gain experience in data wrangling, exploratory data analysis, predictive modelling, data visualization, and effective communication of results. Work on problems and case studies inspired by and based on real-world questions and data. The course will focus on the R statistical computing language. No statistical or computing background is necessary.
 
 ## Acknowlegement
 
-Most of the material for this course comes from the STA 199, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at <https://sta199-s24.github.io/>.
+Most of the material for this course comes from the REN R 213, Spring 2024 course taught and developed by Dr. Mine Çetinkaya-Rundel at Duke University. The original course website is available at <https://sta199-s24.github.io/>.
 
-The materials for the STA 199 course are licensed under the [Creative Commons Attribution-Noncommercial 4.0 International Deed](https://creativecommons.org/licenses/by-nc/4.0/). All material on this web site created by me ([Glen W. Armstrong](https://apps.ualberta.ca/directory/person/gwa)) is licensed under the same terms.
+The materials for the REN R 213 course are licensed under the [Creative Commons Attribution-Noncommercial 4.0 International Deed](https://creativecommons.org/licenses/by-nc/4.0/). All material on this web site created by me ([Glen W. Armstrong](https://apps.ualberta.ca/directory/person/gwa)) is licensed under the same terms.

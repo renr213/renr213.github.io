@@ -85,7 +85,7 @@ To uphold the Duke Community Standard:
 
 # From last time
 
-## Recap: `ae-13-modeling-loans`
+## Recap: `ae-13-modelling-loans`
 
 -   What is the practical difference between a model with parallel and non-parallel lines?
 
@@ -317,4 +317,4 @@ plot.function(sigmoid, from = 0, to = 20, n = 101,
 
 -   Generalized linear models allow us to fit models to predict non-continuous outcomes
 
--   Predicting binary outcomes requires modeling the log-odds of success, where p = probability of success
+-   Predicting binary outcomes requires modelling the log-odds of success, where p = probability of success

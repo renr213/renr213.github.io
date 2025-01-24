@@ -381,10 +381,10 @@ ggplot(mtcars, aes(x = wt, y = mpg)) +
 
 # Application exercise
 
-## Application exercise: `ae-10-modeling-fish` {.smaller}
+## Application exercise: `ae-10-modelling-fish` {.smaller}
 
 ::: appex
 -   Go back to your project called `ae`.
 -   If there are any uncommitted files, commit them, and push.
--   Work on `ae-10-modeling-fish.qmd`.
+-   Work on `ae-10-modelling-fish.qmd`.
 :::

@@ -31,7 +31,7 @@ website:
     #   - icon: check-square-fill
     #     text: "Canvas"
     #     menu:
-    #       - text: Gradescope
+    #       - text: Canvas
     #         url: https://canvas.duke.edu/courses/26106/external_tools/181
     #       - text: Gradebook
     #         url: https://canvas.duke.edu/courses/26106/gradebook

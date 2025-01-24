@@ -92,7 +92,7 @@ ggplot(df, aes(x = exam, y = n)) +
 -   But you might want to improve your write-up based on inspiration from other teams' presentations and/or ideas that came up during your Q&A.
 
 -   Project repos will close at 8:00am on Wednesday.
-    There is no Gradescope submission, just push your final edits to GitHub.
+    There is no Canvas submission, just push your final edits to GitHub.
 
 # Questions from last time
 
@@ -173,7 +173,7 @@ There is no specific, secret number of visualizations I'm expecting, the right n
 
 ## Submission {.smaller}
 
-> You will not be submitting anything on Gradescope for the project.
+> You will not be submitting anything on Canvas for the project.
 > Submission of these deliverables will happen on GitHub and feedback will be provided as GitHub issues that you need to engage with and close.
 > The collection of the documents in your GitHub repo will create a webpage for your project.
 > To create the webpage go to the Build tab in RStudio, and click on Render Website.

@@ -9,7 +9,7 @@ editor: visual
 
 In this application exercise we will be studying loan interest rates.
 The dataset is one you've come across before in your reading -- the dataset about loans from the peer-to-peer lender, Lending Club, from the **openintro** package.
-We will use **tidyverse** and **tidymodels** for data exploration and modeling, respectively.
+We will use **tidyverse** and **tidymodels** for data exploration and modelling, respectively.
 
 ```{r}
 #| label: load-packages

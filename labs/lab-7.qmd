@@ -5,7 +5,7 @@ categories: "Lab"
 
 # Introduction
 
-In this lab you'll continue your practice of statistical modeling and then venture on to quantifying uncertainty.
+In this lab you'll continue your practice of statistical modelling and then venture on to quantifying uncertainty.
 
 ## Packages
 
