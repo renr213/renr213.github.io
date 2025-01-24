@@ -265,7 +265,7 @@ d\. Create a new variable in `midwest` called `potential_outlier`. This variable
 
 Then, display the updated `midwest` data frame, with county, state, percentage below poverty, percentage college educated, `potential_outlier` as the selected variables, arranged in ascending order of `potential_outlier`.
 
-c\. Recreate the visualization above, i.e. a scatterplot of percentage below poverty vs. percentage of people with a college degree, however color the points by the newly created `potential_outlier` variable instead of state.
+e\. Recreate the visualization above, i.e. a scatterplot of percentage below poverty vs. percentage of people with a college degree, however color the points by the newly created `potential_outlier` variable instead of state.
 
 ::: render-commit-push
 Render, commit, and push your changes to GitHub with the commit message "Added answer for Question 6".
@@ -424,7 +424,7 @@ Make sure you have:
 
 The lab is graded out of a total of 36 points.
 
-You can earn up to 5 points on each question:
+You can earn up to 4 points on each question:
 
 -   4: Response shows excellent understanding and addresses all or almost all of the rubric items.
 
