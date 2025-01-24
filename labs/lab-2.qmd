@@ -403,14 +403,6 @@ Before you wrap up the assignment, make sure all of your documents are updated o
 You must turn in a PDF file to Canvas by the submission deadline to be considered "on time".
 :::
 
-To submit your assignment:
-
--   Go to <http://www.gradescope.com> and click *Log in* in the top right corner.
--   Click *School Credentials* $\rightarrow$ *Duke NetID* and log in using your NetID credentials.
--   Click on your *STA 199* course.
--   Click on the assignment, and you'll be prompted to submit it.
--   Mark all the pages associated with question. All the pages of your lab should be associated with at least one question (i.e., should be "checked").
-
 ::: callout-important
 ## Checklist
 
