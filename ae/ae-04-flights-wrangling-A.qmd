@@ -7,8 +7,7 @@ categories:
 ---
 
 ::: callout-important
-These are suggested answers.
-This document should be used as reference only, it's not designed to be an exhaustive key.
+These are suggested answers. This document should be used as reference only, it's not designed to be an exhaustive key.
 :::
 
 ```{r}
@@ -23,8 +22,7 @@ library(nycflights13)
 
 **Your turn:** Fill in the blanks:
 
-The `flights` data frame has *`{r} nrow(flights)`* rows.
-Each row represents a \_flight\_.
+The `flights` data frame has *`{r} nrow(flights)`* rows. Each row represents a \_flight\_.
 
 ## Exercise 2
 

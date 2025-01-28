@@ -1,57 +1,12 @@
 ---
 title: "Grammar of data wrangling"
 subtitle: "Lecture 5"
-date: "January 6, 2025"
+date: last-modified
+date-format: long
 format: 
   revealjs:
-    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/68653/discussion/4223179)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/)"
 ---
-
-# Warm up
-
-```{r}
-#| echo: false
-
-library(countdown)
-```
-
-## While you wait for class to begin...
-
--   Go to your `ae` repo, click *Pull* to get today's application exercise to get ready for later.
-
--   Questions from the prepare materials?
-
-    <iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%">
-
-    </iframe>
-
-## Asking good questions {.smaller}
-
--   Post content questions on Ed Discussion
--   If you have a coding question always provide the code, and if relevant, the error
-    -   If this feels impossible, don't fret it, it's ok to ask questions without the code. It's just more efficient with it!
--   Title your thread in a way that can help others (e.g., "Q7" vs. "error with `mutate()` function in Lab 1 - Q7")
--   Check for previous questions
-
-## Coding style + workflow
-
-::: incremental
--   Avoid long lines of code.
-
-    -   We should be able to see [all]{.underline} of your code in the PDF document you submit.
-
--   Label code chunks.
-
-    -   Do **not** put spaces in the code-chunk `label`s.
-
--   Render, commit, and push regularly.
-
-    -   Think about it like clicking to save regularly as you type a report.
-:::
-
-## Lab 1
-
-![](images/lab-1-commits.png){fig-align="center"}
 
 # Data frames and `tibble`s
 
@@ -238,6 +193,8 @@ flights |>                 # <1>
 -   Use `|>` mainly in data pipelines to pass the output of the previous line of code as the first input of the next line of code.
 
 -   When reading code "in English", say "and then" whenever you see a pipe.
+
+-   Before R 4.1, the pipe was written as `%>%`. You may see this in some older code or videos.
 :::
 
 ## Delayed flights to RDU
@@ -342,11 +299,11 @@ flights |>                  # <1>
 ## `ae-04-flights-wrangling`
 
 ::: appex
--   Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called `ae`.
+-   Accept the invitation to open the repository containing the exercise
 
--   If there are any uncommitted files, commit them, and then click **Pull**.
+-   Create a new project in RStudio on Posit Cloud
 
--   Open the file called `ae-04-flights-wrangling.qmd` and render it.
+-   Work through the application exercise
 :::
 
 ## Recap: pipe {.smaller}

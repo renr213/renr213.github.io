@@ -33,7 +33,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: select-vars
 
-# add code here
+flights |>
+  select(dep_delay, arr_delay)
 ```
 
 -   Demo: Make a data frame that keeps every variable except `dep_delay`.
@@ -41,7 +42,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: exclude-vars
 
-# add code here
+flights |>
+  select(-dep_delay)
 ```
 
 -   Demo: Make a data frame that includes all variables between `year` through `dep_delay` (inclusive). These are all variables that provide information about the departure of each flight.
@@ -49,7 +51,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: include-range
 
-# add code here
+flights |>
+  select(year:dep_delay)
 ```
 
 -   Demo: Use the `select` helper `contains()` to make a data frame that includes the variables associated with the arrival, i.e., contains the string `"arr\_"` in the name.
@@ -57,7 +60,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: arr-vars
 
-# add code here
+flights |>
+  select(contains("arr_"))
 ```
 
 ## Exercise 4 - `slice()`
@@ -67,7 +71,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: slice
 
-# add code here
+flights |>
+  slice(1:5)
 ```
 
 -   Demo: Display the last two rows of the `flights` data frame.
@@ -75,7 +80,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: last-two
 
-# add code here
+flights |>
+  slice_tail(n = 2)
 ```
 
 ## Exercise 5 - `arrange()`
@@ -85,7 +91,8 @@ The `flights` data frame has \_\_\_ rows. Each row represents a \_\_\_.
 ```{r}
 #| label: arrange-delays
 
-# add code here
+flights |>
+  arrange(dep_delay)
 ```
 
 -   Question: What does it mean for the `dep_delay` to have a negative value?
@@ -97,7 +104,8 @@ Add your response here.
 ```{r}
 #| label: arrange-delays-desc
 
-# add code here
+flights |>
+  arrange(desc(dep_delay))
 ```
 
 -   **Your turn:** Create a data frame that only includes the plane tail number (`tailnum`), carrier (`carrier`), and departure delay for the flight with the longest departure delay. What is the plane tail number (`tailnum`) for this flight?
@@ -115,7 +123,8 @@ Add your response here.
 ```{r}
 #| label: rdu
 
-# add code here
+flights |>
+  filter(dest == "RDU")
 ```
 
 -   Demo: Filter for all rows where the destination airport is RDU and the arrival delay is less than 0.
@@ -123,7 +132,9 @@ Add your response here.
 ```{r}
 #| label: rdu-ontime
 
-# add code here
+
+flights |>
+  filter(dest == "RDU" & arr_delay < 0)
 ```
 
 -   **Your turn:** Describe what the code is doing in words.
@@ -165,7 +176,8 @@ flights |>
 ```{r}
 #| label: count-dest
 
-# add code here
+flights |>
+  count(dest)
 ```
 
 -   Demo: In which month was there the fewest number of flights? How many flights were there in that month?
@@ -173,7 +185,6 @@ flights |>
 ```{r}
 #| label: count-month
 
-# add code here
 ```
 
 -   **Your turn:** On which date (month + day) was there the largest number of flights? How many flights were there on that day?

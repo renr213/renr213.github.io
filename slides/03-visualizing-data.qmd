@@ -1,7 +1,7 @@
 ---
 title: "Visualizing various types of data"
 subtitle: "Lecture 3"
-date: "January 13, 2025"
+date: last-modified
 format: revealjs
 ---
 
