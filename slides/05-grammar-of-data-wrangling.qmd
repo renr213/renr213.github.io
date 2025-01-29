@@ -8,7 +8,81 @@ format:
     footer: "[🔗 renr213.github.io](https://renr213.github.io/)"
 ---
 
-# Data frames and `tibble`s
+from: [Cambridge English Dictionary](https://dictionary.cambridge.org/dictionary/english/wrangling)
+
+**wrangling** *noun* **(CONTROLLING ANIMALS)**
+
+:   the activity of taking care of, controlling, or moving animals, especially large animals such as cows or horses:
+
+    -   *A display of wild horse wrangling attracted thousands of visitors in northeastern Germany.*
+
+    -   *The actor had to learn cattle wrangling skills for his new movie.*
+
+# Data frames and tibbles
+
+## tibble vs. data frame
+
+-   **tibble**: an opinionated version of the `R` data frame
+-   All tibbles are data frames, but not all data frames are tibbles!
+-   Two main differences between a tibble and a data frame:
+    -   Printing
+    -   Stricter subsetting 
+    
+See <https://r4ds.had.co.nz/tibbles.html>
+
+## Printing {.smaller}
+
+::: panel-tabset
+## `tibble`
+
+Display first 10 rows and all of the columns that fit on the screen will display, along with the type of each column.
+
+```{r}
+#| label: load-libraries
+library(tidyverse)
+library(nycflights13)
+```
+
+```{r}
+#| label: tibble-print
+
+flights
+```
+
+## `data.frame`
+
+(Attempt to) display all of the data, or die (crash) trying (if the dataset is too large)!
+
+```{r}
+#| label: data-frame-print
+
+cars
+```
+:::
+
+## Stricter subsetting
+
+::: panel-tabset
+## `tibble`
+
+Warning + `NULL` if variable not found.
+
+```{r}
+#| label: tibble-subset
+
+flights$apple
+```
+
+## `data.frame`
+
+Only `NULL` if variable not found.
+
+```{r}
+#| label: data-frame-subset
+
+cars$apple
+```
+:::
 
 ## NYC Flights
 
@@ -68,65 +142,7 @@ head(flights)
 ```
 :::
 
-## `tibble` vs. data frame
-
-::: incremental
--   **tibble**: an opinionated version of the `R` data frame
--   All tibbles are data frames, but not all data frames are tibbles!
--   Two main differences between a tibble and a data frame:
-    -   Printing
-    -   Stricter subsetting
-:::
-
-## Printing {.smaller}
-
-::: panel-tabset
-## `tibble`
-
-Display first 10 rows and all of the columns that fit on the screen will display, along with the type of each column.
-
-```{r}
-#| label: tibble-print
-
-flights
-```
-
-## `data.frame`
-
-(Attempt to) display all of the data, or die (crash) tryin (if the dataset is too large)!
-
-```{r}
-#| label: data-frame-print
-
-cars
-```
-:::
-
-## Stricter subsetting
-
-::: panel-tabset
-## `tibble`
-
-Warning + `NULL` if variable not found.
-
-```{r}
-#| label: tibble-subset
-
-flights$apple
-```
-
-## `data.frame`
-
-Only `NULL` if variable not found.
-
-```{r}
-#| label: data-frame-subset
-
-cars$apple
-```
-:::
-
-# Data wrangling with `dplyr`
+# Data wrangling with dplyr
 
 ## dplyr
 
@@ -190,11 +206,11 @@ flights |>                 # <1>
 ::: incremental
 -   The **pipe**, `|>`, is an operator (a tool) for passing information from one process to another.
 
+    -   Before R 4.1, the pipe was written as %\>%. You may see this in some older code or videos.
+
 -   Use `|>` mainly in data pipelines to pass the output of the previous line of code as the first input of the next line of code.
 
 -   When reading code "in English", say "and then" whenever you see a pipe.
-
--   Before R 4.1, the pipe was written as `%>%`. You may see this in some older code or videos.
 :::
 
 ## Delayed flights to RDU
@@ -212,7 +228,7 @@ Which airline is the most delayed, on average, arriving in RDU from a New York C
 #| ref.label: pipe-5
 ```
 
-## The pipe, in action {.smaller}
+## The pipe in action {.smaller}
 
 ```{r}
 #| label: pipe-1
@@ -222,7 +238,7 @@ flights # <1>
 
 1.  Take the flights data frame
 
-## The pipe, in action {.smaller}
+## The pipe in action {.smaller}
 
 ```{r}
 #| label: pipe-2
@@ -234,7 +250,7 @@ flights |>               # <1>
 1.  Take the flights data frame,
 2.  **and then** filter for flights going to RDU
 
-## The pipe, in action {.smaller}
+## The pipe in action {.smaller}
 
 ```{r}
 #| label: pipe-3
@@ -248,7 +264,7 @@ flights |>                  # <1>
 2.  **and then** filter for flights going to RDU,
 3.  **and then** group by carrier
 
-## The pipe, in action {.smaller}
+## The pipe in action {.smaller}
 
 ```{r}
 #| label: pipe-4
@@ -264,7 +280,7 @@ flights |>                  # <1>
 3.  **and then** group by carrier,
 4.  **and then** calculate the mean arrival delay for each carrier
 
-## The pipe, in action {.smaller}
+## The pipe in action {.smaller}
 
 ```{r}
 #| label: pipe-5
@@ -290,9 +306,9 @@ flights |>                  # <1>
 
 ## Groups of rows
 
--   `summarize()`: collapses a group into a single row.
 -   `count()`: count unique values of one or more variables.
 -   `group_by()`: perform calculations separately for each value of a variable
+-   `summarize()`: collapses a group into a single row.
 
 # Application exercise
 
@@ -332,12 +348,14 @@ sum(1, 2)
 
 ## Recap: logical operators {.smaller}
 
-| operator      | definition                                               |
-|:--------------|:---------------------------------------------------------|
-| `x & y`       | is x AND y?                                              |
-| `x \| y`      | is x OR y?                                               |
-| `is.na(x)`    | is x NA?                                                 |
-| `!is.na(x)`   | is x not NA?                                             |
-| `x %in% y`    | is x in y?                                               |
-| `!(x %in% y)` | is x not in y?                                           |
-| `!x`          | is not x? (only makes sense if `x` is `TRUE` or `FALSE`) |
+| operator      | definition                |
+|:--------------|:--------------------------|
+| `x & y`       | is x AND y?               |
+| `x | y`      | is x OR y?                |
+| `is.na(x)`    | is x NA?                  |
+| `!is.na(x)`   | is x not NA?              |
+| `x %in% y`    | is x in y?                |
+| `!(x %in% y)` | is x not in y?            |
+| `!x`          | is not x? (e.g. !(x \< y) |
+
+

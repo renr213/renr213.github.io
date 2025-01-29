@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-3303cc4104339d43eab2acacf05af7d1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.30">
 
-  <meta name="dcterms.date" content="2025-01-27">
+  <meta name="dcterms.date" content="2025-01-29">
   <title>REN R 213 – Grammar of data wrangling</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -401,136 +401,53 @@
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">January 27, 2025</p>
+  <p class="date">January 29, 2025</p>
+</section>
+<section class="slide level2">
+
+<p>from: <a href="https://dictionary.cambridge.org/dictionary/english/wrangling">Cambridge English Dictionary</a></p>
+<dl>
+<dt><strong>wrangling</strong> <em>noun</em> <strong>(CONTROLLING ANIMALS)</strong></dt>
+<dd>
+<p>the activity of taking care of, controlling, or moving animals, especially large animals such as cows or horses:</p>
+<ul>
+<li><p><em>A display of wild horse wrangling attracted thousands of visitors in northeastern Germany.</em></p></li>
+<li><p><em>The actor had to learn cattle wrangling skills for his new movie.</em></p></li>
+</ul>
+</dd>
+</dl>
 </section>
 <section>
 <section id="data-frames-and-tibbles" class="title-slide slide level1 center">
-<h1>Data frames and <code>tibble</code>s</h1>
+<h1>Data frames and tibbles</h1>
 
 </section>
-<section id="nyc-flights" class="slide level2">
-<h2>NYC Flights</h2>
-<ul>
-<li><p>To demonstrate data wrangling we will use <code>flights</code>, a tibble in the <strong>nycflights13</strong> R package.</p></li>
-<li><p>The data set includes characteristics of all flights departing from New York City (JFK, LGA, EWR) in 2013.</p></li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb1-2"><a></a><span class="fu">library</span>(nycflights13)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="flights-dimensions" class="slide level2">
-<h2><code>flights</code> – dimensions</h2>
-<ul>
-<li>Number of rows:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">nrow</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 336776</code></pre>
-</div>
-</div>
-<div class="fragment">
-<ul>
-<li>Number of columns:</li>
-</ul>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">ncol</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 19</code></pre>
-</div>
-</div>
-</div>
-</section>
-<section id="flights-first-look" class="slide level2 smaller">
-<h2><code>flights</code> – first look</h2>
-<div class="panel-tabset">
-<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1"><code>glimpse()</code></a></li><li><a href="#tabset-1-2"><code>names()</code></a></li><li><a href="#tabset-1-3"><code>head()</code></a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">glimpse</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Rows: 336,776
-Columns: 19
-$ year           &lt;int&gt; 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013,…
-$ month          &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
-$ day            &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
-$ dep_time       &lt;int&gt; 517, 533, 542, 544, 554, 554, 555, 557, 557, 558, 558, 558, 558, …
-$ sched_dep_time &lt;int&gt; 515, 529, 540, 545, 600, 558, 600, 600, 600, 600, 600, 600, 600, …
-$ dep_delay      &lt;dbl&gt; 2, 4, 2, -1, -6, -4, -5, -3, -3, -2, -2, -2, -2, -2, -1, 0, -1, 0…
-$ arr_time       &lt;int&gt; 830, 850, 923, 1004, 812, 740, 913, 709, 838, 753, 849, 853, 924,…
-$ sched_arr_time &lt;int&gt; 819, 830, 850, 1022, 837, 728, 854, 723, 846, 745, 851, 856, 917,…
-$ arr_delay      &lt;dbl&gt; 11, 20, 33, -18, -25, 12, 19, -14, -8, 8, -2, -3, 7, -14, 31, -4,…
-$ carrier        &lt;chr&gt; "UA", "UA", "AA", "B6", "DL", "UA", "B6", "EV", "B6", "AA", "B6",…
-$ flight         &lt;int&gt; 1545, 1714, 1141, 725, 461, 1696, 507, 5708, 79, 301, 49, 71, 194…
-$ tailnum        &lt;chr&gt; "N14228", "N24211", "N619AA", "N804JB", "N668DN", "N39463", "N516…
-$ origin         &lt;chr&gt; "EWR", "LGA", "JFK", "JFK", "LGA", "EWR", "EWR", "LGA", "JFK", "L…
-$ dest           &lt;chr&gt; "IAH", "IAH", "MIA", "BQN", "ATL", "ORD", "FLL", "IAD", "MCO", "O…
-$ air_time       &lt;dbl&gt; 227, 227, 160, 183, 116, 150, 158, 53, 140, 138, 149, 158, 345, 3…
-$ distance       &lt;dbl&gt; 1400, 1416, 1089, 1576, 762, 719, 1065, 229, 944, 733, 1028, 1005…
-$ hour           &lt;dbl&gt; 5, 5, 5, 5, 6, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 6, 6, 6, 6, 6, 6,…
-$ minute         &lt;dbl&gt; 15, 29, 40, 45, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0,…
-$ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2…</code></pre>
-</div>
-</div>
-</div>
-<div id="tabset-1-2">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">names</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code> [1] "year"           "month"          "day"            "dep_time"       "sched_dep_time"
- [6] "dep_delay"      "arr_time"       "sched_arr_time" "arr_delay"      "carrier"       
-[11] "flight"         "tailnum"        "origin"         "dest"           "air_time"      
-[16] "distance"       "hour"           "minute"         "time_hour"     </code></pre>
-</div>
-</div>
-</div>
-<div id="tabset-1-3">
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">head</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 6 × 19
-   year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay
-  &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;
-1  2013     1     1      517            515         2      830            819        11
-2  2013     1     1      533            529         4      850            830        20
-3  2013     1     1      542            540         2      923            850        33
-4  2013     1     1      544            545        -1     1004           1022       -18
-5  2013     1     1      554            600        -6      812            837       -25
-6  2013     1     1      554            558        -4      740            728        12
-# ℹ 10 more variables: carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,
-#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;,
-#   time_hour &lt;dttm&gt;</code></pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
 <section id="tibble-vs.-data-frame" class="slide level2">
-<h2><code>tibble</code> vs.&nbsp;data frame</h2>
-<div>
+<h2>tibble vs.&nbsp;data frame</h2>
 <ul>
-<li class="fragment"><strong>tibble</strong>: an opinionated version of the <code>R</code> data frame</li>
-<li class="fragment">All tibbles are data frames, but not all data frames are tibbles!</li>
-<li class="fragment">Two main differences between a tibble and a data frame:
+<li><strong>tibble</strong>: an opinionated version of the <code>R</code> data frame</li>
+<li>All tibbles are data frames, but not all data frames are tibbles!</li>
+<li>Two main differences between a tibble and a data frame:
 <ul>
-<li class="fragment">Printing</li>
-<li class="fragment">Stricter subsetting</li>
+<li>Printing</li>
+<li>Stricter subsetting</li>
 </ul></li>
 </ul>
-</div>
+<p>See <a href="https://r4ds.had.co.nz/tibbles.html" class="uri">https://r4ds.had.co.nz/tibbles.html</a></p>
 </section>
 <section id="printing" class="slide level2 smaller">
 <h2>Printing</h2>
 <div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1"><code>tibble</code></a></li><li><a href="#tabset-2-2"><code>data.frame</code></a></li></ul>
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1"><code>tibble</code></a></li><li><a href="#tabset-1-2"><code>data.frame</code></a></li></ul>
 <div class="tab-content">
-<div id="tabset-2-1">
+<div id="tabset-1-1">
 <p>Display first 10 rows and all of the columns that fit on the screen will display, along with the type of each column.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a></a>flights</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a></a><span class="fu">library</span>(nycflights13)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>flights</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 336,776 × 19
     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay
@@ -552,10 +469,10 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </div>
 </div>
-<div id="tabset-2-2">
-<p>(Attempt to) display all of the data, or die (crash) tryin (if the dataset is too large)!</p>
+<div id="tabset-1-2">
+<p>(Attempt to) display all of the data, or die (crash) trying (if the dataset is too large)!</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a></a>cars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a>cars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>   speed dist
 1      4    2
@@ -617,23 +534,123 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <section id="stricter-subsetting" class="slide level2">
 <h2>Stricter subsetting</h2>
 <div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1"><code>tibble</code></a></li><li><a href="#tabset-3-2"><code>data.frame</code></a></li></ul>
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1"><code>tibble</code></a></li><li><a href="#tabset-2-2"><code>data.frame</code></a></li></ul>
 <div class="tab-content">
-<div id="tabset-3-1">
+<div id="tabset-2-1">
 <p>Warning + <code>NULL</code> if variable not found.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a></a>flights<span class="sc">$</span>apple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>flights<span class="sc">$</span>apple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>NULL</code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-2-2">
+<p>Only <code>NULL</code> if variable not found.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a>cars<span class="sc">$</span>apple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>NULL</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="nyc-flights" class="slide level2">
+<h2>NYC Flights</h2>
+<ul>
+<li><p>To demonstrate data wrangling we will use <code>flights</code>, a tibble in the <strong>nycflights13</strong> R package.</p></li>
+<li><p>The data set includes characteristics of all flights departing from New York City (JFK, LGA, EWR) in 2013.</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb10-2"><a></a><span class="fu">library</span>(nycflights13)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="flights-dimensions" class="slide level2">
+<h2><code>flights</code> – dimensions</h2>
+<ul>
+<li>Number of rows:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a><span class="fu">nrow</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 336776</code></pre>
+</div>
+</div>
+<div class="fragment">
+<ul>
+<li>Number of columns:</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a><span class="fu">ncol</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>[1] 19</code></pre>
+</div>
+</div>
+</div>
+</section>
+<section id="flights-first-look" class="slide level2 smaller">
+<h2><code>flights</code> – first look</h2>
+<div class="panel-tabset">
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1"><code>glimpse()</code></a></li><li><a href="#tabset-3-2"><code>names()</code></a></li><li><a href="#tabset-3-3"><code>head()</code></a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a><span class="fu">glimpse</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Rows: 336,776
+Columns: 19
+$ year           &lt;int&gt; 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013, 2013,…
+$ month          &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
+$ day            &lt;int&gt; 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,…
+$ dep_time       &lt;int&gt; 517, 533, 542, 544, 554, 554, 555, 557, 557, 558, 558, 558, 558, …
+$ sched_dep_time &lt;int&gt; 515, 529, 540, 545, 600, 558, 600, 600, 600, 600, 600, 600, 600, …
+$ dep_delay      &lt;dbl&gt; 2, 4, 2, -1, -6, -4, -5, -3, -3, -2, -2, -2, -2, -2, -1, 0, -1, 0…
+$ arr_time       &lt;int&gt; 830, 850, 923, 1004, 812, 740, 913, 709, 838, 753, 849, 853, 924,…
+$ sched_arr_time &lt;int&gt; 819, 830, 850, 1022, 837, 728, 854, 723, 846, 745, 851, 856, 917,…
+$ arr_delay      &lt;dbl&gt; 11, 20, 33, -18, -25, 12, 19, -14, -8, 8, -2, -3, 7, -14, 31, -4,…
+$ carrier        &lt;chr&gt; "UA", "UA", "AA", "B6", "DL", "UA", "B6", "EV", "B6", "AA", "B6",…
+$ flight         &lt;int&gt; 1545, 1714, 1141, 725, 461, 1696, 507, 5708, 79, 301, 49, 71, 194…
+$ tailnum        &lt;chr&gt; "N14228", "N24211", "N619AA", "N804JB", "N668DN", "N39463", "N516…
+$ origin         &lt;chr&gt; "EWR", "LGA", "JFK", "JFK", "LGA", "EWR", "EWR", "LGA", "JFK", "L…
+$ dest           &lt;chr&gt; "IAH", "IAH", "MIA", "BQN", "ATL", "ORD", "FLL", "IAD", "MCO", "O…
+$ air_time       &lt;dbl&gt; 227, 227, 160, 183, 116, 150, 158, 53, 140, 138, 149, 158, 345, 3…
+$ distance       &lt;dbl&gt; 1400, 1416, 1089, 1576, 762, 719, 1065, 229, 944, 733, 1028, 1005…
+$ hour           &lt;dbl&gt; 5, 5, 5, 5, 6, 5, 6, 6, 6, 6, 6, 6, 6, 6, 6, 5, 6, 6, 6, 6, 6, 6,…
+$ minute         &lt;dbl&gt; 15, 29, 40, 45, 0, 58, 0, 0, 0, 0, 0, 0, 0, 0, 0, 59, 0, 0, 0, 0,…
+$ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2…</code></pre>
 </div>
 </div>
 </div>
 <div id="tabset-3-2">
-<p>Only <code>NULL</code> if variable not found.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a></a>cars<span class="sc">$</span>apple</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a><span class="fu">names</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>NULL</code></pre>
+<pre><code> [1] "year"           "month"          "day"            "dep_time"       "sched_dep_time"
+ [6] "dep_delay"      "arr_time"       "sched_arr_time" "arr_delay"      "carrier"       
+[11] "flight"         "tailnum"        "origin"         "dest"           "air_time"      
+[16] "distance"       "hour"           "minute"         "time_hour"     </code></pre>
+</div>
+</div>
+</div>
+<div id="tabset-3-3">
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a><span class="fu">head</span>(flights)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 6 × 19
+   year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time arr_delay
+  &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;
+1  2013     1     1      517            515         2      830            819        11
+2  2013     1     1      533            529         4      850            830        20
+3  2013     1     1      542            540         2      923            850        33
+4  2013     1     1      544            545        -1     1004           1022       -18
+5  2013     1     1      554            600        -6      812            837       -25
+6  2013     1     1      554            558        -4      740            728        12
+# ℹ 10 more variables: carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;,
+#   dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;,
+#   time_hour &lt;dttm&gt;</code></pre>
 </div>
 </div>
 </div>
@@ -642,7 +659,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </section></section>
 <section>
 <section id="data-wrangling-with-dplyr" class="title-slide slide level1 center">
-<h1>Data wrangling with <code>dplyr</code></h1>
+<h1>Data wrangling with dplyr</h1>
 
 </section>
 <section id="dplyr" class="slide level2">
@@ -743,10 +760,12 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <h2>The pipe</h2>
 <div>
 <ul>
-<li class="fragment"><p>The <strong>pipe</strong>, <code>|&gt;</code>, is an operator (a tool) for passing information from one process to another.</p></li>
+<li class="fragment"><p>The <strong>pipe</strong>, <code>|&gt;</code>, is an operator (a tool) for passing information from one process to another.</p>
+<ul>
+<li class="fragment">Before R 4.1, the pipe was written as %&gt;%. You may see this in some older code or videos.</li>
+</ul></li>
 <li class="fragment"><p>Use <code>|&gt;</code> mainly in data pipelines to pass the output of the previous line of code as the first input of the next line of code.</p></li>
 <li class="fragment"><p>When reading code “in English”, say “and then” whenever you see a pipe.</p></li>
-<li class="fragment"><p>Before R 4.1, the pipe was written as <code>%&gt;%</code>. You may see this in some older code or videos.</p></li>
 </ul>
 </div>
 </section>
@@ -772,7 +791,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </section>
 <section id="the-pipe-in-action" class="slide level2 smaller">
-<h2>The pipe, in action</h2>
+<h2>The pipe in action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="annotated-cell-6"><pre class="sourceCode numberSource r code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-6" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-6-1" class="code-annotation-target"><a href="#annotated-cell-6-1"></a>flights</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-annotation">
@@ -805,7 +824,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </section>
 <section id="the-pipe-in-action-1" class="slide level2 smaller">
-<h2>The pipe, in action</h2>
+<h2>The pipe in action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="annotated-cell-7"><pre class="sourceCode numberSource r code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-7" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-7-1" class="code-annotation-target"><a href="#annotated-cell-7-1"></a>flights <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-7" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-7-2" class="code-annotation-target"><a href="#annotated-cell-7-2"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">"RDU"</span>)</span><div class="code-annotation-gutter-bg"></div><div class="code-annotation-gutter"></div></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -843,7 +862,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </section>
 <section id="the-pipe-in-action-2" class="slide level2 smaller">
-<h2>The pipe, in action</h2>
+<h2>The pipe in action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="annotated-cell-8"><pre class="sourceCode numberSource r code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-8" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-8-1" class="code-annotation-target"><a href="#annotated-cell-8-1"></a>flights <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-8" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-8-2" class="code-annotation-target"><a href="#annotated-cell-8-2"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">"RDU"</span>) <span class="sc">|&gt;</span></span>
@@ -887,7 +906,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </section>
 <section id="the-pipe-in-action-3" class="slide level2 smaller">
-<h2>The pipe, in action</h2>
+<h2>The pipe in action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="annotated-cell-9"><pre class="sourceCode numberSource r code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-9-1" class="code-annotation-target"><a href="#annotated-cell-9-1"></a>flights <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-9" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-9-2" class="code-annotation-target"><a href="#annotated-cell-9-2"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">"RDU"</span>) <span class="sc">|&gt;</span></span>
@@ -926,7 +945,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </div>
 </section>
 <section id="the-pipe-in-action-4" class="slide level2 smaller">
-<h2>The pipe, in action</h2>
+<h2>The pipe in action</h2>
 <div class="cell">
 <div class="sourceCode cell-code" id="annotated-cell-10"><pre class="sourceCode numberSource r code-annotation-code number-lines code-with-copy code-annotated"><code class="sourceCode r"><a class="code-annotation-anchor" data-target-cell="annotated-cell-10" data-target-annotation="1" onclick="event.preventDefault();">1</a><span id="annotated-cell-10-1" class="code-annotation-target"><a href="#annotated-cell-10-1"></a>flights <span class="sc">|&gt;</span></span>
 <a class="code-annotation-anchor" data-target-cell="annotated-cell-10" data-target-annotation="2" onclick="event.preventDefault();">2</a><span id="annotated-cell-10-2" class="code-annotation-target"><a href="#annotated-cell-10-2"></a>  <span class="fu">filter</span>(dest <span class="sc">==</span> <span class="st">"RDU"</span>) <span class="sc">|&gt;</span></span>
@@ -980,9 +999,9 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <section id="groups-of-rows" class="slide level2">
 <h2>Groups of rows</h2>
 <ul>
-<li><code>summarize()</code>: collapses a group into a single row.</li>
 <li><code>count()</code>: count unique values of one or more variables.</li>
 <li><code>group_by()</code>: perform calculations separately for each value of a variable</li>
+<li><code>summarize()</code>: collapses a group into a single row.</li>
 </ul>
 </section></section>
 <section>
@@ -1006,12 +1025,12 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <li>The pipe operator passes what comes before it into the function that comes after it as the first argument in that function.</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a></a><span class="dv">1</span> <span class="sc">|&gt;</span> </span>
-<span id="cb30-2"><a></a>  <span class="fu">sum</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a></a><span class="dv">1</span> <span class="sc">|&gt;</span> </span>
+<span id="cb31-2"><a></a>  <span class="fu">sum</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3</code></pre>
 </div>
@@ -1063,10 +1082,6 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <section id="recap-logical-operators-1" class="slide level2 smaller">
 <h2>Recap: logical operators</h2>
 <table class="caption-top">
-<colgroup>
-<col style="width: 20%">
-<col style="width: 79%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">operator</th>
@@ -1079,7 +1094,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 <td style="text-align: left;">is x AND y?</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><code>x \| y</code></td>
+<td style="text-align: left;"><code>x | y</code></td>
 <td style="text-align: left;">is x OR y?</td>
 </tr>
 <tr class="odd">
@@ -1100,7 +1115,7 @@ $ time_hour      &lt;dttm&gt; 2013-01-01 05:00:00, 2013-01-01 05:00:00, 2013-01-
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><code>!x</code></td>
-<td style="text-align: left;">is not x? (only makes sense if <code>x</code> is <code>TRUE</code> or <code>FALSE</code>)</td>
+<td style="text-align: left;">is not x? (e.g.&nbsp;!(x &lt; y)</td>
 </tr>
 </tbody>
 </table>
