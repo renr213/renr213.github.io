@@ -1,5 +1,5 @@
 ---
-title: "Lab 2 - Data wrangling"
+title: "Lab 2: Data wrangling"
 editor_options: 
   chunk_output_type: console
 output: html

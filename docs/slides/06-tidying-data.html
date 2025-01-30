@@ -9,7 +9,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-3303cc4104339d43eab2acacf05af7d1.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.30">
 
-  <meta name="dcterms.date" content="2025-01-06">
+  <meta name="dcterms.date" content="2025-01-29">
   <title>REN R 213 – Tidying data</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -401,39 +401,12 @@
 <div class="quarto-title-authors">
 </div>
 
-  <p class="date">2025-01-06</p>
+  <p class="date">January 29, 2025</p>
 </section>
-<section>
-<section id="warm-up" class="title-slide slide level1 center">
-<h1>Warm up</h1>
+<section class="slide level2">
 
-</section>
-<section id="while-you-wait-for-class-to-begin" class="slide level2">
-<h2>While you wait for class to begin…</h2>
-<ul>
-<li><p>Go to your <code>ae</code> repo, click <em>Pull</em> to get today’s application exercise to get ready for later.</p></li>
-<li><p>Questions from the prepare materials?</p>
-<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe></li>
-</ul>
-</section>
-<section id="announcements" class="slide level2">
-<h2>Announcements</h2>
-<ul>
-<li>Lab 2 due Monday, 8 am</li>
-</ul>
-</section></section>
-<section>
-<section id="from-last-time-application-exercise" class="title-slide slide level1 center">
-<h1>From last time: Application exercise</h1>
-
-</section>
-<section id="ae-04-flights-wrangling" class="slide level2">
-<h2><code>ae-04-flights-wrangling</code></h2>
-<div class="appex">
-<ul>
-<li><p>Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called <code>ae</code>.</p></li>
-<li><p>Open the file called <code>ae-04-flights-wrangling.qmd</code> and render it.</p></li>
-</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="recap-pipe" class="slide level2 smaller">
@@ -442,12 +415,12 @@
 <li>The pipe operator passes what comes before it into the function that comes after it as the first argument in that function.</li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">sum</span>(<span class="dv">1</span>, <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="dv">1</span> <span class="sc">|&gt;</span> </span>
-<span id="cb3-2"><a></a>  <span class="fu">sum</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="dv">1</span> <span class="sc">|&gt;</span> </span>
+<span id="cb4-2"><a></a>  <span class="fu">sum</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 3</code></pre>
 </div>
@@ -541,231 +514,6 @@
 </tbody>
 </table>
 </section>
-<section id="recap-assignment" class="slide level2 smaller">
-<h2>Recap: assignment</h2>
-<p>Let’s make a tiny data frame to use as an example:</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">library</span>(tidyverse)</span>
-<span id="cb5-2"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>))</span>
-<span id="cb5-3"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     1 a    
-2     2 a    
-3     3 b    
-4     4 c    
-5     5 c    </code></pre>
-</div>
-</div>
-</section>
-<section id="recap-assignment-1" class="slide level2 smaller">
-<h2>Recap: assignment</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something and show me</strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a>df <span class="sc">|&gt;</span></span>
-<span id="cb7-2"><a></a>  <span class="fu">mutate</span>(<span class="at">x =</span> x <span class="sc">*</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     2 a    
-2     4 a    
-3     6 b    
-4     8 c    
-5    10 c    </code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     1 a    
-2     2 a    
-3     3 b    
-4     4 c    
-5     5 c    </code></pre>
-</div>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something and save result</strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a></a>df <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb11-2"><a></a>  <span class="fu">mutate</span>(<span class="at">x =</span> x <span class="sc">*</span> <span class="dv">2</span>)</span>
-<span id="cb11-3"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     2 a    
-2     4 a    
-3     6 b    
-4     8 c    
-5    10 c    </code></pre>
-</div>
-</div>
-</div></div>
-</section>
-<section id="recap-assignment-2" class="slide level2 smaller">
-<h2>Recap: assignment</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, overwriting original</strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb13" data-code-line-numbers="5-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb13-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb13-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb13-4"><a></a>)</span>
-<span id="cb13-5"><a></a>df <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb13-6"><a></a>  <span class="fu">mutate</span>(<span class="at">x =</span> x <span class="sc">*</span> <span class="dv">2</span>)</span>
-<span id="cb13-7"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     2 a    
-2     4 a    
-3     6 b    
-4     8 c    
-5    10 c    </code></pre>
-</div>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, <em>not</em> overwriting original</strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb15" data-code-line-numbers="5-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb15-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb15-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb15-4"><a></a>)</span>
-<span id="cb15-5"><a></a>df_new <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb15-6"><a></a>  <span class="fu">mutate</span>(<span class="at">x =</span> x <span class="sc">*</span> <span class="dv">2</span>)</span>
-<span id="cb15-7"><a></a>df_new</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     2 a    
-2     4 a    
-3     6 b    
-4     8 c    
-5    10 c    </code></pre>
-</div>
-</div>
-</div></div>
-</section>
-<section id="recap-assignment-3" class="slide level2 smaller">
-<h2>Recap: assignment</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, overwriting original <em>when you shouldn’t</em></strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb17" data-code-line-numbers="5-8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb17-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb17-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb17-4"><a></a>)</span>
-<span id="cb17-5"><a></a>df <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb17-6"><a></a>  <span class="fu">group_by</span>(y) <span class="sc">|&gt;</span></span>
-<span id="cb17-7"><a></a>  <span class="fu">summarize</span>(<span class="at">mean_x =</span> <span class="fu">mean</span>(x))</span>
-<span id="cb17-8"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 2
-  y     mean_x
-  &lt;chr&gt;  &lt;dbl&gt;
-1 a        1.5
-2 b        3  
-3 c        4.5</code></pre>
-</div>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, <em>not</em> overwriting original <em>when you shouldn’t</em></strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb19" data-code-line-numbers="5-8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb19-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb19-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb19-4"><a></a>)</span>
-<span id="cb19-5"><a></a>df_summary <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb19-6"><a></a>  <span class="fu">group_by</span>(y) <span class="sc">|&gt;</span></span>
-<span id="cb19-7"><a></a>  <span class="fu">summarize</span>(<span class="at">mean_x =</span> <span class="fu">mean</span>(x))</span>
-<span id="cb19-8"><a></a>df_summary</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 3 × 2
-  y     mean_x
-  &lt;chr&gt;  &lt;dbl&gt;
-1 a        1.5
-2 b        3  
-3 c        4.5</code></pre>
-</div>
-</div>
-</div></div>
-</section>
-<section id="recap-assignment-4" class="slide level2 smaller">
-<h2>Recap: assignment</h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, overwriting original</strong><br>
-<strong><em>data frame</em></strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb21" data-code-line-numbers="5-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb21-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb21-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb21-4"><a></a>)</span>
-<span id="cb21-5"><a></a>df <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb21-6"><a></a>  <span class="fu">mutate</span>(<span class="at">z =</span> x <span class="sc">+</span> <span class="dv">2</span>)</span>
-<span id="cb21-7"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 3
-      x y         z
-  &lt;dbl&gt; &lt;chr&gt; &lt;dbl&gt;
-1     1 a         3
-2     2 a         4
-3     3 b         5
-4     4 c         6
-5     5 c         7</code></pre>
-</div>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<blockquote>
-<p><strong>Do something, save result, overwriting original</strong><br>
-<strong><em>column</em></strong></p>
-</blockquote>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb23" data-code-line-numbers="5-7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(</span>
-<span id="cb23-2"><a></a>  <span class="at">x =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>), </span>
-<span id="cb23-3"><a></a>  <span class="at">y =</span> <span class="fu">c</span>(<span class="st">"a"</span>, <span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>, <span class="st">"c"</span>)</span>
-<span id="cb23-4"><a></a>)</span>
-<span id="cb23-5"><a></a>df <span class="ot">&lt;-</span> df <span class="sc">|&gt;</span></span>
-<span id="cb23-6"><a></a>  <span class="fu">mutate</span>(<span class="at">x =</span> x <span class="sc">+</span> <span class="dv">2</span>)</span>
-<span id="cb23-7"><a></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-      x y    
-  &lt;dbl&gt; &lt;chr&gt;
-1     3 a    
-2     4 a    
-3     5 b    
-4     6 c    
-5     7 c    </code></pre>
-</div>
-</div>
-</div></div>
-</section></section>
 <section>
 <section id="data-tidying" class="title-slide slide level1 center">
 <h1>Data tidying</h1>
@@ -775,8 +523,8 @@
 <h2>Tidy data</h2>
 <blockquote>
 <p>“Tidy datasets are easy to manipulate, model and visualise, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.”</p>
-<p>Tidy Data, https://vita.had.co.nz/papers/tidy-data.pdf</p>
 </blockquote>
+<p>Tidy Data, <a href="https://vita.had.co.nz/papers/tidy-data.pdf" class="uri">https://vita.had.co.nz/papers/tidy-data.pdf</a></p>
 <div class="fragment">
 <p><strong>Note:</strong> “easy to manipulate” = “straightforward to manipulate”</p>
 </div>
@@ -785,12 +533,12 @@
 <h2>Goal</h2>
 <p>Visualize StatSci majors over the years!</p>
 
-<img data-src="https://renr213.github.io/images/statsci-plot.png" class="r-stretch"></section>
+<img data-src="images/statsci-plot.png" class="r-stretch"></section>
 <section id="data" class="slide level2 smaller">
 <h2>Data</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a></a>statsci <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"https://renr213.github.io/data/statsci.csv"</span>)</span>
-<span id="cb25-2"><a></a>statsci</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>statsci <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"../data/statsci.csv"</span>)</span>
+<span id="cb6-2"><a></a>statsci</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 4 × 14
   degree      `2011` `2012` `2013` `2014` `2015` `2016` `2017` `2018` `2019` `2020` `2021`
@@ -814,7 +562,6 @@
 <div class="question">
 <p>Take a look at the plot we aim to make and sketch the data frame we need to make the plot. Determine what each row and each column of the data frame should be. <em>Hint:</em> We need data to be in columns to map to <code>aes</code>thetic elements of the plot.</p>
 </div>
-<iframe allowfullscreen="" frameborder="0" height="100%" mozallowfullscreen="" style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
 </section></section>
 <section>
 <section id="application-exercise" class="title-slide slide level1 center">
@@ -825,9 +572,9 @@
 <h2><code>ae-05-majors-tidying</code></h2>
 <div class="appex">
 <ul>
-<li><p>Go to the project navigator in RStudio (top right corner of your RStudio window) and open the project called <code>ae</code>.</p></li>
-<li><p>If there are any uncommitted files, commit them, and then click <strong>Pull</strong>.</p></li>
-<li><p>Open the file called <code>ae-05-majors-tidying.qmd</code> and render it.</p></li>
+<li>Accept the invitation to the application exercise.</li>
+<li>Create a new project in RStudio from the GitHub repository</li>
+<li>Open the <code>.qmd</code> file and render it.</li>
 </ul>
 </div>
 </section>
@@ -847,7 +594,7 @@
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="images/logo_moose.png" class="slide-logo"></p>
 <div class="footer footer-default">
-<p><a href="https://renr213.github.io/">🔗 renr213.github.io</a> &nbsp;·&nbsp; <a href="https://edstem.org/us/courses/68653/discussion/4241121">❓ Ask on Ed</a></p>
+<p><a href="https://renr213.github.io/">🔗 renr213.github.io</a></p>
 </div>
 </div></div>
 

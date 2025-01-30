@@ -7,8 +7,7 @@ categories:
 ---
 
 ::: callout-important
-These are suggested answers.
-This document should be used as reference only, it's not designed to be an exhaustive key.
+These are suggested answers. This document should be used as reference only, it's not designed to be an exhaustive key.
 :::
 
 ## Goal
@@ -19,9 +18,7 @@ Our ultimate goal in this application exercise is to make the following data vis
 
 ## Data
 
-The data come from the [Office of the University Registrar](https://registrar.duke.edu/registration/enrollment-statistics).
-They make the data available as a table that you can download as a PDF, but I've put the data exported in a CSV file for you.
-Let's load that in.
+The data come from the [Office of the University Registrar](https://registrar.duke.edu/registration/enrollment-statistics). They make the data available as a table that you can download as a PDF, but I've put the data exported in a CSV file for you. Let's load that in.
 
 ```{r}
 #| label: load-packages-data
@@ -53,8 +50,7 @@ statsci |>
 
 -   **Question:** What is the type of the `year` variable? Why? What should it be?
 
-It's a character (`chr`) variable since the information came from the columns of the original data frame and R cannot know that these character strings represent years.
-The variable type should be numeric.
+It's a character (`chr`) variable since the information came from the columns of the original data frame and R cannot know that these character strings represent years. The variable type should be numeric.
 
 -   **Demo:** Start over with pivoting, and this time also make sure `year` is a numerical variable in the resulting data frame.
 
