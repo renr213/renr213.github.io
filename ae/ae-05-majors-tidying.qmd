@@ -6,11 +6,11 @@ title: "AE 05: Tidying StatSci Majors"
 
 Our ultimate goal in this application exercise is to make the following data visualization.
 
-![](../slides/images/statsci-plot.png){fig-alt="Line plot of numbers of Statistical Science majors over the years (2011 - 2021). Degree types represented are BS, BS2, AB, AB2. There is an increasing trend in BS degrees and somewhat steady trend in AB degrees." fig-align="center"}
+![](images/statsci-plot.png){fig-alt="Line plot of numbers of Statistical Science majors over the years (2011 - 2021). Degree types represented are BS, BS2, AB, AB2. There is an increasing trend in BS degrees and somewhat steady trend in AB degrees." fig-align="center"}
 
 ## Data
 
-The data come from Duke's Office of the University Registrar. They data area available as a table downloadable as a PDF. The data have been exported to a CSV file for you. Let's load that in.
+The data come from Duke's Office of the University Registrar. The data were downloaded from Duke as a PDF file. The data have been exported to a CSV file for you. Let's load that in.
 
 ```{r}
 #| label: load-packages-data
@@ -18,7 +18,7 @@ The data come from Duke's Office of the University Registrar. They data area ava
 
 library(tidyverse)
 
-statsci <- read_csv("../data/statsci.csv")
+statsci <- read_csv("data/statsci.csv")
 ```
 
 And let's take a look at the data.
@@ -76,7 +76,7 @@ statsci
 
 -   **Your turn:** Now we start making our plot, but let's not get too fancy right away. Create the following plot, which will serve as the "first draft" on the way to our [Goal]. Do this by adding on to your pipeline from earlier.
 
-![](../slides/images/statsci-plot-draft.png){fig-alt="Line plot of numbers of Statistical Science majors over the years (2011 - 2021). Degree types represented are BS, BS2, AB, AB2. There is an increasing trend in BS degrees and somewhat steady trend in AB degrees." fig-align="center"}
+![](images/statsci-plot-draft.png){fig-alt="Line plot of numbers of Statistical Science majors over the years (2011 - 2021). Degree types represented are BS, BS2, AB, AB2. There is an increasing trend in BS degrees and somewhat steady trend in AB degrees." fig-align="center"}
 
 ```{r}
 #| label: plot-draft
