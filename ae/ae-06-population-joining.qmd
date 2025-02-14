@@ -26,7 +26,7 @@ These data come from [The World Bank](https://data.worldbank.org/indicator/SP.PO
 #| label: load-population-data
 #| message: false
 
-population <- read_csv("https://sta199-s24.github.io/data/world-pop-2022.csv")
+population <- read_csv("data/world-pop-2022.csv")
 ```
 
 Let's take a look at the data.
