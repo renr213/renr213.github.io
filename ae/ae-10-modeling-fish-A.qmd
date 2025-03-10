@@ -9,12 +9,10 @@ fig-asp: 0.618
 ---
 
 ::: callout-important
-These are suggested answers.
-This document should be used as reference only, it's not designed to be an exhaustive key.
+These are suggested answers. This document should be used as reference only, it's not designed to be an exhaustive key.
 :::
 
-For this application exercise, we will work with data on fish.
-The dataset we will use, called `fish`, is on two common fish species in fish market sales.
+For this application exercise, we will work with data on fish. The dataset we will use, called `fish`, is on two common fish species in fish market sales.
 
 ```{r}
 #| label: load-packages-data
@@ -58,14 +56,11 @@ ggplot(fish, aes(x = height, y = weight)) +
 
 -   **Your turn (5 minutes):**
 
-    -   If you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go?
-        Why?
+    -   If you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go? Why?
 
         *Start from the bottom and go up Identify the first and last point and draw a line through most the others.*
 
-    -   Now, let R draw the line for you.
-        Refer to the documentation at <https://ggplot2.tidyverse.org/reference/geom_smooth.html>.
-        Specifically, refer to the `method` section.
+    -   Now, let R draw the line for you. Refer to the documentation at <https://ggplot2.tidyverse.org/reference/geom_smooth.html>. Specifically, refer to the `method` section.
 
     ```{r}
     #| label: plot-hw-lm
@@ -86,9 +81,7 @@ ggplot(fish, aes(x = height, y = weight)) +
 
 -   ***Your turn (3 minutes):***
 
-    -   We can use this line to make predictions.
-        Predict what you think the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm.
-        Which prediction is considered extrapolation?
+    -   We can use this line to make predictions. Predict what you think the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm. Which prediction is considered extrapolation?
 
         *At 10 cm, we estimate a weight of 375 grams. At 15 cm, we estimate a weight of 600 grams At 20 cm, we estimate a weight of 975 grams. 20 cm would be considered extrapolation.*
 
@@ -159,14 +152,11 @@ $\widehat{weight} = -288 + 60.9 \times height$
 We can also assess correlation between two quantitative variables.
 
 -   **Your turn (5 minutes):**
-    -   What is correlation?
-        What are values correlation can take?
+    -   What is correlation? What are values correlation can take?
 
         *Strength and direction of a linear relationship. It's bounded by -1 and 1.*
 
-    -   Are you good at guessing correlation?
-        Give it a try!
-        <https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html>
+    -   Are you good at guessing correlation? Give it a try! <https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html>
 -   **Demo:** What is the correlation between heights and weights of fish?
 
 ```{r}

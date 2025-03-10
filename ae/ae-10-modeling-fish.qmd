@@ -1,9 +1,8 @@
 ---
-title: "Modelling fish"
+title: "Modeling fish"
 ---
 
-For this application exercise, we will work with data on fish.
-The dataset we will use, called `fish`, is on two common fish species in fish market sales.
+For this application exercise, we will work with data on fish. The dataset we will use, called `fish`, is on two common fish species in fish market sales.
 
 ```{r}
 #| label: load-packages-data
@@ -41,14 +40,11 @@ We're going to investigate the relationship between the weights and heights of f
 
 -   **Your turn (5 minutes):**
 
-    -   If you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go?
-        Why?
+    -   If you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go? Why?
 
         *Add response here.*
 
-    -   Now, let R draw the line for you.
-        Refer to the documentation at <https://ggplot2.tidyverse.org/reference/geom_smooth.html>.
-        Specifically, refer to the `method` section.
+    -   Now, let R draw the line for you. Refer to the documentation at <https://ggplot2.tidyverse.org/reference/geom_smooth.html>. Specifically, refer to the `method` section.
 
     ```{r}
     #| label: plot-hw-lm

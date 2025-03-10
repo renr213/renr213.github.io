@@ -7,8 +7,7 @@ categories:
 ---
 
 ::: callout-important
-These are suggested answers.
-This document should be used as reference only, it's not designed to be an exhaustive key.
+These are suggested answers. This document should be used as reference only, it's not designed to be an exhaustive key.
 :::
 
 ## Packages

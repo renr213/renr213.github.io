@@ -1,0 +1,31 @@
+movie_name,release_year,director,age_difference,couple_number,actor_1_name,actor_2_name,character_1_gender,character_2_gender,actor_1_birthdate,actor_2_birthdate,actor_1_age,actor_2_age,older
+10 Things I Hate About You,1999,Gil Junger,0,2,Joseph Gordon-Levitt,Larisa Oleynik,man,woman,1981-02-17,1981-06-07,18,18,same age
+A Happening of Monumental Proportions,2017,Judy Greer,0,2,Common,Jennifer Garner,man,woman,1972-03-13,1972-04-17,45,45,same age
+A Simple Favor,2018,Paul Feig,0,2,Henry Golding,Blake Lively,man,woman,1987-02-05,1987-08-25,31,31,same age
+American Hustle,2013,David O. Russell,0,3,Christian Bale,Amy Adams,man,woman,1974-01-30,1974-08-20,39,39,same age
+American Pie,1999,"Paul Weitz, Chris Weitz",0,4,Mena Suvari,Chris Klein,woman,man,1979-02-13,1979-03-14,20,20,same age
+Blue Valentine,2010,Derek Cianfrance,0,1,Michelle Williams,Ryan Gosling,woman,man,1980-09-09,1980-11-12,30,30,same age
+Catch Me If You Can,2002,Steven Spielberg,0,1,Amy Adams,Leonardo DiCaprio,woman,man,1974-08-20,1974-11-11,28,28,same age
+Chicago,2002,Rob Marshall,0,2,Renee Zellweger,Dominic West,woman,man,1969-04-25,1969-10-15,33,33,same age
+Daddy's Little Girls,2007,Tyler Perry,0,1,Idris Elba,Gabrielle Union,man,woman,1972-09-06,1972-10-29,35,35,same age
+Empire,2002,Franc. Reyes,0,2,Denise Richards,Peter Sarsgaard,woman,man,1971-02-17,1971-03-07,31,31,same age
+Good Will Hunting,1997,Gus Van Sant,0,1,Minnie Driver,Matt Damon,woman,man,1970-01-31,1970-10-08,27,27,same age
+He's Just Not That Into You,2009,Ken Kwapis,0,5,Ginnifer Goodwin,Justin Long,woman,man,1978-05-22,1978-06-02,31,31,same age
+Killing Me Softly,2002,Chen Kaige,0,1,Heather Graham,Joseph Fiennes,woman,man,1970-01-29,1970-05-27,32,32,same age
+Magic Mike,2012,Steven Soderbergh,0,2,Channing Tatum,Olivia Munn,man,woman,1980-04-26,1980-07-03,32,32,same age
+Me Before You,2016,Thea Sharrock,0,2,Sam Claflin,Emilia Clarke,man,woman,1986-06-27,1986-10-23,30,30,same age
+Mona Lisa Smile,2003,Mike Newell,0,5,Ginnifer Goodwin,Ebon Moss-Bachrach,woman,man,1978-05-22,1978-08-17,25,25,same age
+Red Riding Hood,2011,Catherine Hardwicke,0,1,Shiloh Fernandez,Amanda Seyfried,man,woman,1985-02-26,1985-12-03,26,26,same age
+She's Out of My League,2010,Jim Field Smith,0,1,Alice Eve,Jay Baruchel,woman,man,1982-02-06,1982-04-09,28,28,same age
+Slackers,2002,Dewey Nicks,0,2,Jason Segel,Laura Prepon,man,woman,1980-01-18,1980-03-07,22,22,same age
+Soul Food,1997,George Tillman Jr.,0,4,Vanessa Williams,Michael Beach,woman,man,1963-03-18,1963-10-30,34,34,same age
+Spanglish,2004,James L. Brooks,0,2,Tea Leoni,Adam Sandler,woman,man,1966-02-25,1966-09-09,38,38,same age
+Speed,1994,Jan de Bont,0,1,Sandra Bullock,Keanu Reeves,woman,man,1964-07-26,1964-09-02,30,30,same age
+Spider-Man: Far From Home,2019,Jon Watts,0,2,Tom Holland,Zendaya,man,woman,1996-06-01,1996-09-01,23,23,same age
+The Crush,1993,Alan Shapiro,0,2,Jennifer Rubin,Cary Elwes,woman,man,1962-04-03,1962-10-26,31,31,same age
+The Holiday,2006,Nancy Meyers,0,2,Cameron Diaz,Jude Law,woman,man,1972-08-30,1972-12-29,34,34,same age
+The Hunger Games: Catching Fire,2013,Francis Lawrence,0,1,Liam Hemsworth,Jennifer Lawrence,man,woman,1990-01-13,1990-08-15,23,23,same age
+The Lake House,2006,Alejandro Agresti,0,1,Sandra Bullock,Keanu Reeves,woman,man,1964-07-26,1964-09-02,42,42,same age
+Tolkien,2019,Dome Karukoski,0,1,Lily Collins,Nicholas Hoult,woman,man,1989-03-18,1989-12-07,30,30,same age
+Transformers,2007,Michael Bay,0,1,Megan Fox,Shia LaBeouf,woman,man,1986-05-16,1986-06-11,21,21,same age
+X-Men: First Class,2015,Matthew Vaughn,0,3,James McAvoy,Rose Byrne,man,woman,1979-04-21,1979-07-24,36,36,same age

@@ -78,13 +78,8 @@ website:
             text: Lab 4
           - href: labs/lab-5.qmd
             text: Lab 5 
-      - section: "Exam review"
-        contents:
-          - href: exam-review/exam-1-review.qmd
-            text: Exam 1
-          - href: exam-review/exam-2-review.qmd
-            text: Exam 2
-            
+          - href: labs/lab-6.qmd
+            text: Lab 6
   page-footer:
     right: 'This page is built with [Quarto](https://quarto.org/).'
     background: "#3A5883" # Pantone Chambray Blue - Spring 2024, darkened to pass contrast checks

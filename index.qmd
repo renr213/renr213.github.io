@@ -2,6 +2,8 @@
 title: "REN R 213:  Data Science for Natural Resource Managers"
 execute: 
   freeze: auto
+format: 
+  html: default
 ---
 
 ## Introduction

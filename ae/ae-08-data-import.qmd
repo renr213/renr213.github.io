@@ -17,9 +17,9 @@ library(tidyverse)
 library(readxl)
 ```
 
-# Part 1: Hollywood relationships 
+# Part 1: Hollywood relationships
 
--   **Demo:** Load the data from [https://renr213.github.io/data/age_gaps.csv](https://renr213.github.io/data/age_gaps.csv){.uri} and assign it to `age_gaps`. Confirm that this new object appears in your Environment tab.
+-   **Demo:** Load the data from <https://tinyurl.com/ae08-age-gaps> and assign it to `age_gaps` Confirm that this new object appears in your Environment tab.
 
 ```{r}
 #| label: age-gaps-import
@@ -61,7 +61,7 @@ Sales data are stored in an Excel file that looks like the following:
 
 -   **Demo - Stretch goal:** Manipulate the sales data such such that it looks like the following.
 
-![](https://sta199-s24.github.io/images/sales-2.png){width="200"}
+![](images/sales-2.png){width="200"}
 
 ```{r}
 #| label: sales-cleanup
