@@ -73,14 +73,6 @@
     <lastmod>2025-03-10T17:53:18.839Z</lastmod>
   </url>
   <url>
-    <loc>https:/w25.r4nrm.ca/exam-review/exam-2-review-A.html</loc>
-    <lastmod>2025-02-24T18:16:27.128Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/exam-review/exam-1-review-A.html</loc>
-    <lastmod>2025-02-24T18:16:27.128Z</lastmod>
-  </url>
-  <url>
     <loc>https:/w25.r4nrm.ca/course-syllabus.html</loc>
     <lastmod>2025-02-24T18:16:26.406Z</lastmod>
   </url>
@@ -125,24 +117,24 @@
     <lastmod>2025-02-24T18:16:26.402Z</lastmod>
   </url>
   <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-11-modeling-penguins.html</loc>
-    <lastmod>2025-02-24T18:16:26.397Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-10-modeling-fish.html</loc>
-    <lastmod>2025-03-10T17:50:40.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-09-chronicle-scrape.html</loc>
+    <loc>https:/w25.r4nrm.ca/ae/not-used/ae-09-chronicle-scrape.html</loc>
     <lastmod>2025-02-24T18:16:26.392Z</lastmod>
   </url>
   <url>
+    <loc>https:/w25.r4nrm.ca/ae/ae-10-modeling-penguins.html</loc>
+    <lastmod>2025-02-24T18:16:26.397Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/w25.r4nrm.ca/ae/ae-09-modeling-fish.html</loc>
+    <lastmod>2025-03-10T17:50:40.837Z</lastmod>
+  </url>
+  <url>
     <loc>https:/w25.r4nrm.ca/ae/ae-08-data-import.html</loc>
-    <lastmod>2025-03-10T17:14:09.761Z</lastmod>
+    <lastmod>2025-03-10T21:19:34.209Z</lastmod>
   </url>
   <url>
     <loc>https:/w25.r4nrm.ca/ae/ae-08-data-import-A.html</loc>
-    <lastmod>2025-03-10T16:46:17.145Z</lastmod>
+    <lastmod>2025-03-10T21:19:18.052Z</lastmod>
   </url>
   <url>
     <loc>https:/w25.r4nrm.ca/ae/ae-07-population-types-A.html</loc>
@@ -214,19 +206,19 @@
   </url>
   <url>
     <loc>https:/w25.r4nrm.ca/ae/ae-08-data-import-B.html</loc>
-    <lastmod>2025-03-10T17:06:48.648Z</lastmod>
+    <lastmod>2025-03-10T22:47:54.630Z</lastmod>
   </url>
   <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-09-chronicle-scrape-A.html</loc>
-    <lastmod>2025-03-10T18:59:51.399Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-10-modeling-fish-A.html</loc>
+    <loc>https:/w25.r4nrm.ca/ae/ae-09-modeling-fish-A.html</loc>
     <lastmod>2025-03-10T17:19:55.621Z</lastmod>
   </url>
   <url>
-    <loc>https:/w25.r4nrm.ca/ae/ae-11-modeling-penguins-A.html</loc>
+    <loc>https:/w25.r4nrm.ca/ae/ae-10-modeling-penguins-A.html</loc>
     <lastmod>2025-03-10T17:50:40.915Z</lastmod>
+  </url>
+  <url>
+    <loc>https:/w25.r4nrm.ca/ae/not-used/ae-09-chronicle-scrape-A.html</loc>
+    <lastmod>2025-03-10T18:59:51.399Z</lastmod>
   </url>
   <url>
     <loc>https:/w25.r4nrm.ca/ae/not-used/ae-12-modeling-penguins-multi-A.html</loc>
@@ -275,14 +267,6 @@
   <url>
     <loc>https:/w25.r4nrm.ca/course-team.html</loc>
     <lastmod>2025-02-24T18:16:26.406Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/exam-review/exam-1-review.html</loc>
-    <lastmod>2025-02-24T18:16:27.128Z</lastmod>
-  </url>
-  <url>
-    <loc>https:/w25.r4nrm.ca/exam-review/exam-2-review.html</loc>
-    <lastmod>2025-02-24T18:16:27.128Z</lastmod>
   </url>
   <url>
     <loc>https:/w25.r4nrm.ca/labs/lab-0.html</loc>

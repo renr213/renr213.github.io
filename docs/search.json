@@ -2521,25 +2521,11 @@
     "href": "index.html#class-schedule",
     "title": "REN R 213: Data Science for Natural Resource Managers",
     "section": "Class Schedule",
-    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1  🎥 Data and visualization  🎥 Visualising data with ggplot2\n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 🎥 vid 02\n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n🖥️ slides 03🎥 vid 03\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 🎥 Visualizing numerical data 🎥 Visualizing categorical data\n🗣️Visualizing various types of data\n🖥️ slides 04 ⌨️ ae 03🎥 vid 04\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n🖥️ slides 05 ⌨️ ae 04🎥 vid 05\n\n\n\n\n4\nTue, Jan 28\n🎥 Grammar of data wrangling 📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n🖥️ slides 06 ⌨️ ae 05 🎥 vid 06\n\n\n\n\n\n\nThu, Jan 30\n🎥 Working with a single data frame 📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n5\nTue, Feb 4\n🎥 Tidying data 📗 r4ds - chp 5\n🗣️Tidying data\n💻 lab 3 \n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n🖥️ slides 07 ⌨️ ae 06 🎥 vid 07\n\n\n\n\n6\nTue, Feb 11\n🎥 Working with multiple data frames\n🥼Lab 3: Data tidying and joining\n\n\n\n\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n🖥️ slides 08 ⌨️ ae 07 🎥 vid 08\nLab 2: 8:00 a.m.\n\n\n7\nSun, Feb 18\n\n\nREADING WEEK\n\n\n\n\n\n\n\n\nTue, Feb 20\n\n\nREADING WEEK\n\n\n\n\n\n\n8\nTue, Feb 25\n\n\n\n\n\n\n\n\n\n\n\n\nThu, Feb 27\n\n\n\n\n\n\n\n\n\n\n9\nTue, Mar 4\n\n\n\n\n\n\n\n\n\n\n\n\nThu, Mar 6\n\n\n\n\n\n\n\n\n\n\n10\nTue, Mar 11\n\n\n\n\n\n\n\n\n\n\n\n\nThu, Mar 13\n\n\n\n\n\n\n\n\n\n\n11\nTue, Mar 18\n\n\n\n\n\n\nLab 3: 8:00 a.m.\n\n\n\n\nThu, Mar 20\n\n\n\n\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n\n\n\n\nLab 4: 8:00 a.m.\n\n\n\n\nThu, Mar 27\n\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 1\n\n\n\n\n\n\nLab 5: 8:00 a.m.\n\n\n12\nMon, Apr 7\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Apr 9\n\n\n\n\n\n\nLab 6: 8:00 am",
+    "text": "Class Schedule\n\n\n\n\n\n\n\n\nWEEK\nDATE\nPREPARE\nTOPIC\nMATERIALS\nDUE\n\n\n\n\n1\nTue, Jan 7\n\n\n🥼Lab 0: Hello, World and REN R 213!\n💻 lab 0  🎥 Cloud setup 🎥 RStudio tour 🎥 Retrieving and submitting assignments\n\n\n\n\n\n\nThu, Jan 9\n📗 r4ds - intro  📘 ims - chp 1\n🗣️Meet the toolkit\n🖥️ slides 01  ⌨️ ae 01  🎥 lec 01 🎥 GitHub and Posit Cloud\n\n\n\n\n2\nTue, Jan 14\n📗 r4ds - chp 1  🎥 Data and visualization  🎥 Visualising data with ggplot2\n🗣️Grammar of graphics\n🖥️ slides 02  ⌨️ ae 02 🎥 vid 02\n\n\n\n\n\n\nThu, Jan 16\n📗 r4ds - chp 2\n🥼Lab 1: Data visualization\n🖥️ slides 03🎥 vid 03\n\n\n\n\n3\nTue, Jan 21\n📘 ims - chp 4  📘 ims - chp 5 🎥 Visualizing numerical data 🎥 Visualizing categorical data\n🗣️Visualizing various types of data\n🖥️ slides 04 ⌨️ ae 03🎥 vid 04\n\n\n\n\n\n\nThu, Jan 23\n📘 ims - chp 6\n🗣️Data visualization overview\n🖥️ slides 05 ⌨️ ae 04🎥 vid 05\n\n\n\n\n4\nTue, Jan 28\n🎥 Grammar of data wrangling 📗 r4ds - chp 3.6-3.7  📗 r4ds - chp 4\n🗣️Grammar of data wrangling\n🖥️ slides 06 ⌨️ ae 05 🎥 vid 06\n\n\n\n\n\n\nThu, Jan 30\n🎥 Working with a single data frame 📗 r4ds - chp 3.1-3.5\n🥼Lab 2: Data wrangling\n\n\nLab 1: 8:00 a.m.\n\n\n5\nTue, Feb 4\n🎥 Tidying data 📗 r4ds - chp 5\n🗣️Tidying data\n💻 lab 3 \n\n\n\n\n\n\nThu, Feb 6\n📗 r4ds - chp 19.1-19.3\n🗣️Joining data\n🖥️ slides 07 ⌨️ ae 06 🎥 vid 07\n\n\n\n\n6\nTue, Feb 11\n🎥 Working with multiple data frames\n🥼Lab 3: Data tidying and joining\n\n\n\n\n\n\n\n\nThu, Feb 13\n📗 r4ds - chp 16\n🗣️Data types and classes\n🖥️ slides 08 ⌨️ ae 07 🎥 vid 08\nLab 2: 8:00 a.m.\n\n\n10\nTue, Mar 11\n\n\n🥼Lab 4: Potpourri\n⌨️ ae 08 🎥 ae 08 Video \n\n\n\n\n\n\nThu, Mar 13\n\n\n\n\n\n\n\n\n\n\n11\nTue, Mar 18\n\n\n🥼Lab 5: Modeling I\n\n\nLab 3: 8:00 a.m.\n\n\n\n\nThu, Mar 20\n\n\n\n\n\n\n\n\n\n\n12\nTue, Mar 25\n\n\n🥼Lab 6: Modelling II\n\n\nLab 4: 8:00 a.m.\n\n\n\n\nThu, Mar 27\n\n\n\n\n\n\n\n\n\n\n13\nTue, Apr 1\n\n\n\n\n\n\nLab 5: 8:00 a.m.\n\n\n12\nMon, Apr 7\n\n\n\n\n\n\n\n\n\n\n\n\nWed, Apr 9\n\n\n\n\n\n\nLab 6: 8:00 a.m.",
     "crumbs": [
       "Course information",
       "Schedule"
     ]
-  },
-  {
-    "objectID": "exam-review/exam-2-review-A.html",
-    "href": "exam-review/exam-2-review-A.html",
-    "title": "Exam 2 Review",
-    "section": "",
-    "text": "Take a random sample of size 25, with replacement, from the original sample. Calculate the proportion of students in this simulated sample who work 5 or more hours. Repeat this process 1000 times to build the bootstrap distribution. Take the middle 95% of this distribution to construct a 95% confidence interval for the true proportion of statistics majors who work 5 or more hours.\nThe exact 95% CI is (40%, 80%). Answers reasonably close to the upper and lower bounds would be accepted.\n(e) None of the above. The correct interpretation is “We are 95% confident that 40% to 80% of statistics majors work at least 5 hours per week.”\n(c) For every additional $1,000 of annual salary, the model predicts the raise to be higher, on average, by 0.0155%.\n$R^2$ of raise_2_fit is higher than $R^2$ of raise_1_fit since raise_2_fit has one more predictor and $R^2$ always\nThe reference level of performance_rating is High, since it’s the first level alphabetically. Therefore, the coefficient -2.40% is the predicted difference in raise comparing High to Successful. In this context a negative coefficient makes sense since we would expect those with High performance rating to get higher raises than those with Successful performance.\n(a) “Poor”, “Successful”, “High”, “Top”.\nOption 3. It’s a linear model with no interaction effect, so parallel lines. And since the slope for salary_typeSalaried is positive, its intercept is higher. The equations of the lines are as follows:\n\nHourly:\n\\[\n\\begin{align*}\n\\widehat{percent\\_incr} &= 1.24 + 0.0000137 \\times annual\\_salary + 0.913 salary\\_typeSalaried \\\\\n&= 1.24 + 0.0000137 \\times annual\\_salary + 0.913 \\times 0 \\\\\n&= 1.24 + 0.0000137 \\times annual\\_salary\n\\end{align*}\n\\]\nSalaried:\n\\[\n\\begin{align*}\n\\widehat{percent\\_incr} &= 1.24 + 0.0000137 \\times annual\\_salary + 0.913 salary\\_typeSalaried \\\\\n&= 1.24 + 0.0000137 \\times annual\\_salary + 0.913 \\times 1 \\\\\n&= 2.153 + 0.0000137 \\times annual\\_salary\n\\end{align*}\n\\]\n\nA parsimonious model is the simplest model with the best predictive performance.\n(c) The model predicts that the percentage increase employees with Successful performance get, on average, is higher by a factor of 1025 compared to the employees with Poor performance rating.\\/(a) and (d).\n(a) and (d).\n(c) We are 95% confident that the mean number of texts per month of all American teens is between 1450 and 1550."
-  },
-  {
-    "objectID": "exam-review/exam-1-review-A.html",
-    "href": "exam-review/exam-1-review-A.html",
-    "title": "Exam 1 Review",
-    "section": "",
-    "text": "b, c, f, g -\n\nThe blizzard_salary dataset has 409 rows.\nThe percent_incr variable is numerical and continuous.\nThe salary_type variable is categorical.\n\nFigure 1 - A shared x-axis makes it easier to compare summary statistics for the variable on the x-axis.\nc - It’s a value higher than the median for hourly but lower than the mean for salaried.\nb - There is more variability around the mean compared to the hourly distribution.\na, b, e - Pie charts and waffle charts are for visualizing distributions of categorical data only. Scatterplots are for visualizing the relationship between two numerical variables.\nc - mutate() is used to create or modify a variable.\na - \"Poor\", \"Successful\", \"High\", \"Top\"\nb - Option 2. The plot in Option 1 shows the number of employees with a given performance rating for each salary type while the plot in Option 2 gives the proportion of employees with a given performance rating for each salary type. In order to assess the relationship between these variables (e.g., how much more likely is a Top rating among Salaried vs. Hourly workers), we need the proportions, not the counts.\nThere may be some NAs in these two variables that are not visible in the plot.\nThe proportions under Hourly would go in the Hourly bar, and those under Salaried would go in the Salaried bar.\nc - filter(salary_type != \"Hourly\" & performance_rating == \"Poor\") - There are 5 observations for “not Hourly” “and” Poor.\na - arrange() - The result is arranged in increasing order of annual_salary, which is the default for arrange().\nc, d, e, f.\nPart 1: The following should be fixed:\n\nThere should be a | after # before label\nThere should be a : after label, not =\nThere shouldn’t be a space in the chunk label, it should be plot-blizzard\nThere should be spaces after commas in the code\nThere should be spaces on both sides of = in the code\nThere should be a space before +\ngeom_boxplot() should be on the next line and indented\nThere should be a + at the end of the geom_boxplot() line\nlabs() should be indented\n\nPart 2: The warning is caused by NA in the data. It means that 39 observations were NAs and are not plotted/represented on the plot.\nPart 1:\n\nRender: Run all of the code and render all of the text in the document and produce an output.\nCommit: Take a snapshot of your changes in Git with an appropriate message.\nPush: Send your changes off to GitHub.\n\nPart 2: c - Rendering or committing isn’t sufficient to send your changes to your GitHub repository, a push is needed. A pull is also not needed to view the changes in the browser."
   },
   {
     "objectID": "course-syllabus.html",
@@ -3025,39 +3011,39 @@
     "text": "Choosing a model\nRule of thumb: Occam’s Razor - Don’t overcomplicate the situation! We prefer the simplest best model.\n\n# add code here\n\n\nReview: What is R-squared? What is adjusted R-squared?\n\nR-squared is the percent variability in the response that is explained by our model. (Can use when models have same number of variables for model selection)\nAdjusted R-squared is similar, but has a penalty for the number of variables in the model. (Should use for model selection when models have different numbers of variables)."
   },
   {
-    "objectID": "ae/ae-11-modeling-penguins.html",
-    "href": "ae/ae-11-modeling-penguins.html",
+    "objectID": "ae/not-used/ae-09-chronicle-scrape.html",
+    "href": "ae/not-used/ae-09-chronicle-scrape.html",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "",
+    "text": "This will be done in the chronicle-scrape.R R script. Save the resulting data frame in the data folder."
+  },
+  {
+    "objectID": "ae/not-used/ae-09-chronicle-scrape.html#part-1---data-scraping",
+    "href": "ae/not-used/ae-09-chronicle-scrape.html#part-1---data-scraping",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "",
+    "text": "This will be done in the chronicle-scrape.R R script. Save the resulting data frame in the data folder."
+  },
+  {
+    "objectID": "ae/not-used/ae-09-chronicle-scrape.html#part-2---data-analysis",
+    "href": "ae/not-used/ae-09-chronicle-scrape.html#part-2---data-analysis",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "Part 2 - Data analysis",
+    "text": "Part 2 - Data analysis\nLet’s start by loading the packages we will need:\n\nlibrary(tidyverse)\n\n\nYour turn (1 minute): Load the data you saved into the data folder and name it chronicle.\n\n\n# add code here\n\n\nYour turn (3 minutes): Who are the most prolific authors of the 100 most recent opinion articles in The Chronicle?\n\n\n# add code here\n\n\nDemo: Draw a line plot of the number of opinion articles published per day in The Chronicle.\n\n\n# add code here\n\n\nDemo: What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title?\n\n\n# add code here\n\n\nYour turn (5 minutes): What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title or abstract?\n\n\n# add code here\n\n\nTime permitting: Come up with another question and try to answer it using the data.\n\n\n# add code here"
+  },
+  {
+    "objectID": "ae/ae-10-modeling-penguins.html",
+    "href": "ae/ae-10-modeling-penguins.html",
     "title": "AE 11: Modelling penguins",
     "section": "",
     "text": "In this application exercise we will be studying penguins. The data can be found in the palmerpenguins package and we will use tidyverse and tidymodels for data exploration and modelling, respectively.\n\nlibrary(tidyverse)\nlibrary(tidymodels)\nlibrary(palmerpenguins)\n\nPlease read the following context and take a glimpse at the data set before we get started.\n\nThis data set comprising various measurements of three different penguin species, namely Adelie, Gentoo, and Chinstrap. The rigorous study was conducted in the islands of the Palmer Archipelago, Antarctica. These data were collected from 2007 to 2009 by Dr. Kristen Gorman with the Palmer Station Long Term Ecological Research Program, part of the US Long Term Ecological Research Network. The data set is called penguins.\n\n\n# add code here\n\nOur goal is to understand better how various body measurements and attributes of penguins relate to their body mass. First, we are going to investigate the relationship between a penguins’ flipper lengths and their body masses.\n\nQuestion: Based on our research focus, which variable is the response variable?\n\nAdd response here\n\nDemo: Visualize the relationship between flipper length and body mass of penguins.\n\n\n# add code here \n\n\nCorrelation\n\nYour turn (5 minutes):\n\nWhat is correlation? What values can correlation take?\nStrength and direction of a linear relationship. It’s bounded by -1 and 1.\nAre you good at guessing correlation? Give it a try! https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html\n\nDemo: What is the correlation between flipper length and body mass of penguins?\n\n\n# add code here\n\n\n\nDefining, fitting, and summarizing a model\n\nDemo: Write the population model below that explains the relationship between body mass and flipper length.\n\n\\[\nadd~math~text~here\n\\]\n\nDemo: Fit the linear regression model and display the results. Write the estimated model output below.\n\n\n# add code here\n\n\\[\nadd~math~text~here\n\\]\n\nYour turn: Interpret the slope and the intercept in the context of the data.\n\nIntercept: Add your response here\nSlopes: Add your response here\n\nYour turn: Recreate the visualization from above, this time adding a regression line to the visualization geom_smooth(method = \"lm\").\n\n\n# add code here\n\n\nWhat is the estimated body mass for a penguin with a flipper length of 210?\n\n\n# add code here\n\n\nWhat is the estimated body mass for a penguin with a flipper length of 100?\n\n\n# add code here\n\n\n\nAnother model\n\nDemo: A different researcher wants to look at body weight of penguins based on the island they were recorded on. How are the variables involved in this analysis different?\n\nAdd response here\n\nDemo: Make an appropriate visualization to investigate this relationship below. Additionally, calculate the mean body mass by island.\n\n\n# add code here\n\n\n# add code here\n\n\nDemo: Change the geom of your previous plot to geom_point(). Use this plot to think about how R models these data.\n\n\n# add code here\n\n\nYour turn: Fit the linear regression model and display the results. Write the estimated model output below.\n\n\n# add code here\n\nAdd math text here\n\nDemo: Interpret each coefficient in context of the problem.\n\nIntercept: Add your response here\nSlopes: Add your response here\n\nDemo: What is the estimated body weight of a penguin on Biscoe island? What are the estimated body weights of penguins on Dream and Torgersen islands?\n\n\n# add code here"
   },
   {
-    "objectID": "ae/ae-10-modeling-fish.html",
-    "href": "ae/ae-10-modeling-fish.html",
+    "objectID": "ae/ae-09-modeling-fish.html",
+    "href": "ae/ae-09-modeling-fish.html",
     "title": "Modeling fish",
     "section": "",
     "text": "For this application exercise, we will work with data on fish. The dataset we will use, called fish, is on two common fish species in fish market sales.\n\nlibrary(tidyverse)\nlibrary(tidymodels)\n\nfish &lt;- read_csv(\"data/fish.csv\")\n\nThe data dictionary is below:\n\n\n\nvariable\ndescription\n\n\n\n\nspecies\nSpecies name of fish\n\n\nweight\nWeight, in grams\n\n\nlength_vertical\nVertical length, in cm\n\n\nlength_diagonal\nDiagonal length, in cm\n\n\nlength_cross\nCross length, in cm\n\n\nheight\nHeight, in cm\n\n\nwidth\nDiagonal width, in cm\n\n\n\n\nVisualizing the model\nWe’re going to investigate the relationship between the weights and heights of fish.\n\nDemo: Create an appropriate plot to investigate this relationship. Add appropriate labels to the plot.\n\n\n# add code here\n\n\nYour turn (5 minutes):\n\nIf you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go? Why?\nAdd response here.\nNow, let R draw the line for you. Refer to the documentation at https://ggplot2.tidyverse.org/reference/geom_smooth.html. Specifically, refer to the method section.\n\n\n# add code here\n\n\nWhat types of questions can this plot help answer?\n\nAdd response here.\nYour turn (3 minutes):\n\nWe can use this line to make predictions. Predict what you think the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm. Which prediction is considered extrapolation?\n\nAdd response here.\n\nWhat is a residual?\n\nAdd response here.\n\n\n\nModel fitting\n\nDemo: Fit a model to predict fish weights from their heights.\n\n\n# add code here\n\n\nYour turn (3 minutes): Predict what the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm using this model.\n\n\n# add code here\n\n\nDemo: Calculate predicted weights for all fish in the data and visualize the residuals under this model.\n\n\n# add code here\n\n\n\nModel summary\n\nDemo: Display the model summary including estimates for the slope and intercept along with measurements of uncertainty around them. Show how you can extract these values from the model output.\n\n\n# add code here\n\n\nDemo: Write out your model using mathematical notation.\n\nAdd response here.\n\n\nCorrelation\nWe can also assess correlation between two quantitative variables.\n\nYour turn (5 minutes):\n\nWhat is correlation? What are values correlation can take?\n\nAdd response here.\n\nAre you good at guessing correlation? Give it a try! https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html\n\nDemo: What is the correlation between heights and weights of fish?\n\n\n# add code here\n\n\n\nAdding a third variable\n\nDemo: Does the relationship between heights and weights of fish change if we take into consideration species? Plot two separate straight lines for the Bream and Roach species.\n\n\n# add code here\n\n\n\nFitting other models\n\nDemo: We can fit more models than just a straight line. Change the following code below to read method = \"loess\". What is different from the plot created before?\n\n\n# add code here"
-  },
-  {
-    "objectID": "ae/ae-09-chronicle-scrape.html",
-    "href": "ae/ae-09-chronicle-scrape.html",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "",
-    "text": "This will be done in the chronicle-scrape.R R script. Save the resulting data frame in the data folder."
-  },
-  {
-    "objectID": "ae/ae-09-chronicle-scrape.html#part-1---data-scraping",
-    "href": "ae/ae-09-chronicle-scrape.html#part-1---data-scraping",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "",
-    "text": "This will be done in the chronicle-scrape.R R script. Save the resulting data frame in the data folder."
-  },
-  {
-    "objectID": "ae/ae-09-chronicle-scrape.html#part-2---data-analysis",
-    "href": "ae/ae-09-chronicle-scrape.html#part-2---data-analysis",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "Part 2 - Data analysis",
-    "text": "Part 2 - Data analysis\nLet’s start by loading the packages we will need:\n\nlibrary(tidyverse)\n\n\nYour turn (1 minute): Load the data you saved into the data folder and name it chronicle.\n\n\n# add code here\n\n\nYour turn (3 minutes): Who are the most prolific authors of the 100 most recent opinion articles in The Chronicle?\n\n\n# add code here\n\n\nDemo: Draw a line plot of the number of opinion articles published per day in The Chronicle.\n\n\n# add code here\n\n\nDemo: What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title?\n\n\n# add code here\n\n\nYour turn (5 minutes): What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title or abstract?\n\n\n# add code here\n\n\nTime permitting: Come up with another question and try to answer it using the data.\n\n\n# add code here"
   },
   {
     "objectID": "ae/ae-08-data-import.html",
@@ -3669,39 +3655,39 @@
     "text": "We will use the following two packages in this application exercise.\n\ntidyverse: For data import, wrangling, and visualization.\nreadxl: For importing data from Excel.\n\n\nlibrary(tidyverse)\nlibrary(readxl)"
   },
   {
-    "objectID": "ae/ae-09-chronicle-scrape-A.html",
-    "href": "ae/ae-09-chronicle-scrape-A.html",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "",
-    "text": "Important\n\n\n\nThese are suggested answers. This document should be used as reference only, it’s not designed to be an exhaustive key."
-  },
-  {
-    "objectID": "ae/ae-09-chronicle-scrape-A.html#part-1---data-scraping",
-    "href": "ae/ae-09-chronicle-scrape-A.html#part-1---data-scraping",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "Part 1 - Data scraping",
-    "text": "Part 1 - Data scraping\nSee chronicle-scrape.R for suggested scraping code."
-  },
-  {
-    "objectID": "ae/ae-09-chronicle-scrape-A.html#part-2---data-analysis",
-    "href": "ae/ae-09-chronicle-scrape-A.html#part-2---data-analysis",
-    "title": "AE 09: Opinion articles in The Chronicle",
-    "section": "Part 2 - Data analysis",
-    "text": "Part 2 - Data analysis\nLet’s start by loading the packages we will need:\n\nlibrary(tidyverse)\n\n\nYour turn (1 minute): Load the data you saved into the data folder and name it chronicle.\n\n\nchronicle &lt;- read_csv(\"data/chronicle.csv\")\n\n\nYour turn (3 minutes): Who are the most prolific authors of the 100 most recent opinion articles in The Chronicle?\n\n\nchronicle |&gt;\n  count(author, sort = TRUE)\n\n# A tibble: 204 × 2\n   author                        n\n   &lt;chr&gt;                     &lt;int&gt;\n 1 Luke A. Powery               30\n 2 Heidi Smith                  27\n 3 Advikaa Anand                22\n 4 Monday Monday                17\n 5 Monika Narain                16\n 6 Community Editorial Board    12\n 7 Linda Cao                    12\n 8 Sonia Green                  12\n 9 Valerie Tan                  11\n10 Nathan Luzum                 10\n# ℹ 194 more rows\n\n\n\nDemo: Draw a line plot of the number of opinion articles published per day in The Chronicle.\n\n\nchronicle |&gt;\n  count(date) |&gt;\n  ggplot(aes(x = date, y = n, group = 1)) +\n  geom_line()\n\n\n\n\n\n\n\n\n\nDemo: What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title?\n\n\nchronicle |&gt;\n  mutate(\n    title = str_to_lower(title),\n    climate = if_else(str_detect(title, \"climate\"), \"mentioned\", \"not mentioned\")\n    ) |&gt;\n  count(climate) |&gt;\n  mutate(prop = n / sum(n))\n\n# A tibble: 2 × 3\n  climate           n  prop\n  &lt;chr&gt;         &lt;int&gt; &lt;dbl&gt;\n1 mentioned        10  0.02\n2 not mentioned   490  0.98\n\n\n\nYour turn (5 minutes): What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title or abstract?\n\n\nchronicle |&gt;\n  mutate(\n    title = str_to_lower(title),\n    abstract = str_to_lower(abstract),\n    climate = if_else(\n      str_detect(title, \"climate\") | str_detect(abstract, \"climate\"), \n      \"mentioned\", \n      \"not mentioned\"\n      )\n    ) |&gt;\n  count(climate) |&gt;\n  mutate(prop = n / sum(n))\n\n# A tibble: 3 × 3\n  climate           n  prop\n  &lt;chr&gt;         &lt;int&gt; &lt;dbl&gt;\n1 mentioned        14 0.028\n2 not mentioned   482 0.964\n3 &lt;NA&gt;              4 0.008\n\n\n\nTime permitting: Come up with another question and try to answer it using the data.\n\n\n# add code here\n\n\nTime permitting:"
-  },
-  {
-    "objectID": "ae/ae-10-modeling-fish-A.html",
-    "href": "ae/ae-10-modeling-fish-A.html",
+    "objectID": "ae/ae-09-modeling-fish-A.html",
+    "href": "ae/ae-09-modeling-fish-A.html",
     "title": "AE 10: Modelling fish",
     "section": "",
     "text": "Important\n\n\n\nThese are suggested answers. This document should be used as reference only, it’s not designed to be an exhaustive key.\n\n\nFor this application exercise, we will work with data on fish. The dataset we will use, called fish, is on two common fish species in fish market sales.\n\nlibrary(tidyverse)\nlibrary(tidymodels)\n\nfish &lt;- read_csv(\"data/fish.csv\")\n\nThe data dictionary is below:\n\n\n\nvariable\ndescription\n\n\n\n\nspecies\nSpecies name of fish\n\n\nweight\nWeight, in grams\n\n\nlength_vertical\nVertical length, in cm\n\n\nlength_diagonal\nDiagonal length, in cm\n\n\nlength_cross\nCross length, in cm\n\n\nheight\nHeight, in cm\n\n\nwidth\nDiagonal width, in cm\n\n\n\n\nVisualizing the model\nWe’re going to investigate the relationship between the weights and heights of fish.\n\nDemo: Create an appropriate plot to investigate this relationship. Add appropriate labels to the plot.\n\n\nggplot(fish, aes(x = height, y = weight)) +\n  geom_point() +\n  labs(\n    title = \"Weights vs. heights of fish\",\n    x = \"Height (cm)\",\n    y = \"Weight (gr)\"\n  )\n\n\n\n\n\n\n\n\n\nYour turn (5 minutes):\n\nIf you were to draw a a straight line to best represent the relationship between the heights and weights of fish, where would it go? Why?\nStart from the bottom and go up Identify the first and last point and draw a line through most the others.\nNow, let R draw the line for you. Refer to the documentation at https://ggplot2.tidyverse.org/reference/geom_smooth.html. Specifically, refer to the method section.\n\n\nggplot(fish, aes(x = height, y = weight)) +\n  geom_point() +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Weights vs. lengths of fish\",\n    x = \"Head-to-tail lentgh (cm)\",\n    y = \"Weight of fish (grams)\"\n  )\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\nWhat types of questions can this plot help answer?\nIs there a relationship between fish heights and weights of fish?\n\nYour turn (3 minutes):\n\nWe can use this line to make predictions. Predict what you think the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm. Which prediction is considered extrapolation?\nAt 10 cm, we estimate a weight of 375 grams. At 15 cm, we estimate a weight of 600 grams At 20 cm, we estimate a weight of 975 grams. 20 cm would be considered extrapolation.\nWhat is a residual?\nDifference between predicted and observed.\n\n\n\n\nModel fitting\n\nDemo: Fit a model to predict fish weights from their heights.\n\n\nfish_hw_fit &lt;- linear_reg() |&gt;\n  fit(weight ~ height, data = fish)\n\nfish_hw_fit\n\nparsnip model object\n\n\nCall:\nstats::lm(formula = weight ~ height, data = data)\n\nCoefficients:\n(Intercept)       height  \n    -288.42        60.92  \n\n\n\nYour turn (3 minutes): Predict what the weight of a fish would be with a height of 10 cm, 15 cm, and 20 cm using this model.\n\n\nx &lt;- c(10, 15, 20)\n-288 + 60.92 * x\n\n[1] 321.2 625.8 930.4\n\n\n\nDemo: Calculate predicted weights for all fish in the data and visualize the residuals under this model.\n\n\nfish_hw_aug &lt;- augment(fish_hw_fit, new_data = fish)\n\nggplot(fish_hw_aug, aes(x = height, y = weight)) + \n  geom_point() + \n  geom_smooth(method = \"lm\", se = FALSE, color = \"lightgrey\") +  \n  geom_segment(aes(xend = height, yend = .pred), color = \"gray\") +  \n  geom_point(aes(y = .pred), shape = \"circle open\") + \n  theme_minimal() +\n  labs(\n    title = \"Weights vs. heights of fish\",\n    subtitle = \"Residuals\",\n    x = \"Height (cm)\",\n    y = \"Weight (gr)\"\n  )\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\nModel summary\n\nDemo: Display the model summary including estimates for the slope and intercept along with measurements of uncertainty around them. Show how you can extract these values from the model output.\n\n\nfish_hw_tidy &lt;- tidy(fish_hw_fit)\nfish_hw_tidy\n\n# A tibble: 2 × 5\n  term        estimate std.error statistic  p.value\n  &lt;chr&gt;          &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;\n1 (Intercept)   -288.      34.0      -8.49 1.83e-11\n2 height          60.9      2.64     23.1  2.40e-29\n\n\n\nDemo: Write out your model using mathematical notation.\n\n\\(\\widehat{weight} = -288 + 60.9 \\times height\\)\n\n\nCorrelation\nWe can also assess correlation between two quantitative variables.\n\nYour turn (5 minutes):\n\nWhat is correlation? What are values correlation can take?\nStrength and direction of a linear relationship. It’s bounded by -1 and 1.\nAre you good at guessing correlation? Give it a try! https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html\n\nDemo: What is the correlation between heights and weights of fish?\n\n\nfish |&gt;\n  summarize(r = cor(height, weight))\n\n# A tibble: 1 × 1\n      r\n  &lt;dbl&gt;\n1 0.954\n\n\n\n\nAdding a third variable\n\nDemo: Does the relationship between heights and weights of fish change if we take into consideration species? Plot two separate straight lines for the Bream and Roach species.\n\n\nggplot(fish, \n       aes(x = height, y = weight, color = species)) +\n  geom_point() +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Weights vs. heights of fish\",\n    x = \"Height (cm)\",\n    y = \"Weight (gr)\"\n  )\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\nFitting other models\n\nDemo: We can fit more models than just a straight line. Change the following code below to read method = \"loess\". What is different from the plot created before?\n\n\nggplot(fish, \n       aes(x = height, y = weight)) +\n  geom_point() +\n  geom_smooth(method = \"lm\") +\n  labs(\n    title = \"Weights vs. heights of fish\",\n    x = \"Height (cm)\",\n    y = \"Weight (gr)\"\n  )\n\n`geom_smooth()` using formula = 'y ~ x'"
   },
   {
-    "objectID": "ae/ae-11-modeling-penguins-A.html",
-    "href": "ae/ae-11-modeling-penguins-A.html",
+    "objectID": "ae/ae-10-modeling-penguins-A.html",
+    "href": "ae/ae-10-modeling-penguins-A.html",
     "title": "AE 11: Modelling penguins",
     "section": "",
     "text": "In this application exercise we will be studying penguins. The data can be found in the palmerpenguins package and we will use tidyverse and tidymodels for data exploration and modelling, respectively.\n\nlibrary(tidyverse)\nlibrary(tidymodels)\nlibrary(palmerpenguins)\n\nPlease read the following context and take a glimpse at the data set before we get started.\n\nThis data set comprising various measurements of three different penguin species, namely Adelie, Gentoo, and Chinstrap. The rigorous study was conducted in the islands of the Palmer Archipelago, Antarctica. These data were collected from 2007 to 2009 by Dr. Kristen Gorman with the Palmer Station Long Term Ecological Research Program, part of the US Long Term Ecological Research Network. The data set is called penguins.\n\n\nglimpse(penguins)\n\nRows: 344\nColumns: 8\n$ species           &lt;fct&gt; Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel…\n$ island            &lt;fct&gt; Torgersen, Torgersen, Torgersen, Torgersen, Torgerse…\n$ bill_length_mm    &lt;dbl&gt; 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, …\n$ bill_depth_mm     &lt;dbl&gt; 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, …\n$ flipper_length_mm &lt;int&gt; 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186…\n$ body_mass_g       &lt;int&gt; 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, …\n$ sex               &lt;fct&gt; male, female, female, NA, female, male, female, male…\n$ year              &lt;int&gt; 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007…\n\n\nOur goal is to understand better how various body measurements and attributes of penguins relate to their body mass. First, we are going to investigate the relationship between a penguins’ flipper lengths and their body masses.\n\nQuestion: Based on our research focus, which variable is the response variable?\n\nBody mass.\n\nDemo: Visualize the relationship between flipper length and body mass of penguins.\n\n\nggplot(penguins, aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\nCorrelation\n\nYour turn (5 minutes):\n\nWhat is correlation? What values can correlation take?\nStrength and direction of a linear relationship. It’s bounded by -1 and 1.\nAre you good at guessing correlation? Give it a try! https://www.rossmanchance.com/applets/2021/guesscorrelation/GuessCorrelation.html\n\nDemo: What is the correlation between flipper length and body mass of penguins?\n\n\n# option 1\npenguins |&gt;\n  summarize(r = cor(flipper_length_mm, body_mass_g, use = \"complete.obs\"))\n\n# A tibble: 1 × 1\n      r\n  &lt;dbl&gt;\n1 0.871\n\n# option 2\npenguins |&gt;\n  drop_na(flipper_length_mm, body_mass_g) |&gt;\n  summarize(r = cor(flipper_length_mm, body_mass_g))\n\n# A tibble: 1 × 1\n      r\n  &lt;dbl&gt;\n1 0.871\n\n\n\n\nDefining, fitting, and summarizing a model\n\nDemo: Write the population model below that explains the relationship between body mass and flipper length.\n\n\\[\nbody~mass = \\beta_0 + \\beta_1 \\times flipper~length + \\epsilon\n\\]\n\nDemo: Fit the linear regression model and display the results. Write the estimated model output below.\n\n\nbm_fl_fit &lt;- linear_reg() |&gt;\n  fit(body_mass_g ~ flipper_length_mm, data = penguins)\n\ntidy(bm_fl_fit)\n\n# A tibble: 2 × 5\n  term              estimate std.error statistic   p.value\n  &lt;chr&gt;                &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1 (Intercept)        -5781.     306.       -18.9 5.59e- 55\n2 flipper_length_mm     49.7      1.52      32.7 4.37e-107\n\n\n\\[\n\\widehat{body~mass} = -5781 + 49.7 \\times flipper~length\n\\]\n\nYour turn: Interpret the slope and the intercept in the context of the data.\n\nIntercept: Penguins with 0 flipper length are expected, on average, to weigh 5,781 grams.\nSlopes: For each additional millimeter of a penguin;s flipper length, the weight of their penguin is expected to be higher, on average, by 49.7 grams.\n\nYour turn: Recreate the visualization from above, this time adding a regression line to the visualization geom_smooth(method = \"lm\").\n\n\nggplot(penguins,\n       aes(x = flipper_length_mm, y = body_mass_g)) +\n  geom_point() +\n  geom_smooth(method = \"lm\")\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\nYour turn: What is the estimated body mass for a penguin with a flipper length of 210?\n\n\nbm_fl_fit |&gt;\n  predict(new_data = tibble(flipper_length_mm = 210))\n\n# A tibble: 1 × 1\n  .pred\n  &lt;dbl&gt;\n1 4653.\n\n\n\nDemo: What is the estimated body mass for a penguin with a flipper length of 100?\n\nBut we shouldn’t do this prediction based on this model since 100 mm is outside of the range of the data (extrapolation).\n\nbm_fl_fit |&gt;\n  predict(new_data = tibble(flipper_length_mm = 100))\n\n# A tibble: 1 × 1\n  .pred\n  &lt;dbl&gt;\n1 -812.\n\n\n\n\nAnother model\n\nDemo: A different researcher wants to look at body weight of penguins based on the island they were recorded on. How are the variables involved in this analysis different?\n\nPredictor is categorical.\n\nDemo: Make an appropriate visualization to investigate this relationship below. Additionally, calculate the mean body mass by island.\n\n\nggplot(penguins, aes(x = island, y = body_mass_g)) +\n  geom_boxplot()\n\nWarning: Removed 2 rows containing non-finite outside the scale range\n(`stat_boxplot()`).\n\n\n\n\n\n\n\n\n\n\npenguins |&gt;\n  group_by(island) |&gt;\n  summarize(mean_bm = mean(body_mass_g, na.rm = TRUE))\n\n# A tibble: 3 × 2\n  island    mean_bm\n  &lt;fct&gt;       &lt;dbl&gt;\n1 Biscoe      4716.\n2 Dream       3713.\n3 Torgersen   3706.\n\n\n\nDemo: Change the geom of your previous plot to geom_point(). Use this plot to think about how R models these data.\n\n\nggplot(penguins, aes(x = island, y = body_mass_g)) +\n  geom_point()\n\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n\n\n\n\n\n\n\n\n\n\nYour turn: Fit the linear regression model and display the results. Write the estimated model output below.\n\n\nbm_island_fit &lt;- linear_reg() |&gt;\n  fit(body_mass_g ~ island, data = penguins)\n\ntidy(bm_island_fit)\n\n# A tibble: 3 × 5\n  term            estimate std.error statistic   p.value\n  &lt;chr&gt;              &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1 (Intercept)        4716.      48.5      97.3 8.93e-250\n2 islandDream       -1003.      74.2     -13.5 1.42e- 33\n3 islandTorgersen   -1010.     100.      -10.1 4.66e- 21\n\n\n\nDemo: Interpret each coefficient in context of the problem.\n\nIntercept: Penguins from Biscoe island are expected to weigh, on average, 4,716 grams.\nSlopes:\n\nPenguins from Dream island are expected to weigh, on average, 1,003 grams less than those from Biscoe island.\nPenguins from Torgersen island are expected to weigh, on average, 1,010 grams less than those from Biscoe island.\n\n\nDemo: What is the estimated body weight of a penguin on Biscoe island? What are the estimated body weights of penguins on Dream and Torgersen islands?\n\n\nbm_island_fit |&gt;\n  predict(new_data = tibble(island = c(\"Biscoe\", \"Dream\", \"Torgersen\")))\n\n# A tibble: 3 × 1\n  .pred\n  &lt;dbl&gt;\n1 4716.\n2 3713.\n3 3706."
+  },
+  {
+    "objectID": "ae/not-used/ae-09-chronicle-scrape-A.html",
+    "href": "ae/not-used/ae-09-chronicle-scrape-A.html",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "",
+    "text": "Important\n\n\n\nThese are suggested answers. This document should be used as reference only, it’s not designed to be an exhaustive key."
+  },
+  {
+    "objectID": "ae/not-used/ae-09-chronicle-scrape-A.html#part-1---data-scraping",
+    "href": "ae/not-used/ae-09-chronicle-scrape-A.html#part-1---data-scraping",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "Part 1 - Data scraping",
+    "text": "Part 1 - Data scraping\nSee chronicle-scrape.R for suggested scraping code."
+  },
+  {
+    "objectID": "ae/not-used/ae-09-chronicle-scrape-A.html#part-2---data-analysis",
+    "href": "ae/not-used/ae-09-chronicle-scrape-A.html#part-2---data-analysis",
+    "title": "AE 09: Opinion articles in The Chronicle",
+    "section": "Part 2 - Data analysis",
+    "text": "Part 2 - Data analysis\nLet’s start by loading the packages we will need:\n\nlibrary(tidyverse)\n\n\nYour turn (1 minute): Load the data you saved into the data folder and name it chronicle.\n\n\nchronicle &lt;- read_csv(\"data/chronicle.csv\")\n\n\nYour turn (3 minutes): Who are the most prolific authors of the 100 most recent opinion articles in The Chronicle?\n\n\nchronicle |&gt;\n  count(author, sort = TRUE)\n\n# A tibble: 204 × 2\n   author                        n\n   &lt;chr&gt;                     &lt;int&gt;\n 1 Luke A. Powery               30\n 2 Heidi Smith                  27\n 3 Advikaa Anand                22\n 4 Monday Monday                17\n 5 Monika Narain                16\n 6 Community Editorial Board    12\n 7 Linda Cao                    12\n 8 Sonia Green                  12\n 9 Valerie Tan                  11\n10 Nathan Luzum                 10\n# ℹ 194 more rows\n\n\n\nDemo: Draw a line plot of the number of opinion articles published per day in The Chronicle.\n\n\nchronicle |&gt;\n  count(date) |&gt;\n  ggplot(aes(x = date, y = n, group = 1)) +\n  geom_line()\n\n\n\n\n\n\n\n\n\nDemo: What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title?\n\n\nchronicle |&gt;\n  mutate(\n    title = str_to_lower(title),\n    climate = if_else(str_detect(title, \"climate\"), \"mentioned\", \"not mentioned\")\n    ) |&gt;\n  count(climate) |&gt;\n  mutate(prop = n / sum(n))\n\n# A tibble: 2 × 3\n  climate           n  prop\n  &lt;chr&gt;         &lt;int&gt; &lt;dbl&gt;\n1 mentioned        10  0.02\n2 not mentioned   490  0.98\n\n\n\nYour turn (5 minutes): What percent of the most recent 100 opinion articles in The Chronicle mention “climate” in their title or abstract?\n\n\nchronicle |&gt;\n  mutate(\n    title = str_to_lower(title),\n    abstract = str_to_lower(abstract),\n    climate = if_else(\n      str_detect(title, \"climate\") | str_detect(abstract, \"climate\"), \n      \"mentioned\", \n      \"not mentioned\"\n      )\n    ) |&gt;\n  count(climate) |&gt;\n  mutate(prop = n / sum(n))\n\n# A tibble: 3 × 3\n  climate           n  prop\n  &lt;chr&gt;         &lt;int&gt; &lt;dbl&gt;\n1 mentioned        14 0.028\n2 not mentioned   482 0.964\n3 &lt;NA&gt;              4 0.008\n\n\n\nTime permitting: Come up with another question and try to answer it using the data.\n\n\n# add code here\n\n\nTime permitting:"
   },
   {
     "objectID": "ae/not-used/ae-12-modeling-penguins-multi-A.html",
@@ -4152,195 +4138,6 @@
       "Course information",
       "Instructor"
     ]
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html",
-    "href": "exam-review/exam-1-review.html",
-    "title": "Exam 1 Review",
-    "section": "",
-    "text": "Note\n\n\n\nSuggested answers can be found here, but resist the urge to peek before you go through it yourself.\nIn 2020, employees of Blizzard Entertainment circulated a spreadsheet to anonymously share salaries and recent pay increases amidst rising tension in the video game industry over wage disparities and executive compensation. (Source: Blizzard Workers Share Salaries in Revolt Over Pay)\nThe name of the data frame used for this analysis is blizzard_salary and the variables are:\nThe top ten rows of blizzard_salary are shown below:\n# A tibble: 409 × 4\n   percent_incr salary_type annual_salary performance_rating\n          &lt;dbl&gt; &lt;chr&gt;               &lt;dbl&gt; &lt;chr&gt;             \n 1          1   Salaried               1  High              \n 2          1   Salaried               1  Successful        \n 3          1   Salaried               1  High              \n 4          1   Hourly             33987. Successful        \n 5         NA   Hourly             34798. High              \n 6         NA   Hourly             35360  &lt;NA&gt;              \n 7         NA   Hourly             37440  &lt;NA&gt;              \n 8          0   Hourly             37814. &lt;NA&gt;              \n 9          4   Hourly             41101. Top               \n10          1.2 Hourly             42328  &lt;NA&gt;              \n# ℹ 399 more rows"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-1",
-    "href": "exam-review/exam-1-review.html#question-1",
-    "title": "Exam 1 Review",
-    "section": "Question 1",
-    "text": "Question 1\nWhich of the following is correct? Choose all that apply.\n\nThe blizzard_salary dataset has 399 rows.\nThe blizzard_salary dataset has 4 columns.\nEach row represents a Blizzard Entertainment worker who filled out the spreadsheet.\nThe percent_incr variable is numerical and discrete.\nThe salary_type variable is numerical.\nThe annual_salary variable is numerical.\nThe performance_rating variable is categorical and ordinal."
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-2",
-    "href": "exam-review/exam-1-review.html#question-2",
-    "title": "Exam 1 Review",
-    "section": "Question 2",
-    "text": "Question 2\nFigure 1 (a) and Figure 1 (b) show the distributions of annual salaries of hourly and salaried workers. The two figures show the same data, with the facets organized across rows and across columns. Which of the two figures is better for comparing the median annual salaries of hourly and salaried workers. Explain your reasoning.\n\n\n\n\n\n\n\n\n\n\n\n(a) Option 1\n\n\n\n\n\n\n\n\n\n\n\n\n\n(b) Option 2\n\n\n\n\n\n\n\nFigure 1: Distribution of annual salaries of Blizzard employees"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-3",
-    "href": "exam-review/exam-1-review.html#question-3",
-    "title": "Exam 1 Review",
-    "section": "Question 3",
-    "text": "Question 3\nSuppose your teammate wrote the following code as part of their analysis of the data.\nThey then printed out the results shown below. Unfortunately one of the numbers got erased from the printout. It’s indicated with _____ below.\n# A tibble: 2 × 3\n  salary_type mean_annual_salary median_annual_salary\n  &lt;chr&gt;                    &lt;dbl&gt;                &lt;dbl&gt;\n1 Hourly                  63003.               54246.\n2 Salaried                90183.               _____\nWhich of the following is the best estimate for that erased value?\n\n30,000\n50,000\n80,000\n100,000"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-4",
-    "href": "exam-review/exam-1-review.html#question-4",
-    "title": "Exam 1 Review",
-    "section": "Question 4",
-    "text": "Question 4\nWhich distribution of annual salaries has a higher standard deviation?\n\nHourly workers\nSalaried workers\nRoughly the same"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-5",
-    "href": "exam-review/exam-1-review.html#question-5",
-    "title": "Exam 1 Review",
-    "section": "Question 5",
-    "text": "Question 5\nWhich of the following alternate plots would also be useful for visualizing the distributions of annual salaries of hourly and salaried workers? Choose all that apply.\na. Box plots\nb. Density plots\nc. Pie charts\nd. Waffle charts\ne. Histograms\nf. Scatterplots"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#questions-6-and-7",
-    "href": "exam-review/exam-1-review.html#questions-6-and-7",
-    "title": "Exam 1 Review",
-    "section": "Questions 6 and 7",
-    "text": "Questions 6 and 7\nSuppose you made the bar plot shown in Figure 2 (a) to visualize the distribution of performance_rating and your teammate made the bar plot shown in Figure 2 (b).\n\n\n\n\n\n\n\n\n\n\n\n(a) Option 1\n\n\n\n\n\n\n\n\n\n\n\n(b) Option 2\n\n\n\n\n\n\n\nFigure 2: Distribution of performance rating\n\n\n\nYou made your bar plot without transforming the data in any way, while your friend did first transform the data with code like the following:\n\nblizzard_salary &lt;- blizzard_salary |&gt;\n  _(1)_(performance_rating = fct_relevel(performance_rating, _(2)_))\n\nQuestion 6: What goes in the blank (1)?\n\narrange()\nfilter()\nmutate()\nsummarize()\n\nQuestion 7: What goes in the blank (2)?\n\n\"Poor\", \"Successful\", \"High\", \"Top\"\n\"Successful\", \"High\", \"Top\"\n\"Top\", \"High\", \"Successful\", \"Poor\"\nPoor, Successful, High, Top"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#questions-8---10",
-    "href": "exam-review/exam-1-review.html#questions-8---10",
-    "title": "Exam 1 Review",
-    "section": "Questions 8 - 10",
-    "text": "Questions 8 - 10\nFinally, another teammate creates the following two plots.\n\n\n\n\n\n\n\n\n\n\n\n(a) Option 1\n\n\n\n\n\n\n\n\n\n\n\n(b) Option 2\n\n\n\n\n\n\n\nFigure 3: Distribution of salary type by performance rating\n\n\n\nQuestion 8: Your teammate asks you for help deciding which one to use in the final report for visualizing the relationship between performance rating and salary type. In 1-3 sentences, can you help them make a decision, justify your choice, and write the narrative that should go with the plot?\nQuestion 9: A friend with a keen eye points out that the number of observations in Figure 3 (a) seems lower than the total number of observations in blizzard_salary. What might be going on here? Explain your reasoning.\nQuestion 10: Below are the proportions of performance ratings for hourly and salaried workers. Place these values in the corresponding segments in Figure 3 (b).\n\n\n# A tibble: 4 × 3\n  performance_rating Hourly Salaried\n  &lt;chr&gt;               &lt;dbl&gt;    &lt;dbl&gt;\n1 High                0.2     0.384 \n2 Successful          0.686   0.521 \n3 Top                 0.114   0.0760\n4 Poor                0       0.0190"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#questions-11-and-12",
-    "href": "exam-review/exam-1-review.html#questions-11-and-12",
-    "title": "Exam 1 Review",
-    "section": "Questions 11 and 12",
-    "text": "Questions 11 and 12\nThe table below shows the distribution of salary_type and performance_rating.\n\n\n# A tibble: 2 × 6\n  salary_type  Poor Successful  High   Top  `NA`\n  &lt;chr&gt;       &lt;int&gt;      &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;int&gt;\n1 Hourly         NA         24     7     4    28\n2 Salaried        5        137   101    20    83\n\n\nThe pipeline below produces a data frame with a fewer number of rows than blizzard_salary.\n\nblizzard_salary |&gt;\n  filter(salary_type _(1)_ \"Hourly\" _(2)_ performance_rating == \"Poor\") |&gt;\n  _(3)_(annual_salary)\n\n\n\n# A tibble: 5 × 4\n  percent_incr salary_type annual_salary performance_rating\n         &lt;dbl&gt; &lt;chr&gt;               &lt;dbl&gt; &lt;chr&gt;             \n1            0 Salaried            80000 Poor              \n2            3 Salaried            83000 Poor              \n3            0 Salaried           116000 Poor              \n4            0 Salaried           135219 Poor              \n5            0 Salaried           147500 Poor              \n\n\nQuestion 11: Which of the following goes in blanks (1) and (2)?\n\n\n\n\n(1)\n(2)\n\n\n\n\na.\n!=\n|\n\n\nb.\n==\n&\n\n\nc.\n!=\n&\n\n\nd.\n==\n|\n\n\n\nQuestion 12: Which function or functions go into blank (3)?\n\narrange()\nmutate()\norder()\nsort()"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-13",
-    "href": "exam-review/exam-1-review.html#question-13",
-    "title": "Exam 1 Review",
-    "section": "Question 13",
-    "text": "Question 13\nYou’re reviewing another team’s work and they made the following visualization:\n\n\n\n\n\n\n\n\n\nAnd they wrote the following interpretation for the relationship between annual salary and percent increase for Top performers:\n\nThe relationship is positive, having a higher salary results in a higher percent increase. There is one clear outlier.\n\nWhich of the following is/are the most accurate and helpful) peer review note for this interpretation. Choose all that apply.\n\nThe interpretation is complete and perfect, no changes needed!\nThe interpretation doesn’t mention the direction of the relationship.\nThe interpretation doesn’t mention the form of the relationship, which is linear.\nThe interpretation doesn’t mention the strength of the relationship, which is somewhat strong.\nThere isn’t a clear outlier in the plot. If any points stand out as potential outliers, more guidance should be given to the reader to identify them (e.g., salary and/or percent increase amount).\nThe interpretation is causal – we don’t know if the cause of the high percent increase is higher annual salary based on observational data. The causal direction might be the other way around, or there may be other factors contributing to the apparent relationship."
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-14",
-    "href": "exam-review/exam-1-review.html#question-14",
-    "title": "Exam 1 Review",
-    "section": "Question 14",
-    "text": "Question 14\nBelow is some code and its output.\n```{r}\n# label=plot blizzard\n\nggplot(blizzard_salary,aes(x=performance_rating,y=percent_incr))+geom_boxplot()\nlabs(x=\"Performance rating\", y = \"Percent increase\")\n```\n\n\nWarning: Removed 39 rows containing non-finite values (`stat_boxplot()`).\n\n\n\n\n\n\n\n\n\n$x\n[1] \"Performance rating\"\n\n$y\n[1] \"Percent increase\"\n\nattr(,\"class\")\n[1] \"labels\"\n\n\nPart 1: List at least 5 things that should be fixed or improved in the code.\nPart 2: What is the cause of the warning and what does it mean?"
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#question-15",
-    "href": "exam-review/exam-1-review.html#question-15",
-    "title": "Exam 1 Review",
-    "section": "Question 15",
-    "text": "Question 15\nYou’re working on a data analysis on salaries of Blizzard employees in a Quarto document in a project version controlled by Git. You create a plot and write up a paragraph describing any patterns in it. Then, your teammate says “render, commit, and push”.\nPart 1: What do they mean by each of these three steps. In 1-2 sentences for each, explain in your own words what they mean.\n\nRender:\n\n\nCommit:\n\n\nPush:\n\nPart 2: Your teammate is getting impatient and they interrupt you after you rendered and committed and say “I still can’t see your changes in our shared GitHub repo when I look at it in my web browser.” Which of the following answers is the most accurate?\n\nI rendered my document, you should be seeing my changes on GitHub when you look at it in your web browser.\nI committed my changes, you should be seeing my changes on GitHub when you look at it in your web browser.\nI didn’t yet push my changes, it’s expected that you are not seeing them on GitHub when you look at it in your web browser. Wait until I push, and check again.\nYou need to pull to see my changes on GitHub in the web browser."
-  },
-  {
-    "objectID": "exam-review/exam-1-review.html#bonus",
-    "href": "exam-review/exam-1-review.html#bonus",
-    "title": "Exam 1 Review",
-    "section": "Bonus",
-    "text": "Bonus\nPick a concept we introduced in class so far that you’ve been struggling with and explain it in your own words."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html",
-    "href": "exam-review/exam-2-review.html",
-    "title": "Exam 2 Review",
-    "section": "",
-    "text": "Note\n\n\n\nSuggested answers can be found here, but resist the urge to peek before you go through it yourself."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-1",
-    "href": "exam-review/exam-2-review.html#question-1",
-    "title": "Exam 2 Review",
-    "section": "Question 1",
-    "text": "Question 1\nDescribe how you can set up a simulation to estimate the proportion of statistics majors who work 5 or more hours each week based on this sample."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-2",
-    "href": "exam-review/exam-2-review.html#question-2",
-    "title": "Exam 2 Review",
-    "section": "Question 2",
-    "text": "Question 2\nA bootstrap distribution with 1000 simulations is shown below. Approximate the bounds of the 95% confidence interval based on this distribution."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-3",
-    "href": "exam-review/exam-2-review.html#question-3",
-    "title": "Exam 2 Review",
-    "section": "Question 3",
-    "text": "Question 3\nSuppose the lower bound of the confidence interval from the previous question is L and the upper bound is U. Which of the following is correct?\na. Between L to U of statistics majors work at least 5 hours per week.\nb. 95% of the time the true proportion of statistics majors who work at least 5 hours per week is between L and U.\nc. Between L and U of random samples of 25 statistics majors are expected to yield confidence intervals that contain the true proportion of statistics majors who work at least 5 hours per week.\nd. 95% of random samples of 25 statistics majors will yield confidence intervals between L and U.\ne. None of the above."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-4",
-    "href": "exam-review/exam-2-review.html#question-4",
-    "title": "Exam 2 Review",
-    "section": "Question 4",
-    "text": "Question 4\nNext, you fit a model for predicting raises (percent_incr) from salaries (annual_salary). We’ll call this model raise_1_fit. A tidy output of the model is shown below.\n\n\n# A tibble: 2 × 5\n  term           estimate  std.error statistic   p.value\n  &lt;chr&gt;             &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt;\n1 (Intercept)   1.87      0.432           4.33 0.0000194\n2 annual_salary 0.0000155 0.00000452      3.43 0.000669 \n\n\nWhich of the following is the best interpretation of the slope coefficient?\n\nFor every additional $1,000 of annual salary, the model predicts the raise to be higher, on average, by 1.55%.\nFor every additional $1,000 of annual salary, the raise goes up by 0.0155%.\nFor every additional $1,000 of annual salary, the model predicts the raise to be higher, on average, by 0.0155%.\nFor every additional $1,000 of annual salary, the model predicts the raise to be higher, on average, by 1.87%."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-5",
-    "href": "exam-review/exam-2-review.html#question-5",
-    "title": "Exam 2 Review",
-    "section": "Question 5",
-    "text": "Question 5\nYou then fit a model for predicting raises (percent_incr) from salaries (annual_salary) and performance ratings (performance_rating). We’ll call this model raise_2_fit. Which of the following is definitely true based on the information you have so far?\n\nIntercept of raise_2_fit is higher than intercept of raise_1_fit.\nSlope of raise_2_fit is higher than RMSE of raise_1_fit.\nAdjusted \\(R^2\\) of raise_2_fit is higher than adjusted \\(R^2\\) of raise_1_fit.\n\\(R^2\\) of raise_2_fit is higher \\(R^2\\) of raise_1_fit."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-6",
-    "href": "exam-review/exam-2-review.html#question-6",
-    "title": "Exam 2 Review",
-    "section": "Question 6",
-    "text": "Question 6\nThe tidy model output for the raise_2_fit model you fit is shown below.\n\n\n# A tibble: 5 × 5\n  term                            estimate  std.error statistic  p.value\n  &lt;chr&gt;                              &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;    &lt;dbl&gt;\n1 (Intercept)                   3.55       0.508           6.99 1.99e-11\n2 annual_salary                 0.00000989 0.00000436      2.27 2.42e- 2\n3 performance_ratingPoor       -4.06       1.42           -2.86 4.58e- 3\n4 performance_ratingSuccessful -2.40       0.397          -6.05 4.68e- 9\n5 performance_ratingTop         2.99       0.715           4.18 3.92e- 5\n\n\nWhen your teammate sees this model output, they remark “The coefficient for performance_ratingSuccessful is negative, that’s weird. I guess it means that people who get successful performance ratings get lower raises.” How would you respond to your teammate?"
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-7",
-    "href": "exam-review/exam-2-review.html#question-7",
-    "title": "Exam 2 Review",
-    "section": "Question 7",
-    "text": "Question 7\nUltimately, your teammate decides they don’t like the negative slope coefficients in the model output you created (not that there’s anything wrong with negative slope coefficients!), does something else, and comes up with the following model output.\n\n\n# A tibble: 5 × 5\n  term                            estimate  std.error statistic    p.value\n  &lt;chr&gt;                              &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;      &lt;dbl&gt;\n1 (Intercept)                  -0.511      1.47          -0.347 0.729     \n2 annual_salary                 0.00000989 0.00000436     2.27  0.0242    \n3 performance_ratingSuccessful  1.66       1.42           1.17  0.242     \n4 performance_ratingHigh        4.06       1.42           2.86  0.00458   \n5 performance_ratingTop         7.05       1.53           4.60  0.00000644\n\n\nUnfortunately they didn’t write their code in a Quarto document, instead just wrote some code in the Console and then lost track of their work. They remember using the fct_relevel() function and doing something like the following:\n\nblizzard_salary &lt;- blizzard_salary |&gt;\n  mutate(performance_rating = fct_relevel(performance_rating, ___))\n\nWhat should they put in the blanks to get the same model output as above?\n\n“Poor”, “Successful”, “High”, “Top”\n“Successful”, “High”, “Top”\n“Top”, “High”, “Successful”, “Poor”\nPoor, Successful, High, Top"
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-8",
-    "href": "exam-review/exam-2-review.html#question-8",
-    "title": "Exam 2 Review",
-    "section": "Question 8",
-    "text": "Question 8\nSuppose we fit a model to predict percent_incr from annual_salary and salary_type. A tidy output of the model is shown below.\n\n\n# A tibble: 3 × 5\n  term                 estimate  std.error statistic p.value\n  &lt;chr&gt;                   &lt;dbl&gt;      &lt;dbl&gt;     &lt;dbl&gt;   &lt;dbl&gt;\n1 (Intercept)         1.24      0.570           2.18 0.0300 \n2 annual_salary       0.0000137 0.00000464      2.96 0.00329\n3 salary_typeSalaried 0.913     0.544           1.68 0.0938 \n\n\nWhich of the following visualizations represent this model? Explain your reasoning.\n\n\n\n\n\n\n\n\n\n\n\n(a) Option 1\n\n\n\n\n\n\n\n\n\n\n\n(b) Option 2\n\n\n\n\n\n\n\n\n\n\n\n\n\n(c) Option 3\n\n\n\n\n\n\n\n\n\n\n\n(d) Option 4\n\n\n\n\n\n\n\nFigure 1: Visualizations of the relationship between percent increase, annual salary, and salary type"
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-9",
-    "href": "exam-review/exam-2-review.html#question-9",
-    "title": "Exam 2 Review",
-    "section": "Question 9",
-    "text": "Question 9\nDefine the term parsimonious model."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-10",
-    "href": "exam-review/exam-2-review.html#question-10",
-    "title": "Exam 2 Review",
-    "section": "Question 10",
-    "text": "Question 10\nSuppose you now fit a model to predict the natural log of percent increase, log(percent_incr), from performance rating. The model is called raise_4_fit.\nYou’re provided the following:\n\ntidy(raise_4_fit) |&gt;\n  select(term, estimate) |&gt;\n  mutate(exp_estimate = exp(estimate))\n\n# A tibble: 4 × 3\n  term                         estimate exp_estimate\n  &lt;chr&gt;                           &lt;dbl&gt;        &lt;dbl&gt;\n1 (Intercept)                     -7.15     0.000786\n2 performance_ratingSuccessful     6.93  1025.      \n3 performance_ratingHigh           8.17  3534.      \n4 performance_ratingTop            8.91  7438.      \n\n\nBased on this, which of the following is true?\na. The model predicts that the percentage increase employees with Successful performance get, on average, is higher by 10.25% compared to the employees with Poor performance rating.\nb. The model predicts that the percentage increase employees with Successful performance get, on average, is higher by 6.93% compared to the employees with Poor performance rating.\nc. The model predicts that the percentage increase employees with Successful performance get, on average, is higher by a factor of 1025 compared to the employees with Poor performance rating.\nd. The model predicts that the percentage increase employees with Successful performance get, on average, is higher by a factor of 6.93 compared to the employees with Poor performance rating."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-11",
-    "href": "exam-review/exam-2-review.html#question-11",
-    "title": "Exam 2 Review",
-    "section": "Question 11",
-    "text": "Question 11\nWhich of the following is the definiton of a regression model? Select all that apply.\na. \\(\\hat{y} = \\beta_0 + \\beta_1 X_1\\)\nb. \\(y = \\beta_0 + \\beta_1 X_1\\)\nc. \\(\\hat{y} = \\beta_0 + \\beta_1 X_1 + \\epsilon\\)\nd. \\(y = \\beta_0 + \\beta_1 X_1 + \\epsilon\\)"
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#question-12",
-    "href": "exam-review/exam-2-review.html#question-12",
-    "title": "Exam 2 Review",
-    "section": "Question 12",
-    "text": "Question 12\nChoose the best answer.\nA survey based on a random sample of 2,045 American teenagers found that a 95% confidence interval for the mean number of texts sent per month was (1450, 1550). A valid interpretation of this interval is\n\n95% of all teens who text send between 1450 and 1550 text messages per month.\nIf a new survey with the same sample size were to be taken, there is a 95% chance that the mean number of texts in the sample would be between 1450 and 1550.\nWe are 95% confident that the mean number of texts per month of all American teens is between 1450 and 1550.\nWe are 95% confident that, were we to repeat this survey, the mean number of texts per month of those taking part in the survey would be between 1450 and 1550."
-  },
-  {
-    "objectID": "exam-review/exam-2-review.html#bonus",
-    "href": "exam-review/exam-2-review.html#bonus",
-    "title": "Exam 2 Review",
-    "section": "Bonus",
-    "text": "Bonus\nPick a concept we introduced in class so far that you’ve been struggling with and explain it in your own words."
   },
   {
     "objectID": "labs/lab-0.html",

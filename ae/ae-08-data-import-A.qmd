@@ -27,15 +27,15 @@ library(readxl)
 
 # Part 1: Hollywood relationships
 
--   **Demo:** Load the data from <https://sta199-s24.github.io/data/age_gaps.csv> and assign it to `age_gaps`. Confirm that this new object appears in your Environment tab.
+-   **Demo:** Load the data from <https://tinyurl.com/ae08-age-gaps> and assign it to `age_gaps` Confirm that this new object appears in your Environment tab
 
 ```{r}
 #| label: age-gaps-import
      
-age_gaps <- read_csv("https://sta199-s24.github.io/data/age_gaps.csv")
+age_gaps <- read_csv("https://tinyurl.com/ae08-age-gaps")
 ```
 
--   **Your turn (5 minutes):** Split the data into three -- where woman is older, where man is older, where they are the same age. Save these subsets as two appropriately named data frames. *Remember:* Use concise and evocative names. Confirm that these new objects appear in your Environment tab and that the sum of the number of observations in the two new data frames add to the number of observations in the original data frame.
+-   **Your turn (5 minutes):** Split the data into three -- where woman is older, where man is older, where they are the same age. Save these subsets as three appropriately named data frames. *Remember:* Use concise and evocative names. Confirm that these new objects appear in your Environment tab and that the sum of the number of observations in the two new data frames add to the number of observations in the original data frame.
 
 ```{r}
 #| label: age-gaps-split
@@ -74,7 +74,7 @@ Sales data are stored in an Excel file that looks like the following:
 
 ![](https://sta199-s24.github.io/images/sales-excel.png)
 
--   **Demo:** Read in the Excel file called `sales.xlsx` from the `data-raw/` folder such that it looks like the following.
+-   **Demo:** Read in the Excel file called `sales.xlsx` from the `data/` folder such that it looks like the following.
 
 ![](https://sta199-s24.github.io/images/sales-1.png){width="200"}
 
