@@ -4,56 +4,8 @@ subtitle: "Lecture 10"
 date: "January 6, 2025"
 format: 
   revealjs:
-    footer: "[🔗 renr213.github.io](https://renr213.github.io/) &nbsp;·&nbsp; [❓ Ask on Ed](https://edstem.org/us/courses/68653)"
+    footer: "[🔗 renr213.github.io](https://renr213.github.io/)"
 ---
-
-# Warm up
-
-```{r}
-#| echo: false
-#| message: false
-
-library(countdown)
-library(tidyverse)
-library(ggthemes)
-ggplot2::theme_set(theme_gray(base_size = 16))
-```
-
-## While you wait for class to begin...
-
-Questions from prepare materials?
-
-<iframe allowfullscreen frameborder="0" height="100%" mozallowfullscreen style="min-width: 500px; min-height: 355px" src="https://app.wooclap.com/STA199S24?from=status-bar?" width="100%"></iframe>
-
-## Announcements
-
--   If you missed lab yesterday, get in touch with your team ASAP! Read over the team contract they developed and sign it.
-
--   Start thinking about the datasets you'll include in your proposal.
-
-## Project workflow preview
-
-::::: columns
-::: {.column width="50%"}
-![](images/project-repo.png)
-:::
-
-::: {.column width="50%"}
-![](images/project-website.png)
-:::
-:::::
-
-and a brief demo!
-
-## Project grading
-
--   Outlined at <https://renr213.github.io/project/description.html#grading>.
-
--   Each milestone has points associated with it.
-
--   Additionally there are points allocated to reproducibility and organization as well as teamwork (to be measured by within team peer evaluations three times throughout the semester).
-
--   Most important thing you can do today for your project: Block off agreed times in your calendar!
 
 # Reading data into R
 
@@ -94,7 +46,7 @@ What is the story in this visualization?
 
 ## Sales data
 
-![](https://renr213.github.io/images/sales-excel.png)
+![](images/sales-excel.png)
 
 . . .
 
@@ -108,7 +60,7 @@ Are these data tidy? Why or why not?
 What "data moves" do we need to go from the original, non-tidy data to this, tidy one?
 :::
 
-![](https://renr213.github.io/images/sales-2.png){width="150"}
+![](images/sales-2.png){width="150"}
 
 ## Application exercise: `ae-08-data-import` {.smaller}
 
@@ -118,8 +70,4 @@ What "data moves" do we need to go from the original, non-tidy data to this, tid
 -   Work on Part 2 in `ae-08-data-import.qmd`.
 :::
 
-# Wrap up
-
-## Exams
-
-![](images/exam-1-pass-back.png){fig-align="center" width="800"}
+# 

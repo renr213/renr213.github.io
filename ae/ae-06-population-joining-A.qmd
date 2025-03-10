@@ -7,8 +7,7 @@ categories:
 ---
 
 ::: callout-important
-These are suggested answers.
-This document should be used as reference only, it's not designed to be an exhaustive key.
+These are suggested answers. This document should be used as reference only, it's not designed to be an exhaustive key.
 :::
 
 ## Goal
@@ -165,5 +164,4 @@ ggplot(population_summary, aes()) +
 
 -   **Think out loud:** What additional improvements would you like to make to this plot.
 
-Answers may vary.
-Ordering the continents in decreasing order of population.
+Answers may vary. Ordering the continents in decreasing order of population.
