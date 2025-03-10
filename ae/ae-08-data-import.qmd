@@ -17,7 +17,7 @@ library(tidyverse)
 library(readxl)
 ```
 
-# Part 1: Hollywood relationships
+# Part 1: Hollywood relationships 
 
 -   **Demo:** Load the data from [https://renr213.github.io/data/age_gaps.csv](https://renr213.github.io/data/age_gaps.csv){.uri} and assign it to `age_gaps`. Confirm that this new object appears in your Environment tab.
 
