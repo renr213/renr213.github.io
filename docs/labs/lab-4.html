@@ -296,14 +296,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
 <li><a href="#question-6" id="toc-question-6" class="nav-link" data-scroll-target="#question-6">Question 6</a></li>
   <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7">Question 7</a></li>
-  </ul>
-</li>
-  <li>
-<a href="#part-4---election-polling" id="toc-part-4---election-polling" class="nav-link" data-scroll-target="#part-4---election-polling">Part 4 - Election polling</a>
-  <ul class="collapse">
-<li><a href="#question-8" id="toc-question-8" class="nav-link" data-scroll-target="#question-8">Question 8</a></li>
-  <li><a href="#question-9" id="toc-question-9" class="nav-link" data-scroll-target="#question-9">Question 9</a></li>
-  <li><a href="#checklist" id="toc-checklist" class="nav-link" data-scroll-target="#checklist">Checklist</a></li>
   <li><a href="#grading" id="toc-grading" class="nav-link" data-scroll-target="#grading">Grading</a></li>
   </ul>
 </li>
@@ -527,106 +519,20 @@ Tip
 </div>
 <div class="render-commit-push">
 <p>Render, commit, and push one last time. Make sure that you commit and push all changed documents and your Git pane is completely empty before proceeding.</p>
-<p><br></p>
 </div>
-</section></section><section id="part-4---election-polling" class="level1"><h1>Part 4 - Election polling</h1>
-<p>SurveyUSA polled 1,500 US adults between January 31, 2024 and February 2, 2024. Of the 1,500 adults, 1,259 were identified by SurveyUSA as being registered to vote, and of these 1,048 were found to be likely to vote in the 2024 November election for President.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> The following question was asked to these 1,048 adults:</p>
-<blockquote class="blockquote">
-<p>1,048 were found to be likely to vote in the 2024 November election for President and were asked the substantive questions which follow.</p>
-</blockquote>
-<p>Responses were broken down into the following categories:</p>
-<table class="caption-top table">
-<thead><tr class="header">
-<th style="text-align: left;">Variable</th>
-<th style="text-align: left;">Levels</th>
-</tr></thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Age</td>
-<td style="text-align: left;">18-49; 50+</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Vote</td>
-<td style="text-align: left;">Donald Trump (R); Joe Biden (D); Undecided</td>
-</tr>
-</tbody>
-</table>
-<p>Of the 1,048 responses, 507 were between the ages of 18-49. Of the individuals that are between 18-49, 238 individuals responded that they would vote for Donald Trump, 237 said they would vote for Joe Biden, and the remainder were undecided. Of the individuals that are 50+, 271 individuals responded that they would vote for Donald Trump, 228 said they would vote for Joe Biden, and the remainder were undecided.</p>
-<section id="question-8" class="level2"><h2 class="anchored" data-anchor-id="question-8">Question 8</h2>
-<ol type="a">
-<li>
-<p>Fill in the code below to create a two-way table that summarizes these data.</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>survey_counts <span class="ot">&lt;-</span> <span class="fu">tibble</span>( </span>
-<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">age =</span> <span class="fu">c</span>(),</span>
-<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">vote =</span> <span class="fu">c</span>(),</span>
-<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">n =</span> <span class="fu">c</span>()</span>
-<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>survey_counts <span class="sc">|&gt;</span></span>
-<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">pivot_wider</span>( </span>
-<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a>    <span class="at">names_from =</span> ___,</span>
-<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a>    <span class="at">values_from =</span> ___</span>
-<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">|&gt;</span></span>
-<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">kable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</li>
-</ol>
-<p>For parts b-d below, use a your response single pipeline starting with <code>survey_counts</code>, calculate the desired proportions, and make sure the result is an <strong>ungrouped</strong> data frame with a column for relevant counts, a column for relevant proportions, and a column for the groups you’re interested in.</p>
-<ol start="2" type="a">
-<li><p>Calculate the proportions of 18-49 year olds and 50+ year olds in this sample.</p></li>
-<li><p>Calculate the proportions of those who want to vote for Donald Trump, Joe Biden, and those who are undecided in this sample.</p></li>
-<li><p>Calculate the proportions of individuals in this sample who are planning to vote for each of the candidates or are undecided among those who are 18-49 years old as well as among those who are 50+ years old.</p></li>
-</ol></section><section id="question-9" class="level2"><h2 class="anchored" data-anchor-id="question-9">Question 9</h2>
-<ol type="a">
-<li>
-<p>Re-create the following visualization that displays relationship between <code>age</code> and <code>vote</code>.</p>
-<p><img src="images/surveyusa-trump-biden.png" class="img-fluid" width="500"></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>The colors used in the plot are <code>"#E81B23"</code>, <code>"#0015BC"</code>, and <code>"gray"</code>. The theme is <code>theme_minimal()</code>.</p>
-</div>
-</div>
-</li>
-<li><p>Based on your calculations so far, as well as your visualization, write 1-3 sentences that describe the relationship, in this sample, between age and plans for presidential vote.</p></li>
-</ol>
-<div class="render-commit-push">
-<p>Render, commit, and push one last time. Make sure that you commit and push all changed documents and your Git pane is completely empty before proceeding.</p>
-<p><br></p>
-</div>
-</section><section id="checklist" class="level2"><h2 class="anchored" data-anchor-id="checklist">Checklist</h2>
-<p>Make sure you have:</p>
-<ul>
-<li>attempted all questions</li>
-<li>rendered your Quarto document</li>
-<li>committed and pushed everything to your GitHub repository such that the Git pane in RStudio is empty</li>
-<li>uploaded your PDF to Canvas</li>
-<li>selected pages associated with each question on Canvas :::</li>
-</ul></section><section id="grading" class="level2"><h2 class="anchored" data-anchor-id="grading">Grading</h2>
-<p>The lab is graded out of a total of 36 points.</p>
+</section><section id="grading" class="level2"><h2 class="anchored" data-anchor-id="grading">Grading</h2>
+<p>The lab is graded out of a total of 28 points.</p>
 <p>You can earn up to 4 points on each question:</p>
 <ul>
-<li><p>5: Response shows excellent understanding and addresses all or almost all of the rubric items.</p></li>
-<li><p>4: Response shows good understanding and addresses most of the rubric items.</p></li>
-<li><p>3: Response shows understanding and addresses a majority of the rubric items.</p></li>
-<li><p>2: Response shows effort and misses many of the rubric items.</p></li>
-<li><p>1: Response does not show sufficient effort or understanding and/or is largely incomplete.</p></li>
-<li><p>0: No attempt.</p></li>
+<li><p>4: Response shows excellent understanding and addresses all or almost all of the rubric items.</p></li>
+<li><p>3: Response shows good understanding and addresses most of the rubric items.</p></li>
+<li><p>2: Response shows understanding and addresses a majority of the rubric items.</p></li>
+<li><p>1: Response shows effort and misses many of the rubric items.</p></li>
+<li><p>0: Response does not show sufficient effort or understanding and/or is largely incomplete.</p></li>
 </ul>
 
 
-</section></section><div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-<ol>
-<li id="fn1"><p>Full survey results can be found at <a href="https://www.surveyusa.com/client/PollReport.aspx?g=300d50f5-303b-4652-b59e-6fbf1b87e24a" class="uri">https://www.surveyusa.com/client/PollReport.aspx?g=300d50f5-303b-4652-b59e-6fbf1b87e24a</a>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol></section></div></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
